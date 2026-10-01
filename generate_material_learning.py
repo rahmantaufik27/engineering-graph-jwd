@@ -3,14 +3,18 @@
 # ============================================
 import ollama  # atau: from openai import OpenAI
 from main_fix import Neo4jConnection
+import configparser
 
 # ============================================
 # KONFIGURASI
 # ============================================
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "neo4jneo4j"  # Ganti dengan password Anda
-DATABASE_NAME = "completeknowledgebase"  # Nama database baru/tujuan
+config = configparser.ConfigParser()
+config.read('neo4j.ini')
+
+NEO4J_URI      = config['neo4j']['uri']
+NEO4J_USER     = config['neo4j']['user']
+NEO4J_PASSWORD = config['neo4j']['password']
+DATABASE_NAME  = config['neo4j']['database']
 
 LLM_MODEL = "qwen2.5:1.5b"  # ganti sesuai model lokal Anda
 LLM_HOST  = "http://localhost:11434"  # default Ollama

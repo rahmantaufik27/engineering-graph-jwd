@@ -3,14 +3,18 @@ import pandas as pd
 from neo4j import GraphDatabase
 import re
 import sys
+import configparser
 
 # ============================================
 # KONFIGURASI
 # ============================================
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "neo4jneo4j"
-DATABASE_NAME = "completeknowledgebase"
+config = configparser.ConfigParser()
+config.read('neo4j.ini')
+
+NEO4J_URI      = config['neo4j']['uri']
+NEO4J_USER     = config['neo4j']['user']
+NEO4J_PASSWORD = config['neo4j']['password']
+DATABASE_NAME  = config['neo4j']['database']
 
 # ============================================
 # BACA DATA DARI FILE
