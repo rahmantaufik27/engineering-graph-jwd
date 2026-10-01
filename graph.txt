@@ -1,0 +1,48 @@
+(:Company {name})
+  │
+  └─[:HAS_ROLE]→ (:CompanyRole {name})
+        │
+        └─[:MAPS_TO_OCCUPATION]→ (:Occupation {name})
+              │
+              ├─[:BELONGS_TO_AREA]→ (:FunctionArea {name})
+              │
+              ├─[:DEFINED_IN]→ (:StandardDocument {name})
+              │
+              └─[:HAS_CERTIFICATION_SCHEME]→ (:CertificationScheme {name})
+                    │
+                    ├─[:DEFINED_IN]→ (:StandardDocument {name})  ← node yg sama
+                    │
+                    └─[:PACKAGES_UNIT]→ (:CompetencyUnit {kode, nama})
+                          │
+                          ├─[:HAS_DESCRIPTION]→ (:UnitDescription {text})
+                          │
+                          ├─[:HAS_ELEMENT]→ (:ElementCompetency {text})
+                          │     │
+                          │     ├─[:HAS_PERFORMANCE_CRITERION]→ (:PerformanceCriterion {element, criteria})
+                          │     │     │
+                          │     │     └─[:ASSESSED_BY]→ (:EvaluationQuestion {soal, bloom_level, jawaban, source})
+                          │     │           │
+                          │     │           ├─[:HAS_ANSWER_OPTION]→ (:AnswerOption {text})
+                          │     │           ├─[:HAS_CORRECT_ANSWER]→ (:CorrectAnswer {text})
+                          │     │           └─[:HAS_DIFFICULTY_LEVEL]→ (:DifficultyLevel {name})
+                          │     │
+                          │     ├─[:HAS_WORK_ATTITUDE]→ (:WorkAttitude {name})
+                          │     │
+                          │     └─[:HAS_KNOWLEDGE_AND_SKILL]→ (:KnowledgeAndSkill {text})
+                          │           │
+                          │           └─[:DERIVED_INTO]→ (:Concept {name})
+                          │                 │
+                          │                 ├─[:HAS_LEARNING_MATERIAL]→ (:LearningMaterial)
+                          │                 ├─[:HAS_EXERCISE]→ (:Exercise)
+                          │                 ├─[:HAS_STUDY_CASE]→ (:StudyCase)
+                          │                 ├─[:HAS_PRE_POST_TEST]→ (:PrePostTest)
+                          │                 └─[:HAS_REFERENCE]→ (:Reference)
+                          │
+                          ├─[:HAS_CONTEXT_VARIABLE]→ (:ContextVariable {text})
+                          ├─[:HAS_REQUIRED_REGULATION]→ (:RequiredRegulation {name})
+                          ├─[:HAS_TOOLS_AND_EQUIPMENT]→ (:ToolsAndEquipment {name})
+                          ├─[:HAS_NORM_AND_STANDARD]→ (:NormAndStandard {text})
+                          ├─[:HAS_PREREQUISITE_COMPETENCY]→ (:PrerequisiteCompetency {kode})
+                          ├─[:HAS_CRITICAL_ASPECT]→ (:CriticalAspect {text})
+                          │
+                          └─[:DEFINED_IN]→ (:StandardDocument {name})  ← node yg sama

@@ -1,0 +1,879 @@
+{
+  "unit":[
+    {
+      "kode_unit": "J.620100.005.02",
+      "judul_unit": "Mengimplementasikan User Interface",
+      "konsep": [
+        "Urutan Komponen Dialog. Komponen Dialog: urutan di mana informasi ditampilkan ke pengguna dan diperoleh dari pengguna. Pedoman utama desain dalam dialog adalah konsistensi dalam urutan tindakan, penekanan tombol, dan terminology. 3 langkah proses: Rancanglah urutan dialog, Desain prototype / mock-up, Evaluasi kegunaannya. Merancang Urutan Komponen Dialog: Tentukan urutannya, dan lingkungan. Membuat diagram dialog: Metode formal untuk merancang dan merepresentasikan dialog manusia-komputer: menggunakan kotak dan garis. Terdiri dari kotak dengan 3 bagian: Atas, Tengah, Bawah. Diagram urutan komponen dialog yang menggambarkan sequence (urutan), selection (pilihan), dan iteration (perulangan). Mock-up Desain UI: Mockup adalah model situs web atau aplikasi untuk membantu desainer dalam memvisualisasikan ide desain mereka serta mengkomunikasikannya dengan developer, stakeholder, atau web desainer yang lain.",
+        "Perancangan user interface merupakan tahapan yang sangat penting. 1. dalam perancangan sebuah website agar tampilan lebih user friendly. Perancangan komponen dialog sangat diperlukan agar urutan. 2. informasi dari dan ke pengguna dapat lebih jelas. Pembuatan mock up diperlukan agar rancangan tampilan website. 3. sesuai dengan yang dibutuhkan (dapat digunakan sebagai kesepakatan antara web developer dengan client).",
+        "Proximity: Hukum Proximity atau disebut dengan Hukum Kedekatan adalah prinsip desain grafis yang menyatakan bahwa elemen-elemen yang ditempatkan dekat satu sama lain cenderung dianggap sebagai kelompok yang berkaitan atau memiliki hubungan yang erat. Hukum Proximity didasarkan pada asumsi bahwa pengguna cenderung mencari pola dan hubungan antara elemen-elemen visual.",
+        "Contrast: Kontras mengacu pada perbedaan properti visual antar elemen dalam antarmuka pengguna. Ini dapat merujuk pada perbedaan warna, ukuran, atau jarak, dan digunakan untuk membuat hierarki dan penekanan visual, sehingga memudahkan pengguna untuk memahami dan berinteraksi dengan antarmuka.",
+        "Warna: Gunakan seperlunya dan dengan bijak Perhatikan kesesuaian warna apabila membangun web untuk: Penyandang buta warna, Penyandang penyakit warna lainnya. Konsisten dengan penggunaan warna dari sisi budaya dan gaya baku korporasi",
+        "Konteks variable: 1. User interface yang dimaksud dalam unit ini adalah menu, layar, form, dialog., 2. Alur akses terhadap user interface meliputi alur interaksi dari satu interface ke lain Ketika menerima masukan tertentu.",
+        "User interface adalah bagian visual dari website, aplikasi software atau device hardware yang memastikan bagaimana seorang user berinteraksi dengan aplikasi atau website tersebut serta bagaimana bagaimana informasi ditampilkan di layarnya",
+        "Mengapa User Interface Penting? User interface adalah salah satu faktor yang menentukan peningkatan traffic website. Desain user interface sangat penting karena akan menentukan bagaimana seseorang berinteraksi dengan website dan aplikasi tersebut dengan mudah. Karakteristik User Interface yang baik: Jelas, Singkat, Familiar, Responsif, Konsisten, Menarik, Efisien. Rancangan User Interface (UI). Interface merupakan bagian dari tahap “Desain”. Output dari proses merancang User Interface adalah dokumen spesifikasi desain. Dokumen Spesifikasi Desain terdiri dari: Ikhtisar naratif, Contoh Desain. Beberapa Bentuk Interaksi Pengguna dan Aplikasi. Secara umum terdapat 5 bentuk interaksi antara pengguna dan aplikasi: 1. Command Language Interaction, 2. Menu Interaction, 3. Form Interaction, 4. Object-Based Interaction, 5. Natural Language Interaction. UI lebih mementingkan tampilan permukaan dan keseluruhan nuansa desain, rancangan UI adalah proses untuk membuat antarmuka dalam sebuah perangkat lunak atau perangkat terkomputerisasi dengan fokus pada penampilan atau gaya. Sedangkan, UX lebih mencakup kepada seluruh spektrum pengalaman pengguna. Prinsip Utama Desain UI: User compatibility, Product compatibility, Task compatibility, Work flow compatibility, Consistency, Familiarity, Simplicity. Familiarity adalah prinsip desain tentang bagaimana penggunaan komponen-komponen yang umum digunakan untuk memudahkan pengguna dalam menggunakan dan memahami antarmuka.",
+        "Contoh Command Language Interaction. Contoh Menu GUI. Contoh Form Interaction Form Interaction adalah sebuah cara dari sistem interaktif untuk meminta data atau informasi ke user. Contoh Object-based Interaction Mewakili suatu objek dalam antarmuka, dapat merupakan suatu lambang dari sebuah aplikasi atau tindakan. Natural Language Interaction Jenis interaksi ini memungkinkan user untuk berinteraksi dengan program menggunakan bahasa manusia. Natural Languages Interfaces ini mempermudah user agar dapat memberi input menggunakan bahasa manusia yang akan diolah sedemikian rupa oleh system. Kemudian sistem akan menghasilkan output menggunakan bahasa manusia. Contohnya seperti Google Search Engine. Kita dapat mencari berbagai informasi dengan menulis langsung pada kolom yang tersedia menggunakan bahasa manusia. Di balik layar, Google Search Engine akan menterjemahkan bahasa manusia ke dalam bahasa mesin. Lalu, ia akan menampilkan hasilnya menggunakan bahasa manusia. Contoh lainnya: Google Voice.",
+        "Tools: MockFlow, Balsamiq, Sketch, Figma, Webflow, Js, Bootstrap 5.3",
+        "Bootstrap: Sebagai salah satu framework CSS terpopuler di dunia, Bootstrap terbukti mampu mempercepat proses coding, menawarkan kemudahan integrasi pada website yang dikembangkan, dan berjalan baik di berbagai web browser modern. Penggunaan Bootstrap untuk mengembangkan aplikasi web membuat proses koding lebih mudah dan cepat. Contoh fungsi menggunakan Bootstrap adalah halaman website yang responsive terhadap layar device. Bila ukuran layar device lebih kecil maka halaman website akan menyesuaikan, begitu pula terhadap ukuran layar yang lebih besar.",
+        "Pengaturan Warna Komponen HTML. Pemilihan Warna di dalam HTML didefinisikan dengan format nama warna, RGB, HEX, HSL, RGBA dan HSLA.",
+        "Perancangan Layout: Dalam membuat web desain, layout berbicara mengenai bagaimana penataan elemen-elemen dalam sebuah halaman web dengan baik dan benar. Sebuah dokumen web umumnya memiliki elemen-elemen.",
+        "Pengaturan Style Komponen HTML Untuk mengatur style pada setiap komponen di dalam HTML dalam pembuatan perancangan tampilan dapat dilakukan dengan menggunakan atribut style",
+        "Membuat Jumbroton Jumbotron adalah komponen yang digunakan untuk menampilkan informasi yang di highlight pada sebuah halaman website.",
+        "Perancangan Menu - Single Menu: Single Menu menghadirkan beberapa pilihan dengan hanya sekali memilih tanpa adanya sub menu tambahan. Terdapat beberapa komponen yang dapat digunakan pada Single Menu seperti Radio Buttons: Tampilan menu dengan bentuk radio button. User harus memilih salah satu pilihan yang diberikan. Button Choice : Tampilan menu dengan menggunakan bentuk tombol/button. User mengklik salah satu tombol pada tampilan menu contohnya OK atau Cancel. Multiple Selection Menus (Check Boxes) : Tampilan menu dengan itemnya diseleksi dapat lebih dari satu. Pop-up Menus (Context Menus) : Tampilan menu yang diaktifkan dengan mengklik tombol kanan mouse atau mengarahkan mouse pada area yang ditentukan. Scrolling List Box Choice : Tampilan menu dengan menggunakan bentuk listbox. Scrolling Combo Box Choice : Tampilan menu dengan menggunakan combo box. Radio Button. Contoh membuat menu menggunakan Radio Button. Radio Button memungkinkan pilihan hanya satu kali (bukan multiple choice). Untuk membuat menu Radio button, code yang digunakan terdapat pada kotak merah. Contoh membuat Menu menggunakan Button Choice. Button juga bukan menu Multiple Choice. Untuk membuat menu Button Choice code yang digunakan terdapat pada kotak merah. Combo Box tidak memungkinkan pengguna memilih banyak pilihan (Single Choice). Code yang digunakan untuk membuat Combo Box terdapat pada kotak merah .",
+        "Perancangan Menu – Combination of Multiple Menus: Combination of Multiple Menus Linear Sequence Menus adalah menu yang mengarahkan user melalui proses pengambilan keputusan yang kompleks. Menu ini dijalankan secara step by step. Simultaneous Menus adalah menyediakan menu aktif pada waktu yang sama dan memungkinkan pengguna untuk memasukkan pilihan dalam urutan apapun. Tree Structured Menus, menu yang dibagi menjadi beberapa kategori item, misal File, Edit dan View.",
+        "Ini adalah contoh perancangan Combination of Multiple Menus, untuk ini, peserta diharapkan mampu mengimplementasikan desain antarmuka ini fokus pada perancangan menu, tata letak, dan formulir dengan memanfaatkan fitur-fitur responsif yang disediakan oleh Bootstrap. Peserta diajak untuk memahami konsep-konsep dasar seperti container, grid system, dan komponen formulir untuk menciptakan praktis, mereka memiliki kesempatan untuk mengaplikasikan pengetahuan yang diperoleh dalam proyek-proyek kecil. Kesadaran terhadap etika desain, khususnya dalam inklusivitas dan aksesibilitas, menjadi fokus untuk memastikan bahwa antarmuka yang dihasilkan dapat diakses oleh berbagai kelompok pengguna. Modul ini juga menekankan prinsip-prinsip desain yang baik, seperti konsistensi, keterbacaan, dan kesederhanaan, yang berperan penting dalam meningkatkan pengalaman pengguna secara keseluruhan. Dengan demikian, diharapkan peserta dapat memperoleh dasar yang kuat untuk menjadi seorang Junior Web Developer yang mampu menciptakan antarmuka pengguna yang responsif dan menarik menggunakan Bootstrap.",
+        "Langkah-langkah menggunakan Bootstrap: 1. Membuat folder bootrstrap Langkah pertama adalah membuat folder baru. Nama folder bisa bebas tanpa harus sama. Folder ini digunakan untuk menyimpan file bootstrap . 2. Download file Bootstrap di https://getbootstrap.com/docs/5.0/getting-started/introduction/ . 3. Ekstrak file Bootstrap yang sudah di download ke folder yang telah dibuat. 4. Buka Text Editor, ketikan perintah kode seperti berikut. 5. Save file code HTML tersebut didalam folder yang telah dibuat sebelumnya. 6. Buka file HTML tersebut menggunakan web browser. Membuat Style List Menu (CSS) Tahap ini adalah pembuatan menu berbentuk List atau menu dengan kontennya berjajar kebawah dan menggunakan Bootstrap. Membuat List Menu Contoh di ambil dari https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp Selanjutnya ketik perintah kode berikut dibagian body HTML. <div class=\"navbar\"> <a href=\"#home\">Home</a> <a href=\"#news\">News</a> <div class=\"dropdown\"> <button class=\"dropbtn\">Dropdown</button> <div class=\"dropdown-content\"> <a href=\"#\">Link 1</a> <a href=\"#\">Link 2</a> <a href=\"#\">Link 3</a> </div> </div> </div>. Membuat Style Layout (CSS) Buat file HTML baru, ketikan perintah kode seperti berikut. Tahap ini adalah membuat tampilan pada layout. Membuat Layout Selanjutnya tambahkan kode seperti yang ada dicontoh yang diambil dari : https://www.w3schools.com/js/js_validation.asp"
+      ],
+      "evaluasi": [
+        {
+          "bloom_level": "C1",
+          "soal": "Apa yang dimaksud dengan User Interface (UI)?",
+          "pilihan": [
+            "a) Unified Interface",
+            "b) User Interaction",
+            "c) User Interface",
+            "d) Universal Interaction"
+          ],
+          "jawaban": "c) User Interface"
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Apa yang dimaksud dengan Wireframe dalam konteks desain antarmuka pengguna?",
+          "pilihan": [
+            "a) Rancangan tampilan visual yang akhir",
+            "b) Prototipe interaktif",
+            "c) Rancangan konseptual tanpa desain visual",
+            "d) Semua jawaban benar"
+          ],
+          "jawaban": "c) Rancangan Konseptual tanpa desain visual"
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Apa fungsi dari User Persona dalam merancang antarmuka pengguna?",
+          "pilihan": [
+            "a) Menentukan tata letak halaman",
+            "b) Mengidentifikasi karakteristik dan kebutuhan pengguna potensial",
+            "c) Menetapkan warna dan font",
+            "d) Membuat animasi interaktif"
+          ],
+          "jawaban": "b) Mengidentifikasi karakteristik dan kebutuhan pengguna potensial"
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Apa perbedaan utama antara User Interface (UI) dan User Experience (UX)?",
+          "pilihan": [
+            "a) UI berkaitan dengan kecepatan, sementara UX berkaitan dengan tata letak.",
+            "b) UI mencakup semua aspek interaksi pengguna, sementara UX hanya berfokus pada tampilan visual.",
+            "c) UI mencakup desain visual, sementara UX mencakup keseluruhan pengalaman pengguna.",
+            "d) UI dan UX adalah istilah yang sama dan dapat dipertukarkan."
+          ],
+          "jawaban": "c) UI mencakup desain visual, sementara UX mencakup keseluruhan pengalaman pengguna"
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Mengapa penting untuk memahami kebutuhan pengguna potensial melalui pembuatan User Persona?",
+          "pilihan": [
+            "a) Untuk menetapkan warna dan font yang sesuai.",
+            "b) Untuk memperbaiki kesalahan teknis pada antarmuka pengguna.",
+            "c) Untuk mengidentifikasi karakteristik dan kebutuhan pengguna potensial.",
+            "d) Agar dapat membuat animasi interaktif."
+          ],
+          "jawaban": "c) Untuk mengidentifikasi karakteristik dan kebutuhan pengguna potensial."
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Jelaskan perbedaan antara User Interface (UI) dan User Experience (UX) dalam konteks pengembangan web.",
+          "pilihan": [
+            "a) UI berfokus pada tampilan visual seperti warna, bentuk, dan tata letak komponen dialog, sementara UX menekankan pada alur interaksi dan pengalaman pengguna selama navigasi, dengan memperhatikan hukum proximity dan kontras untuk memudahkan pengguna memahami urutan komponen dialog.",
+            "b) UX mencakup perancangan urutan komponen dialog dan pembuatan mock-up desain UI, sedangkan UI hanya melibatkan tampilan visual seperti warna dan tata letak, tanpa memperhatikan hukum proximity atau kontras dalam desain.",
+            "c) UI menekankan pada tampilan antarmuka seperti diagram dialog yang terdiri dari bagian atas, tengah, dan bawah untuk menyusun urutan, selection, dan iteration, sedangkan UX lebih memperhatikan konsistensi tindakan dan terminologi dalam dialog, serta memastikan kesesuaian warna untuk pengguna dengan disabilitas visual.",
+            "d) Perbedaan antara UI dan UX terletak pada UI yang merancang tampilan visual melalui mock-up dan hukum proximity, serta kontras warna untuk menekankan elemen, sementara UX memastikan alur dialog yang jelas dan efektif, termasuk evaluasi kegunaan berdasarkan 3 langkah proses: rancangan, prototipe, dan evaluasi."
+          ],
+          "jawaban": "User Interface (UI) merujuk pada tampilan visual dan elemen interaktif yang terlihat oleh pengguna. User Experience (UX), di sisi lain, mencakup semua aspek interaksi pengguna dengan produk, termasuk UI, kecepatan, keterbacaan, dan pengalaman pengguna secara keseluruhan."
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Penerapan (user testing) terhadap rancangan antarmuka pengguna sebelum diluncurkan, dimaksudkan untuk?",
+          "pilihan": [
+            "a) Mengidentifikasi kekurangan dalam urutan komponen dialog agar pengguna dapat dengan mudah memahami alur interaksi dan membuat pilihan yang tepat",
+            "b) Memastikan bahwa elemen-elemen antarmuka yang dekat secara visual dianggap sebagai kelompok yang terkait, sehingga memperkuat struktur dan navigasi pengguna",
+            "c) Meningkatkan kontras warna antara elemen antarmuka untuk menekankan tombol utama dan memudahkan pengguna dalam menemukan elemen penting",
+            "d) Memperkuat konsistensi dalam terminology dan penekanan tombol melalui evaluasi langsung pengguna terhadap mock-up desain antarmuka yang telah dibuat"
+          ],
+          "jawaban": "Pengujian pengguna membantu mendeteksi potensi masalah atau kesalahan dalam rancangan sebelum produk diluncurkan. Ini memungkinkan pengembang untuk membuat perbaikan yang diperlukan berdasarkan umpan balik pengguna, meningkatkan kepuasan pengguna, dan mengoptimalkan kinerja antarmuka"
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Apa itu Grid System dalam desain antarmuka pengguna, dan bagaimana dapat membantu meningkatkan konsistensi dalam tata letak halaman?",
+          "pilihan": [
+            "a) Grid System adalah sistem penempatan elemen antarmuka yang membagi layar menjadi jaringan kotak, membantu mempertahankan konsistensi tata letak dengan memastikan bahwa komponen seperti tombol, form, dan navigasi selalu ditempatkan dalam posisi yang sama di setiap halaman, sehingga pengguna dapat dengan mudah memahami struktur dan urutan komponen dialog.",
+            "b) Grid System adalah metode yang menggunakan diagram urutan komponen dialog untuk merancang alur interaksi antara pengguna dan sistem, dengan memastikan bahwa setiap tahap pilihan dan perulangan diatur secara konsisten, sehingga pengguna dapat memahami urutan tindakan dan penekanan tombol secara jelas.",
+            "c) Grid System adalah alat desain yang memanfaatkan hukum proximity untuk mengelompokkan elemen-elemen visual yang terkait, memudahkan pengguna memahami hubungan antar komponen, dan memperkuat konsistensi tata letak dengan memastikan bahwa elemen yang saling terkait selalu ditempatkan dekat satu sama lain dalam setiap halaman.",
+            "d) Grid System adalah representasi visual dari perancangan mock-up antarmuka yang mencakup tiga bagian (atas, tengah, bawah) dalam diagram dialog, yang digunakan untuk menunjukkan urutan tindakan, pilihan, dan perulangan, serta memastikan bahwa warna dan kontras digunakan secara konsisten sesuai dengan standar budaya dan korporasi dalam desain antarmuka."
+          ],
+          "jawaban": "Grid System adalah kerangka kerja yang digunakan untuk mengatur elemen-elemen pada halaman web ke dalam susunan berbasis grid. Ini membantu menciptakan konsistensi dalam tata letak halaman karena elemen-elemen dapat ditempatkan secara sistematis sesuai dengan grid yang telah ditetapkan. Hal ini mempermudah pembacaan dan menciptakan tata letak yang lebih terstruktur dan mudah diikuti oleh pengguna."
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Apa perbedaan antara Layout dan Menu dalam desain web?",
+          "pilihan": [
+            "a) Layout berkaitan dengan tata letak elemen, sementara Menu berhubungan dengan navigasi.",
+            "b) Layout adalah warna dan font halaman, sementara Menu adalah urutan tata letak.",
+            "c) Layout dan Menu adalah istilah yang sama dan dapat dipertukarkan.",
+            "d) Layout dan Menu tidak relevan dalam desain web."
+          ],
+          "jawaban": "a) Layout berkaitan dengan tata letak elemen, sementara Menu berhubungan dengan navigasi."
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Apa fungsi dari Bootstrap dalam implementasi desain UI?",
+          "pilihan": [
+            "a) Bootstrap memungkinkan pembuatan gambar dan grafis.",
+            "b) Bootstrap adalah bahasa pemrograman untuk pengembangan web.",
+            "c) Bootstrap menyediakan kerangka kerja front-end untuk desain responsif dan komponen UI.",
+            "d) Bootstrap hanya digunakan untuk animasi halaman web."
+          ],
+          "jawaban": "c) Bootstrap menyediakan kerangka kerja front-end untuk desain responsif dan komponen UI."
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Jelaskan perbedaan antara container dan container-fluid dalam Bootstrap, serta situasi penggunaannya?",
+          "pilihan": [
+            "a) Container dan container-fluid dalam Bootstrap memiliki perbedaan dalam ukuran dan responsivitas; container digunakan untuk membatasi konten dalam area yang tetap, sementara container-fluid mengambil seluruh lebar layar, dan penggunaan ini harus disesuaikan dengan urutan komponen dialog agar informasi tetap terlihat jelas dan mudah diakses, terutama dalam konteks desain mock-up yang mempertimbangkan proximity dan kontras visual.",
+            "b) Container dan container-fluid berbeda hanya pada ukuran lebar; container-fluid memiliki lebar penuh layar, sedangkan container memiliki lebar tetap, dan penggunaan ini memengaruhi struktur tampilan dialog, di mana urutan tindakan dan penekanan tombol harus dirancang agar sesuai dengan hukum proximity dan kontras untuk memastikan pengguna dapat memahami informasi secara cepat dan akurat.",
+            "c) Container dan container-fluid tidak memiliki perbedaan signifikan dalam penggunaan pada Bootstrap; keduanya dapat digunakan secara bergantian tanpa memengaruhi urutan komponen dialog, karena desain mock-up dan pembuatan user interface tidak memerlukan perbedaan ukuran kontainer untuk memenuhi prinsip proximity dan kontras dalam antarmuka.",
+            "d) Container digunakan untuk membatasi konten dalam area tetap, sedangkan container-fluid mengambil seluruh lebar layar, dan dalam konteks desain dialog, penggunaan ini harus direncanakan secara hati-hati agar urutan tindakan, pilihan, dan perulangan dalam diagram dialog sesuai dengan prinsip proximity dan kontras, sehingga informasi dari dan ke pengguna dapat diperoleh secara efektif dan konsisten."
+          ],
+          "jawaban": "Container dalam Bootstrap adalah elemen dengan lebar terbatas, sedangkan container-fluid mengisi lebar layar penuh. Container cocok untuk tata letak yang terbatas, sementara container-fluid digunakan untuk tata letak yang mengisi seluruh lebar layar. Penggunaan tergantung pada desain halaman yang diinginkan."
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Bagaimana Anda dapat menambahkan menu navigasi menggunakan Bootstrap, dan mengapa menu ini penting dalam desain UI?",
+          "pilihan": [
+            "a) Dengan menggunakan komponen navbar di Bootstrap, Anda dapat menambahkan menu navigasi yang mudah diakses, dan menu ini penting karena memenuhi hukum proximity dengan mengelompokkan elemen yang terkait secara visual, sehingga pengguna dapat dengan cepat memahami struktur situs dan mengidentifikasi lokasi informasi yang dibutuhkan.",
+            "b) Menu navigasi dapat ditambahkan dengan mengintegrasikan komponen card di Bootstrap, karena card secara otomatis menekankan kontras antara elemen, yang memudahkan pengguna menemukan opsi yang relevan, dan pentingnya menu ini terlihat dalam konteks desain dialog di mana urutan tindakan dan pilihan harus jelas sesuai dengan pedoman desain utama.",
+            "c) Dengan memanfaatkan komponen dropdown di Bootstrap, Anda dapat menciptakan menu navigasi yang fleksibel, dan menu ini penting karena memungkinkan pengguna mengatur urutan interaksi dalam dialog, serta memastikan konsistensi dalam penekanan tombol dan terminologi, sesuai dengan proses merancang urutan komponen dialog yang melibatkan rancangan, prototipe, dan evaluasi.",
+            "d) Menu navigasi dapat dibangun dengan menggunakan grid system di Bootstrap, karena sistem ini memungkinkan pengaturan elemen secara proporsional, dan pentingnya menu ini terlihat dalam konteks mock-up desain UI yang memperlihatkan bagaimana informasi dari dan ke pengguna dapat disusun secara jelas, serta memperkuat kesesuaian warna dan kontras untuk memenuhi kebutuhan aksesibilitas dan budaya korporasi."
+          ],
+          "jawaban": "Menu navigasi dapat ditambahkan dengan menggunakan komponen navbar di Bootstrap. Menu ini penting karena memberikan akses yang mudah dan terorganisir ke berbagai bagian atau halaman situs web, meningkatkan navigasi pengguna dan pengalaman pengguna secara keseluruhan."
+        },
+        {
+          "bloom_level": "C4",
+          "soal": "Analisis bagaimana implementasi komponen Navbar Bootstrap memengaruhi efektivitas struktur navigasi dalam sebuah sistem informasi kompleks, dan bagaimana hubungannya dengan prinsip desain antarmuka pengguna?",
+          "pilihan": [
+            "a) Melalui struktur kelas '.navbar', Bootstrap memungkinkan penguraian hierarki informasi yang kompleks menjadi elemen navigasi yang konsisten; hal ini penting karena memungkinkan analisis terhadap hukum Proximity, di mana pengelompokkan tautan secara visual membantu pengguna memetakan arsitektur informasi sistem secara mental.",
+            "b) Implementasi Navbar memungkinkan analisis mendalam terhadap penggunaan Grid System di dalamnya, yang berfungsi memastikan responsivitas elemen navigasi agar tetap proporsional; hal ini krusial dalam mendiagnosis apakah kontras warna dan tipografi telah memenuhi standar aksesibilitas bagi pengguna dengan kebutuhan khusus.",
+            "c) Penggunaan Navbar yang dikombinasikan dengan komponen Dropdown memungkinkan perancang menganalisis beban kognitif pengguna; menu ini penting karena memaksa perancang mengevaluasi apakah urutan tindakan dalam dialog navigasi sudah cukup efisien untuk meminimalkan jumlah klik pengguna dalam mencapai informasi.",
+            "d) Navbar Bootstrap berfungsi sebagai kerangka kerja untuk menguji konsistensi terminologi di seluruh halaman; pentingnya komponen ini terletak pada kemampuan perancang untuk memvalidasi apakah penempatan elemen navigasi sudah sesuai dengan pola perilaku pengguna (F-pattern) untuk menjamin alur kerja yang logis."
+          ],
+          "jawaban": "Implementasi Navbar Bootstrap memungkinkan analisis terhadap pengorganisasian elemen navigasi yang sistematis. Komponen ini penting karena berfungsi sebagai instrumen untuk mengelompokkan fungsionalitas terkait, memudahkan pengguna menganalisis struktur situs, dan memastikan pengalaman navigasi yang konsisten melalui prinsip-prinsip desain UI yang terukur."
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Jelaskan perbedaan antara form vertikal dan form horizontal dalam Bootstrap, serta kapan Anda harus menggunakan masing-masing?",
+          "pilihan": [
+            "a) Form vertikal menampilkan elemen satu per satu dari atas ke bawah, yang sesuai untuk dialog dengan urutan tindakan panjang dan pilihan berulang, sedangkan form horizontal menampilkan elemen secara berbaris, yang lebih cocok untuk dialog dengan penekanan tombol jelas dan kontras warna yang kuat untuk memperjelas pilihan. Penggunaan form vertikal disarankan saat membutuhkan proximity antar elemen agar terlihat sebagai kelompok, sedangkan form horizontal lebih efektif jika informasi harus ditekankan secara visual dengan kontras warna yang tajam.",
+            "b) Form vertikal mengikuti urutan komponen dialog dengan struktur atas-tengah-bawah, yang memungkinkan pengguna mengikuti alur logis dari informasi ke tindakan, sedangkan form horizontal menggabungkan elemen dalam satu baris, yang lebih efektif untuk mock-up desain UI yang menonjolkan kontras warna dan perbedaan ukuran. Form vertikal harus digunakan saat merancang dialog dengan proses 3 langkah (rancangan, prototype, evaluasi), sedangkan form horizontal lebih baik untuk tampilan yang cepat dan sederhana, terutama jika warna digunakan secara bijak untuk menekankan elemen penting.",
+            "c) Form vertikal menekankan urutan tindakan dalam dialog dengan struktur yang jelas sesuai hukum proximity, memungkinkan pengguna mengenali kelompok elemen yang terkait, sementara form horizontal mengandalkan kontras warna untuk menekankan pilihan, yang sesuai dengan prinsip desain yang menekankan perbedaan visual. Form vertikal lebih baik digunakan dalam prototipe dialog yang kompleks, karena memungkinkan pembuatan diagram urutan komponen dialog yang terstruktur, sedangkan form horizontal lebih cocok untuk tampilan yang cepat, terutama saat mempertimbangkan kebutuhan pengguna dengan disabilitas visual.",
+            "d) Form vertikal dan form horizontal tidak memiliki perbedaan signifikan dalam konteks desain dialog karena keduanya mengikuti hukum proximity dan kontras secara sama, namun form vertikal lebih sesuai untuk urutan komponen dialog yang terstruktur dan terperinci, sedangkan form horizontal lebih efektif untuk mock-up desain UI yang menonjolkan kontras warna dan elemen yang saling terpisah. Keduanya dapat digunakan tergantung pada tujuan desain, namun form vertikal lebih disarankan untuk dialog yang melibatkan proses evaluasi kegunaan karena memungkinkan perencanaan yang lebih sistematis dan konsisten dengan pedoman desain."
+          ],
+          "jawaban": "Form vertikal menempatkan label dan input secara bertumpuk, sementara form horizontal menyusunnya secara berdampingan. Form vertikal cocok untuk formulir yang singkat, sementara form horizontal dapat digunakan untuk formulir yang lebih panjang atau memerlukan informasi yang lebih terstruktur."
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Seorang pengembang perangkat lunak sedang membuat aplikasi mobile yang memiliki antarmuka pengguna yang intuitif. Untuk memastikan pengguna dapat mengakses fitur dengan mudah, langkah apa yang paling tepat dilakukan oleh pengembang tersebut dalam konteks mengimplementasikan user interface?",
+          "pilihan": [
+            "a) Membaca dokumentasi teknis tentang desain antarmuka untuk memahami struktur data yang digunakan.",
+            "b) Menggunakan desain antarmuka yang sudah ada dari perusahaan lain tanpa perubahan.",
+            "c) Terapkan tata letak yang jelas, warna yang kontras, dan tombol yang mudah diklik sesuai dengan kebutuhan pengguna.",
+            "d) Menyusun rencana pengembangan yang mencakup semua fitur, tetapi tidak menyentuh tampilan antarmuka."
+          ],
+          "jawaban": "c) Terapkan tata letak yang jelas, warna yang kontras, dan tombol yang mudah diklik sesuai dengan kebutuhan pengguna."
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Seorang pengembang perangkat lunak sedang membangun aplikasi mobile dengan antarmuka pengguna yang intuitif. Untuk memastikan pengguna dapat mengakses fitur dengan mudah, langkah yang paling tepat yang harus diterapkan adalah...",
+          "pilihan": [
+            "a) Menulis kode program secara manual tanpa uji coba",
+            "b) Menggunakan desain antarmuka yang kompleks dan tidak sesuai dengan kebutuhan pengguna",
+            "c) Menggunakan prototipe antarmuka dan mengimplementasikan elemen-elemen seperti tombol, form, dan navigasi berdasarkan hasil uji coba pengguna",
+            "d) Mengabaikan feedback pengguna dan langsung meluncurkan versi akhir tanpa perbaikan"
+          ],
+          "jawaban": "c) Menggunakan prototipe antarmuka dan mengimplementasikan elemen-elemen seperti tombol, form, dan navigasi berdasarkan hasil uji coba pengguna"
+        },
+        {
+          "bloom_level": "C4",
+          "soal": "Dalam proses mengimplementasikan user interface pada sebuah aplikasi perangkat lunak, seorang pengembang harus menganalisis, membandingkan, dan mengevaluasi berbagai pilihan desain antarmuka. Manakah dari pernyataan berikut yang paling tepat menggambarkan langkah analisis yang harus dilakukan sebelum memilih desain antarmuka yang akhirnya diimplementasikan?",
+          "pilihan": [
+            "a) Menggunakan desain antarmuka yang paling kompleks untuk menunjukkan kemampuan teknis, tanpa mempertimbangkan kenyamanan pengguna.",
+            "b) Membandingkan beberapa opsi desain antarmuka berdasarkan kinerja, keandalan, dan kecepatan loading, tanpa mempertimbangkan konteks pengguna.",
+            "c) Menganalisis kebutuhan pengguna secara mendalam, membandingkan kemungkinan solusi desain antarmuka, dan mengevaluasi setiap opsi berdasarkan keterbacaan, efisiensi, dan konsistensi dengan standar desain yang ada.",
+            "d) Menyalin desain antarmuka dari aplikasi lain tanpa meninjau konteks pengguna atau kebutuhan spesifik aplikasi tersebut."
+          ],
+          "jawaban": "c) Menganalisis kebutuhan pengguna secara mendalam, membandingkan kemungkinan solusi desain antarmuka, dan mengevaluasi setiap opsi berdasarkan keterbacaan, efisiensi, dan konsistensi dengan standar desain yang ada."
+        },
+        {
+          "bloom_level": "C4",
+          "soal": "Dalam proses mengimplementasikan user interface (UI) untuk sebuah aplikasi mobile, seorang pengembang harus menganalisis, membandingkan, dan mengevaluasi berbagai pilihan desain. Manakah dari pernyataan berikut yang paling tepat menggambarkan langkah evaluasi yang harus dilakukan untuk memastikan kualitas pengalaman pengguna (UX) yang optimal?",
+          "pilihan": [
+            "a) Menggunakan desain UI yang paling populer di media sosial untuk memastikan kesan visual yang menarik.",
+            "b) Membandingkan berbagai fitur antarmuka dari aplikasi kompetitor dan memilih satu yang paling kompleks untuk diimplementasikan.",
+            "c) Menganalisis kebutuhan pengguna berdasarkan data survei, membandingkan alternatif desain, lalu mengevaluasi efektivitas setiap opsi dalam menyelesaikan tugas pengguna.",
+            "d) Mengimplementasikan antarmuka secara langsung tanpa uji coba, karena waktu pengembangan sangat terbatas."
+          ],
+          "jawaban": "c) Menganalisis kebutuhan pengguna berdasarkan data survei, membandingkan alternatif desain, lalu mengevaluasi efektivitas setiap opsi dalam menyelesaikan tugas pengguna."
+        },
+        {
+          "bloom_level": "C5",
+          "soal": "Seorang pengembang perangkat lunak sedang membangun aplikasi mobile dengan antarmuka pengguna (UI) yang intuitif. Untuk mencapai hasil yang optimal, langkah-langkah berikut yang paling tepat dalam urutan pelaksanaan adalah:",
+          "pilihan": [
+            "a) Mengubah elemen UI yang sudah ada agar sesuai dengan desain, kemudian menguji fungsi pada perangkat nyata.",
+            "b) Merancang struktur alur interaksi pengguna, menggambar prototipe UI, dan kemudian mengimplementasikan kode dengan memperhatikan responsivitas.",
+            "c) Menyalin antarmuka dari aplikasi lain tanpa perubahan, lalu menguji secara langsung pada pengguna akhir.",
+            "d) Mengatur tampilan UI secara manual pada setiap perangkat tanpa mempertimbangkan desain awal, lalu memodifikasi berdasarkan umpan balik tanpa dokumentasi."
+          ],
+          "jawaban": "b) Merancang struktur alur interaksi pengguna, menggambar prototipe UI, dan kemudian mengimplementasikan kode dengan memperhatikan responsivitas."
+        },
+        {
+          "bloom_level": "C6",
+          "soal": "Seorang pengembang perangkat lunak sedang membangun aplikasi mobile berbasis Android. Untuk mengimplementasikan user interface yang responsif dan intuitif, tindakan apa yang paling tepat dilakukan oleh pengembang tersebut dalam tahap pembangunan?",
+          "pilihan": [
+            "a) Meninjau desain UI yang sudah ada dan mengubahnya sesuai kebutuhan pengguna",
+            "b) Menggunakan kode sumber lama untuk mempercepat proses pengembangan",
+            "c) Buat prototipe interaktif berbasis skema desain yang sudah disetujui, lalu kembangkan fitur navigasi berbasis penggunaan",
+            "d) Bangun tampilan user interface secara langsung tanpa melibatkan desain visual atau uji coba"
+          ],
+          "jawaban": "c) Buat prototipe interaktif berbasis skema desain yang sudah disetujui, lalu kembangkan fitur navigasi berbasis penggunaan"
+        }
+      ]
+    },
+    {
+      "kode_unit": "J.620100.010.01",
+      "judul_unit": "Menerapkan perintah eksekusi bahasa pemrograman berbasis teks, grafik, dan multimedia",
+      "konsep": [
+        "Running merupakan proses eksekusi dari kode yang telah ditulis ke dalam Bahasa pemrograman tertentu. Program dapat secara langsung dijalankan pada server web atau dapat juga dijalankan di lingkungan pengembangan lokal. Hal ini bertujuan Khusus untuk melihat bagaimana program berperilaku di bawah kondisi normal dan memastikan bahwa semua fungsionalitasnya berjalan seperti yang diharapkan. Contoh program PHP: <?php echo 'Hello World!' ?> Kode di atas jika dijalankan pada halaman web, akan menghasilkan teks Hello World! sebagai respons. Debugging Debugging merupakan aktivitas yang melibatkan identifikasi, analisis, serta perbaikan kesalahan atau bug yang mungkin muncul dalam struktur dan eksekusi suatu kode program. Debugging diperlukkan ketika terjadi kesalahan dalam program yang mengakibatkan perilaku yang tidak diinginkan atau ketidakmampuan program untuk berjalan dengan benar. Contoh: Program PHP yang mengalami masalah dengan manipulasi data dari formulir. Dalam debugging, pengembang dapat menggunakan pernyataan echo $variable atau var_dump($variabel) untuk melihat nilai variable atau menggunakan alat debugging seperti Xdebug. Executable File Proses pembuatan executable file merupakan tahapan yang melibatkan konversi kode sumber suatu perangkat lunak ke dalam bentuk yang dapat dijalankan secara mandiri, tanpa memerlukan interpretasi atau terjemahan langsung oleh Bahasa pemrograman yang digunakan. Contohnya adalah ketika anda mengunduh dan menginstal suatu aplikasi dari internet. File installer tersebut merupakan contoh dari executable file. Setelah diinstal, anda dapat menjalankan aplikasi tersebut tanpa harus membuka atau mengeksekusi kode sumber asli karena instruksi yang dibutuhkan sudah terkandung dalam executable file tersebut. Identifikasi Kesalahan / Error Saat Eksekusi Web Jenis Error pada Software ❖Internal Error : error pada kode program ❖Eksternal Error : error pada interaksi dengan hal lain diluar kode program Identifikasi Kesalahan Eksekusi Web Jenis Kesalahan pada saat eksekusi Web : ❖Error : Kesalahan tersebut dapat berasal dari kesalahan kode pada script ❖Http Error : Kesalahan komunikasi script dengan server php Kesalahan pada Kode PHP (Error) Error merupakan salah satu jenis kesalahan yang terjadi ketika melakukan eksekusi pada suatu halaman web, yang menyebabkan halaman web tidak menampilkan hasil sesuai dengan yang diinginkan. Pada PHP terdapat empat jenis kesalahan/error , yaitu : Parse Error/ Syntax Error, Fatal Error, Warning Error Notice Parse Errors Penyebab : Kutipan yang tidak ditutup, tanda petik tidak sesuai, petik satu atau dua, Kelebihan atau kekurangan tanda kurung (“ ( ) “), Kurung kurawal yang tidak ditutup ({ }), Kurang tanda titik koma ( ) Kurang tanda titik sebagai penggabungan beberapa string (.), Kesalahan dalam penulisan nama variabel Contoh Parse Error Fatal Errors Penyebab : Apa yang diminta pada kode script tidak dapat dieksekusi., Menghentikan proses eksekusi dari sebuah script, sehingga outputnya hanya berupa pesan kesalahan. Contoh Fatal Errors Warning Errors Penyebab : Menggunakan fungsi include pada sebuah missing file, Kesalahan parameter yang terdapat pada sebuah fungsi., Warning error tidak akan menghentikan proses eksekusi dari sebuah script. Contoh Warning Errors Notice Errors Penyebab : Undefined variabel (variabel yang dipanggil atau dieksekusi, tidak atau belum didefinisikan), Notice error tidak menghentikan proses eksekusi script. Contoh Notice Errors untuk memastikan software dapat berjalan 100% sesuai dengan yang di harapkan baik secara Logika dan secara fungsional, Pengujian di lakukan dengan metode Black Box dan White Box Error atau kesalahan eksekusi web dapat terjadi pada sisi internal (error source code) dan eksternal (http error) Pada PHP terdapat empat jenis kesalahan/error , yaitu Parse Error/ Syntax Error, Fatal Error, Warning Error, Notice Beberapa kesalahan yang umum dan sering terjadi antara lain : Error 404 (Not Found), Error 403 (Forbidden), Error 500 (Internal Server Error), Error 503 (Service Unavailable), Error 504 (Gateway Time-out) Selain itu terdapat beberapa kesalahan yang harus diperhatikan setelah web dihosting ke server",
+        "Pemrograman adalah perangkat lunak yang digunakan untuk mengeksekusi source pemrograman bisa berupa compiler atau interpreter. pemrograman pada Web misalnya HTML dan PHP",
+        "XAMPP adalah perangkat yang menggabungkan tiga aplikasi kedalam satu paket, yaitu Apache, MySQL, dan PHPMyAdmin.",
+        "Visual Studio Code adalah Text editor yang digunakan untuk menuliskan kode program.",
+        "Apache adalah server web yang dapat dijalankan di banyak sistem operasi, yang berguna untuk melayani dan memfungsikan situs web.",
+        "MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL atau DBMS yang multithread dan multi-user.",
+        "PHP adalah Hypertext Preprocessor adalah bahasa skrip yang dapat ditanamkan atau disisipkan ke dalam HTML.",
+        "HTML (HyperText Markup Language) yaitu bahasa pemrograman standar yang digunakan untuk membuat sebuah halaman web, yang kemudian dapat diakses untuk menampilkan berbagai informasi di dalam sebuah penjelajah web Internet (Browser).",
+        "CSS (Cascading Style Sheets) berisi rangkaian instruksi yang menentukan bagiamana suatu text akan tertampil di halaman web.",
+        "JavaScript adalah bahasa pemrograman web yang bersifat Client Side Programming Language, yang pemrosesannya dilakukan oleh client.",
+        "Element dan Tag pada HTML. Element pada HTML membentuk sebuah struktur dan memberitahu browser untuk halaman website yang akan ditampilkan. Biasanya untuk element terdiri dari tag pembuka, konten, dan tag penutup. Berikut adalah salah satu contoh element pada HTML: <p> Paragraf di HTML </p>. Attribut pada HTML Setelah Anda memahami element dan tag, Anda perlu memahami apa itu attribute. Seperti diketahui jika sebuah element berupa sturktur pada HTML yang berfungsi untuk memberitahu browser mengenai apa yang akan ditampilkan. Berikut adalah contoh element yang disertai sebuah attribute: <p>Berikut adalah <a href=\"https://www.google.com/\" title=\"Search\" target=\"_blank“> Engine terbaik </a>.</p>",
+        "Langkah Percobaan : Bukalah sebuah editor teks sebagai contoh menggunakan Visual Studio Code, Kemudian lakukan penyimpanan file pada sebuah folder dengan ekstensi .html. 1. Text Editor: Visual Studio Code, Sublime, Notepad++. 2. Web Server: XAMPP. 3. Browser: Chrome, Firefox",
+        "Apa itu javascript? Javascript adalah bahasa pemrograman yang awalnya dirancang untuk berjalan di atas browser. Namun, seiring perkembangan zaman, javascript tidak hanya berjalan di atas browser saja. Javascript juga dapat digunakan pada sisi Server, Game, IoT, Desktop, dan sebagainya. Javascript awalnya bernama Mocha, lalu berubah menjadi LiveScript saat browser Netscape Navigator 2.0 rilis versi beta (September 1995). Namun, setelah itu dinamai ulang menjadi Javascript. Peralatan untuk Belajar Javascript Apa saja perlatan yang harus disiapkan untuk belajar Javascript? Web Browser (Google Chrome, Firefox, Opera, dll), Teks Editor (rekomendasi: VS Code). Mengenal Console Javascript dapat di buka melalui Inspect Element > Console. Di dalam console, kita bisa menulis fungsi atau kode-kode javascript dan hasilnya akan langsung ditampilkan. Misalnya, mari kita coba kode berikut: Maka hasilnya: Buka teks editor, kemudian buat file beru bernama hello_world.html dan isi dengan kode berikut: Membuat Program Javascript.html, kemudian buka file tersebut dengan web browser. Maka hasilnya: Membuat Program Javascript Tunggu sebentar…, Tadi kita menulis perintah: Mengapa tidak ditampilkan? Membuat Program Javascript Karena perintah atau fungsi console.log() akan menampilkan pesan ke dalam console javascript. Sedangkan perintah document.write() berfungsi untuk menulis ke dokumen HTML. Buka console javascript. Maka kita akan melihat pesan: 'Saya ingin berbelanja'",
+        "Cara Menulis Kode Javascript di HTML Pada contoh di atas, kita sudah menulis kode javascript di dalam HTML. Cara tersebut merupakan cara penulisan embeded (ditempel). Masih ada beberapa cara lagi yang perlu kita ketahui: 1. Embed (Kode Javascript ditempel langsung pada HTML), 2. Inline (kode Javascript ditulis pada atribut HTML), 3. Eksternal (Kode Javascript ditulis terpisah dengan file HTML). Penulisan Kode javascript dengan Embed. Pada cara ini, kita menggunakan tag script untuk menempelkan (embed) kode Javascript pada HTML. Tag ini dapat ditulis di dalam tag head dan body. Contoh: Penulisan Kode javascript Inline Pada cara ini, kita akan menulis kode javascript di dalam atribut HTML. Cara ini biasanya digunakan untuk memanggil suatu fungsi pada event tertentu. Misal: saat link diklik. Contoh: atau bisa juga seperti ini: Penulisan Kode javascript Inline. Hasil: Penulisan Kode javascript Inline Perhatikan, Atribut onclick merupakan atribut HTML untuk menyatakan fungsi yang akan dieksekusi saat elemen itu diklik. Pada contoh sebelumnya, kita menjalankan fungsi alert(). Fungsi ini merupakan fungsi untuk menampilkan dialog. Lalu pada atribut href, kita juga memanggil fungsi alert() dengan didahului javascript:. Atribut href sebenarnya digunakan untuk mengisi alamat link atau URL. Karena kita ingin memanggil kode javascript di sana, maka alamat link tersebut kita ubah menjadi javascript: lalu diikuti dengan fungsi yang akan dipanggil. Penulisan Kode javascript Eksternal Pada cara ini, kita akan menulis kode javascript secara terpisah dengan file HTML. Cara ini biasanya digunakan pada proyek-proyek besar, karena diyakini—dengan cara ini—dapat lebih mudah mengelola kode project.buat dua file, yaitu: file HTML dan Javascript. Penulisan Kode javascript Eksternal. Isi file kode-program.js. Isi file index.html. Penulisan Kode javascript Eksternal. Hasilnya: Penulisan Kode javascript Eksternal Pada contoh tadi, kita menulis kode javascript terpisah dengan kode HTML. Lalu, pada kode HTML Kita menyisipkannya dengan memberikan atribut src pada tag script. Maka apapun yang ada di kode-program.js akan dapat dibaca dari file index.html. Penulisan Kode javascript Eksternal Bagaimana kalau file javascriptnya berada di folder yang berbeda? Kita bisa menuliskan alamat lengkap foldernya. Contoh: Misal kita punya struktur folder seperti ini: Penulisan Kode javascript Eksternal Maka untuk menyisipkan file kode-program.js ke dalam HTML, kita bisa menuliskannya seperti ini: Karena file kode-program.js berada di dalam direktori js. Kita juga bisa menyisipkan javascript yang ada di internet dengan memberikan alamat URL lengkapnya. Contoh: Penulisan Kode javascript HTML Javascript sebagai bahasa pemrograman yang berjalan di atas browser harus di tulis di dalam HTML.",
+        "Ada empat cara penulisan javascript pada HTML: 1. Tag Script, Cara yang umum yang dipakai adalah menuliskanya dalam tag script. Tag script bisa dibuat di dalam tag head, mauapun di dalam tag body. 2. File Eksternal, Bila tidak ingin kode Javascript bercampur aduk dengan HTML, kita bisa menuliskannya pada file terpisah. Caranya, buatlah sebuah file yang berekstensi .js, misalnya isinya sebagai berikut. Penulisan JavaScript pada HTML Kemudian, kita perlu menghubungkan file eksternal tersebut dengan file HTML. Caranya, gunakan tag script dengan atribut src untuk menentukan lokasi file Javascriptnya. 3. Atribut Event, Cara yang ketiga ini sering digunakan untuk memanggil fungsi pada event terentu. Misalnya ketika suatu elemen diklik, maka jalankan fungsi Javascript. Selain event onclick ada juga event-event yang lain, seperti onsubmit, onload, ondoubleclick, onmouseover, onmouseout, dsb. 4. URL Terakhir, penulisan Javascript pada URL. Cara ini jarang digunakan, namun kita juga perlu mengetahuinya. Penulisan Javascript pada URL menggunakan protokol Javascript. Misal, cobalah untuk menuliskan kode seperti ini pada URL browser. Hasilnya, Javascript akan dieksekusi browser. Lalu, bagaimana kita menggunakan cara ini di HTML? Penulisan JavaScript pada HTML Cara ini bisa kita gunakan pada tag a, kemudian mengisi kode javascript pada atribut href. Cara ini bisa menggantikan event onclick. Menampilkan Output Javascript. Output adalah sebuah tampilan program yang biasanya digunakan untuk memperlihatkan hasil akhir. Output biasanya ditampilkan dalam bentuk teks dengan fungsi print(). Ada 4 cara menampilkan output pada Javascript: 1. Fungsi console.log(), 2. Fungsi alert(), 3. Fungsi document.write(), 4. innerHTML. Fungsi console.log() adalah fungsi untuk menampilkan teks ke console Javascript. Contoh penggunaan: Hasil: Menampilkan Output Javascript Fungsi console.log() biasanya digunakan untuk debugging. Karena setiap pesaan error di Javascript selalu ditampilkan di dalam Console. Selain console.log(), terdapat juga beberapa fungsi untuk debugging seperti console.debug(), console.info(), console.error(), console.dir(), dsb. Menampilkan Output Javascript Fungsi alert() adalah fungsi untuk menampilkan jendela dialog. Fungsi sebenarnya berada pada objek window. Secara lengkap bisa ditulis seperti ini: Bisa juga ditulis alert() saja seperti ini: Fungsi alert(), hanya bisa digunakan di dalam browser saja. Sedangkan pada Nodejs fungsi ini tidak ada. Menampilkan Output Javascript Contoh penggunaan fungsi alert(): Menampilkan Output Javascript. Hasil: Perbandingan Skema Eksekusi HTML dan PHP Model kerja HTML diawali dengan permintaan suatu halaman web oleh browser. Browser mendapatkan alamat dari web server, mengindentifikasi halaman yang dikehendaki, dan menyampaikan segala informasi yang dibutuhkan oleh web server. Selanjutnya, web server akan mencarikan berkas yang diminta dan memberikan isinya ke browser. Browser yang mendapatkan isinya segera melakukan proses penerjemahan kode HTML dan menampilkannya ke layar pengguna. Perbandingan Skema Eksekusi HTML dan PHP Jika yang diminta adalah sebuah halaman PHP, prinsipnya adalah ketika berkas PHP yang diminta didapatkan oleh web server, isinya segera dikirimkan ke mesin PHP yang memproses dan memberikan hasilnya (berupa kode HTML) ke web server. Selanjutnya, web server menyampaikan ke klien. Cara Kerja Web PHP dengan Server Local (Localhost) Server Client, youtube.php., youtube.html. Perbedaan Running, Debugging, dan Executable File. Running merupakan proses eksekusi dari kode yang telah ditulis ke dalam Bahasa pemrograman tertentu. Program dapat secara langsung dijalankan pada server web.",
+        "Dasar Pemrograman XAMPP ialah perangkat lunak bebas yang mempunyai fungsi sebagai server yang berdiri sendiri (localhost), yang terdiri dari program MySQL database, Apache HTTP Server, dan penerjemah ditulis dalam bahasa pemrograman PHP dan Perl. Situs untuk mengunduh XAMPP https://www.apachefriends.org/ Konfigurasi XAMPP Buka XAMPP pilih/klik Shell Konfigurasi XAMPP Peletakan Source Code Agar dapat mengakses halaman PHP dari web browser, maka File PHP harus diletakkan di dalam folder khusus yang merupakan folder home dari web server. Pada aplikasi XAMPP, folder tersebut adalah folder htdocs yang berada di dalam folder instalasi XAMPP. (C:\\xampp\\htdocs). Anda bisa meletakkan file PHP langsung di dalam folder ini, atau agar memudahkan pencarian file, buatlah sebuah folder baru di dalam folder htdocs seperti di bawah ini: XAMPP APACHE Setelah XAMPP dibuka, kemudian aktifkan Web server nya yakni Apache dengan klik Start hingga tombol berubah menjadi Stop",
+        "PENULISAN FILE PHP: File PHP pada dasarnya merupakan file text biasa yang bisa dibuat menggunakan aplikasi notepad bawaan windows, namun untuk fitur yang lebih, kita dapat menggunakan aplikasi editor text lainnya seperti Visual Studio Code, Notepad++, Sublime Text maupun Editor Teks Lainnya Tag Dasar Pemrograman PHP Tag diperlukan agar browser mengenali file yang akan dieksekusi. File PHP cukup diawali dengan tag <?php dan di akhiri dengan penutup ?>. Diantara kedua tag tersebut berisi statement yang akan dikerjakan. Cara penulisan syntax PHP Menggunakan Metode Full Tag (Direkomendasikan). Cara penulisan open tag php yang pertama adalah menggunakan metode full tag. Penulisan open tag PHP pada metode ini diawali dengan <?php dan diakhiri dengan ?> Cara penulisan syntax PHP Skrip PHP berkedudukan sebagai tag dalam bahasa HTML. Kode PHP diawali dengan <?php dan diakhiri dengan ?>. Adapun kode berikut adalah contoh kode PHP yang berada di dalam kode HTML. Cara penulisan syntax PHP Penulisan Open Tag PHP Menggunakan SGML Style dan Penulisan open tag php menggunakan style ini diawali dengan <? dan diakhiri dengan ?>, lebih singkat karena tanpa mencantumkan kata-kata php PHP Case Sensitive Di PHP, tidak ada keywords (misal: if, else, while, echo, etc.), classes, functions, and user-defined functions yang case-sensitive. Cara Menyimpan File PHP: 1) Buka software XAMPP Control Panel, start/hidupkan bagian Apache, 2) Cari folder installasi XAMPP, masuk ke folder htdocs. Contoh C:\\xampp\\htdocs Cara Menyimpan File PHP, 3) Buat folder baru dalam folder htdocs, sebagai contoh di bawah ini yaitu folder DigiTalent, 4) Buat file baru dengan cara klik kanan > pilih New > pilih Text Document. Ganti format file dengan .php, Cara Menjalankan File PHP, 5) Buka file tersebut menggunakan Sublime Text. Buatlah program PHP, 6) Save file tersebut lalu buka kembali file tersebut menggunakan browser dengan ketikan format URL. localhost/namafolder/namafile.php, sebagai contoh localhost/digitalent/JuniorWebProgrammer.php. Maka program PHP yang telah dibuat akan muncul. Buatlah sebuah Folder di C:\\xampp\\htdocs\\digitalent, kita akan membuat sebuah file baru. Untuk pembuatan file ini anda dapat menggunakan Text Editor pilihan anda. Membuat File HTML. Kode di atas jika dijalankan, maka akan menghasilkan tampilan di bawah ini: Membuat Form dengan PHP. Buatlah Sebuah File PHP sebagai berikut: Didalam folder digitalent terdapat file PHP dengan nama pesan.php. Membuat Form dengan PHP Kemudian jalan program PHP di atas pada browser dengan memasukkan isian nama dan nomor hp kemudian tekan Submit,",
+        "Pengaksesan Database Mengaktifkan module Apache dan MySQL pada aplikasi XAMPP. Kemudian klik Start hingga akan terlihat tombol berubah menjadi stop. Cara mengakses halaman dashboard dengan mengetikan “Localhost/phpmyadmin” di Web Browser bagian Url pada menu navigasi atau dapat klik tombol admin pada MySQL pada XAMPP. Pada halaman database kita akan melihat ada banyak nama database yang sudah ada pada phpMyAdmin. Buat database dengan nama db_wisata. Setelah selesai langsung saja klik nama databasenya kemudian di arahkan ke halaman pembuatan table Pengaksesan Database untuk mengeksekusi source code yang dapat digunakan berupa text Editor (Visual Studio Code/Sublime/dll), web server (XAMPP), browser 2. Penulisan file PHP selalu di awal dengan tag pembuka dan ditutup dengan tag penutup php. 3. File PHP disimpan pada folder C:\\xampp\\htdocs supaya dapat dieksekusi. 4. Untuk menjalankan file PHP, harus diawali dengan mengaktifkan Apache pada XAMPP Control Panel. 5. Untuk mengakses database MySQL, harus mengaktifkan MySQL pada XAMPP Control. Panel dan mengunjungi phpMyAdmin pada control panel tersebut. 1. Text Editor: Visual Studio Code, Sublime, Notepad++. 2. Web Server: XAMPP. 3. Browser: Chrome, Firefox"
+      ],
+      "evaluasi": [
+        {
+          "bloom_level": "C1",
+          "soal": "Berikut ini yang tidak termasuk tools untuk mengeksekusi source code pengembangan website adalah",
+          "pilihan": [
+            "a. XAMPP",
+            "b. Visual Studio Code",
+            "c. WhatsApp",
+            "d. Notepad++"
+          ],
+          "jawaban": "c. WhatsApp"
+        },
+        { 
+          "bloom_level": "C2",
+          "soal": "Jenis kesalahan dalam mengeksekusi source berikut ini yang terjadi ketika variabel yang dipanggil atau dieksekusi belum didefinisikan adalah",
+          "pilihan": [
+            "a. Fatal Error",
+            "b. Notice Error",
+            "c. Warning Error",
+            "d. Parse Error"
+          ],
+          "jawaban": "b. Notice Error"
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Sebelum menjalankan program PHP di browser, apa yang kita lakukan terlebih dahulu agar?",
+          "pilihan": [
+            "a. Klik start pada MySQL di XAMPP",
+            "b. Klik stop pada Apache di XAMPP",
+            "c. Klik start pada Apache di XAMPP",
+            "d. Klik stop pada MySQL di XAMPP"
+          ],
+          "jawaban": "c. Klik start pada Apache di XAMPP"
+        },
+        {  
+          "bloom_level": "C1",
+          "soal": "Folder yang digunakan untuk menyimpan file PHP yaitu pada folder",
+          "pilihan": [
+            "a. C:\\documents\\xampp",
+            "b. C:\\downloads\\htdocs",
+            "c. C:\\xampp\\htdocs",
+            "d. C:\\php\\htdocs"
+          ],
+          "jawaban": "c. C:\\xampp\\htdocs"
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Seorang siswa ingin mengembangkan sebuah program sederhana yang menampilkan gambar dan memutar suara berdasarkan input pengguna. Untuk mencapai tujuan tersebut, siswa harus menerapkan perintah eksekusi dalam bahasa pemrograman yang sesuai. Dari pilihan berikut, perintah mana yang paling tepat untuk menggunakan dan menerapkan dalam eksekusi program untuk menampilkan grafik dan multimedia?",
+          "pilihan": [
+            "a) Menulis perintah untuk memanggil fungsi input, lalu menyimpan data dalam variabel tanpa menampilkan hasil visual",
+            "b) Menggunakan perintah print() untuk menampilkan teks, dan mengakses file gambar secara manual tanpa pemrosesan visual",
+            "c) Terapkan perintah pygame.display.update() untuk menampilkan gambar, serta menggunakan pygame.mixer.Sound.play() untuk memutar suara, sesuai dengan input pengguna",
+            "d) Implementasikan perintah open() untuk membuka file teks, lalu mengolah data tanpa memasukkan elemen grafik atau multimedia"
+          ],
+          "jawaban": "c) Terapkan perintah pygame.display.update() untuk menampilkan gambar, serta menggunakan pygame.mixer.Sound.play() untuk memutar suara, sesuai dengan input pengguna"
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Seorang siswa ingin mengimplementasikan perintah eksekusi dalam bahasa pemrograman untuk menampilkan sebuah gambar dan memutar suara secara bersamaan di suatu aplikasi multimedia. Dalam konteks ini, tindakan yang paling tepat untuk dilakukan oleh siswa adalah:",
+          "pilihan": [
+            "a) Menulis kode secara teoritis dan menghafal struktur perintah tanpa menguji eksekusi.",
+            "b) Menggunakan perintah eksekusi seperti \"display\" dan \"play\" dalam bahasa pemrograman berbasis grafik dan multimedia untuk menampilkan gambar dan memutar suara, lalu menguji hasilnya secara langsung.",
+            "c) Mencari referensi di internet dan menyalin kode dari sumber lain tanpa memahami perintah yang digunakan.",
+            "d) Mengabaikan perintah eksekusi karena tidak ada perangkat keras yang mendukung."
+          ],
+          "jawaban": "b) Menggunakan perintah eksekusi seperti \"display\" dan \"play\" dalam bahasa pemrograman berbasis grafik dan multimedia untuk menampilkan gambar dan memutar suara, lalu menguji hasilnya secara langsung."
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Seorang siswa sedang membuat program sederhana menggunakan bahasa pemrograman visual yang mendukung eksekusi berbasis grafik. Untuk menampilkan pesan \"Selamat Datang!\" di layar, siswa perlu menggunakan perintah eksekusi yang sesuai. Dalam konteks ini, tindakan yang paling tepat untuk menerapkan perintah eksekusi tersebut adalah:",
+          "pilihan": [
+            "a) Membaca kode sumber dari file teks dan mengeksekusinya secara manual tanpa pengujian hasil.",
+            "b) Menggunakan perintah tampilan seperti \"tampilkan\" atau \"show\" untuk menampilkan pesan di layar, lalu menguji hasilnya secara langsung.",
+            "c) Menulis ulang kode program secara lengkap dari awal, tanpa memperhatikan struktur perintah eksekusi yang sudah ada.",
+            "d) Menghapus semua perintah grafik dan hanya menggunakan perintah teks untuk menjalankan program."
+          ],
+          "jawaban": "b) Menggunakan perintah tampilan seperti \"tampilkan\" atau \"show\" untuk menampilkan pesan di layar, lalu menguji hasilnya secara langsung."
+        },
+        {
+          "bloom_level": "C4",
+          "soal": "Dalam sebuah proyek pembuatan aplikasi multimedia menggunakan bahasa pemrograman seperti Python atau JavaScript, seorang siswa diminta untuk mengembangkan fitur yang menampilkan animasi grafis berdasarkan input teks dari pengguna. Manakah dari pernyataan berikut yang paling tepat sebagai evaluasi kritis terhadap keberhasilan eksekusi perintah eksekusi dalam konteks ini, jika dilihat dari aspek analisis, perbandingan, dan evaluasi terhadap efektivitas dan efisiensi?",
+          "pilihan": [
+            "a) \"Perintah eksekusi berfungsi dengan baik karena animasi muncul secara otomatis saat pengguna mengetikkan kata kunci.\"",
+            "b) \"Saya membandingkan dua perintah eksekusi: satu menggunakan modul grafis bawaan dan satu menggunakan library eksternal; perintah eksternal lebih cepat namun membutuhkan lebih banyak memori.\"",
+            "c) \"Saya menerapkan perintah eksekusi untuk menampilkan teks dan gambar, dan hasilnya terlihat jelas pada layar komputer.\"",
+            "d) \"Perintah eksekusi berhasil dijalankan, tetapi saya tidak menguji bagaimana perubahan input teks memengaruhi kelangsungan animasi.\""
+          ],
+          "jawaban": "b) \"Saya membandingkan dua perintah eksekusi: satu menggunakan modul grafis bawaan dan satu menggunakan library eksternal; perintah eksternal lebih cepat namun membutuhkan lebih banyak memori.\""
+        },
+        {
+          "bloom_level": "C4",
+          "soal": "Seorang siswa sedang mengembangkan aplikasi interaktif yang dapat menampilkan gambar, memutar suara, dan menampilkan teks bergerak secara bersamaan. Untuk mencapai hasil yang optimal, siswa harus menganalisis, membandingkan, dan mengevaluasi berbagai perintah eksekusi dalam bahasa pemrograman yang digunakan. Dari pilihan berikut, manakah pernyataan yang paling tepat menggambarkan proses analisis, perbandingan, dan evaluasi yang harus dilakukan oleh siswa dalam menerapkan perintah eksekusi tersebut?",
+          "pilihan": [
+            "a) Siswa hanya perlu memilih satu perintah eksekusi yang paling mudah digunakan dan langsung dijalankan tanpa evaluasi.",
+            "b) Siswa harus membandingkan efisiensi perintah eksekusi berdasarkan waktu eksekusi, kehandalan, dan kompatibilitas dengan berbagai perangkat, lalu mengevaluasi dampaknya terhadap pengalaman pengguna.",
+            "c) Siswa harus mengikuti langkah-langkah perintah secara linear tanpa analisis mendalam, karena perintah eksekusi dalam bahasa pemrograman selalu berjalan secara otomatis.",
+            "d) Siswa hanya perlu menguji perintah eksekusi secara visual pada satu layar, tanpa mempertimbangkan variasi media seperti grafik dan multimedia."
+          ],
+          "jawaban": "b) Siswa harus membandingkan efisiensi perintah eksekusi berdasarkan waktu eksekusi, kehandalan, dan kompatibilitas dengan berbagai perangkat, lalu mengevaluasi dampaknya terhadap pengalaman pengguna."
+        },
+        {
+          "bloom_level": "C5",
+          "soal": "Seorang siswa ingin membuat sebuah aplikasi interaktif yang dapat menampilkan animasi bergerak berdasarkan input pengguna. Untuk mencapai tujuan tersebut, siswa harus:",
+          "pilihan": [
+            "a) Menghafalkan semua perintah bahasa pemrograman yang tersedia dalam buku teks.",
+            "b) Membaca secara teliti dokumentasi perangkat lunak yang sudah ada tanpa melakukan perubahan.",
+            "c) Rancang dan desain struktur alur program, lalu modifikasi perintah eksekusi agar dapat mengolah data teks, grafik, dan multimedia secara efektif.",
+            "d) Menyalin kode program dari contoh lain tanpa memahami logika di baliknya."
+          ],
+          "jawaban": "c) Rancang dan desain struktur alur program, lalu modifikasi perintah eksekusi agar dapat mengolah data teks, grafik, dan multimedia secara efektif."
+        },
+        {
+          "bloom_level": "C6",
+          "soal": "Seorang siswa ingin membuat sebuah aplikasi interaktif yang dapat menampilkan gambar, menggabungkan teks bergerak, dan memutar suara sebagai bagian dari pengalaman multimedia. Untuk mencapai tujuan tersebut, siswa perlu bangun suatu program yang dapat mengintegrasikan perintah eksekusi dari berbagai jenis media. Dalam konteks pembelajaran pemrograman, langkah apa yang paling tepat dilakukan oleh siswa untuk kembangkan dan buat aplikasi tersebut secara menyeluruh?",
+          "pilihan": [
+            "a) Menggunakan perintah dasar bahasa pemrograman untuk hanya mencetak teks di layar tanpa mengintegrasikan media lain.",
+            "b) Menyalin kode dari contoh lain tanpa memodifikasi, lalu mengoperasikan secara langsung pada perangkat keras.",
+            "c) Membangun program dengan menggabungkan perintah eksekusi untuk menampilkan grafik, memproses teks, dan memanggil file multimedia secara berurutan.",
+            "d) Menggunakan alat desain grafis tanpa memahami struktur perintah eksekusi dalam bahasa pemrograman."
+          ],
+          "jawaban": "c) Membangun program dengan menggabungkan perintah eksekusi untuk menampilkan grafik, memproses teks, dan memanggil file multimedia secara berurutan."
+        }
+      ]
+    },
+    {
+      "kode_unit": "J.620100.017.02",
+      "judul_unit": "Mengimplementasikan pemrograman terstruktur",
+      "konsep": [
+        "Variabel: Suatu lokasi penyimpanan (di dalam memori) yang berisikan nilai atau informasi, Kode program yang digunakan untuk menampung nilai tertentu, Nilai dari variable dapat diisi dengan informasi yang diinginkan dan dapat dirubah nilainya pada saat kode program sedang berjalan. Aturan : Diawali dengan karakter dolar ( $ ) dan diikuti dengan nama pengenal. Nama pengenal dimulai dengan huruf atau garis bawah (_), tidak boleh diawali dengan angka. Tidak boleh mengandung spasi dan terdiri dari minimal satu karakter. Bersifat case sensitive (huruf besar dan kecil dibedakan). Tidak diperlukan deklarasi type variable, tetapi type variable akan mengikuti type nilai. yg diberikan. Setiap variabel terbentuk dalam tipe data variant (dapat menampung jenis data apapun). Contoh penulisan Variabel <?php $i; $nama; $Umur; $tinggi_cm; $Status_menikah; ?>. Contoh penulisan yang salah <?php $4ever; //variabel tidak boleh diawali dengan angka $_salah satu; //varibel tidak boleh mengandung spasi $nama*^; //variabel tidak boleh mengandung karakter khusus: * dan ^ ?>",
+        "Perbedaan penulisan variabel antara PHP dan JavaScript dapat dilihat pada penggunaan karakter underscore (_) pada JavaScript, sedangkan pada PHP karakter yang digunakan adalah dollar sign ($)., Variable merupakan 'tempat' dari data, Data yang dinput kedalam variable memiliki tipe tertentu (angka, desimal, text), Tipe Data di PHP : integer, floating, string, Boolean, array dan object, Tipe data berupa bilangan bulat, Misalnya untuk menyimpan data jumlah stock, umur, tinggi badan, nomor sepatu, Dapat bernilai positif (+) maupun negative (-), Dapat dilakukan operasi matematis (tambah, kurang, kali, bagi)",
+        "Contoh-Contoh dalam operasi matematis: <?php \n $umur=21; \n$harga=15000; \n$rugi=-500000; \necho $umur; //21 echo '<br />'' \necho $harga; //15000 echo '<br />' \n echo $rugi; //-500000 ?>",
+        "Perhatikan bahwa tipe data float pada PHP dan JavaScript dapat menyimpan nilai desimal. Tipe data floating point/real number berupa bilangan decimal (pecahan), Digunakan untuk variable yang akan berisi angka pecahan seperti nilai IPK, hasil pembagian, atau hasil komputasi numeric yang angkanya tidak bias ditampung oleh tipe data integer Contoh angka float: 0.9 , 2.80 , 3.14 , 0.314E1. Contoh <?php \n$angka_float1= 0.78; \n$angka_float2= 14.99; \n$angka_scientific1=0.314E1; \n$angka_scientific2=0.3365E-3; \necho $angka_float1; // 0.78 \necho \"<br />\"; \necho $angka_float2; //14.99 \necho \"<br />\";\necho $angka_scientific1; //3.14\necho \"<br />\";\necho $angka_scientific2; //0.0003365 ?>",
+        "Tipe data yang berisi text, kalimat, atau kumpulan karakter Penulisannya diapit oleh single quoted/petik satu (') atau double quoted/petik ganda (\"). Contoh: 'a' , 'saya sedang belajar PHP', 'emailku@gmail.com', \"a\" , \"saya sedang belajar PHP\" , \"emailku@gmail.com\". Contoh <?php \n$string1='Ini adalah string sederhana'; \n$string2='Ini adalah string yang bisa memiliki beberapa baris'; \n$string3='Dia berkata: \"I'll be back\"; \n$string4=\"Dia berkata: \"I'll be back\"; \n$string5=\"Variabel akan otomatis ditampilkan: $string1 dan $string3\"; \necho $string1; echo \"<br>\"; \necho $string2; echo \"<br>\"; \necho $string3; echo \"<br>\"; \necho $string4; echo \"<br>\"; \necho $string5; echo \"<br>\";  ?>",
+        "Variabel boolean dapat menyimpan nilai true atau false yang mewakili keadaan atau kondisi tertentu dalam program. Dalam contoh ini, kita menggunakan operator ternary untuk menampilkan nilai boolean dengan pesan \"True\" atau \"False\" dalam output. hanya memiliki 2 nilai : true dan false, Digunakan dalam operasi logika. Contoh: <?php \n$benar=true; \n$salah=false; \necho \"benar = $benar, salah = $salah\"; \n// hasil output: benar = 1, salah = \n$x = FALSE; // false \n$x = \"\"; // string kosong dianggap false \n$x = \" \"; // string dengan karakter adalah true; \n$x = 0; // false \n$x = 1; // true ?>",
+        "Syntax PHP : Aturan Penulisan kode program. Semua skrip harus diapit oleh tanda: <?php dan ?>, <script language=\"php\"> dan </script>, <? dan ?>, <% dan %>. Perintah harus diakhiri dengan tanda titik koma ( ; ). Contoh: <html> \n<head> \n<title>Program PHP Pertama Saya</title> \n</head> \n<body> \n<?php echo \"Hello World!\"; ?> \n</body> \n</html>",
+        "Kontrol Program : bagaimana urutan eksekusi perintah dalam program. Bentuk: Percabangan ( Branching ), Perulangan ( Looping ), Lompatan/Perpindahan ( Jumping )",
+        "Percabangan (Branching) Dalam contoh di atas, percabangan digunakan untuk mengecek apakah nilai (nilai_php atau nilai_js) lebih besar atau sama dengan 70. Jika benar, maka program akan menampilkan pesan \"Selamat, Anda lulus!\", dan jika salah, program akan menampilkan pesan \"Maaf, Anda tidak lulus.\". Ini adalah contoh sederhana dari penggunaan struktur percabangan untuk mengambil keputusan berdasarkan suatu kondisi. Dalam contoh di atas, kita menggunakan percabangan if-else if-else untuk mengecek rentang nilai. Jika nilai memenuhi kondisi pertama, maka pesan \"A\" akan ditampilkan. Jika tidak, program akan melanjutkan ke kondisi berikutnya, dan seterusnya. Jika tidak ada kondisi yang memenuhi, maka blok else akan dieksekusi. Percabangan (Branching) Disebut juga istilah stuktur kontrol keputusan Memungkinkan aplikasi untuk memeriksa isi sebuah variabel atau hasil perhitungan dan ekspresi kemudian mengambil tindakan yang sesuai. Bentuk: if, if – else, if – elseif – else, switch",
+        "Perulangan (Loop). Struktur Kontrol Perulangan digunakan untuk mengulang satu atau beberapa baris perintah. Bentuk: for, while, do-while, foreach. Terdapat empat komponen dalam kontrol perulangan : inisialisasi : kondisi awal perulangan, inisialisasi (pemberian nilai awal) pada variabel counter; condition : kondisi yang harus dipenuhi agar perulangan dijalankan; increment : bagian untuk memproses variable counter agar bisa memenuhi kondisi akhir perulangan; statement : baris perintah yang akan diulang. Disebut juga determinate loop. for Loop. Perulangannya (iterasi) telah ditentukan sejak awal pernyataan. Format : \nfor (inisialisasi; condition; increment) \n{statement;}. Contoh : <?php \nfor($i=1;$i<=10;$i++){ \necho \"Perulangan ke-\".$i.\"<br />\"; \n}?>. while Loop Dikenal juga dengan indeterminate loop. Penentuan jumlah perulangan tidak ditentukan sebelumnya. Perulangan akan dilakukan terus menerus sampai dengan kondisi yang menjadi prasyarat bernilai false.",
+        "while Loop. Format: Contoh:  \ninisialisasi; \nwhile(condition) \n{statement; \n... \nincrement; }",
+        "do-while Loop. Prinsip kerja sama dengan perulangan while. Perbedaannya : pengecekan kondisi perulangan dilakukan pada akhir perulangan, Karena pengecekan kondisi dilakukan di akhir perulangan, maka walaupun kondisi adalah FALSE, perulangan akan tetap dijalankan minimal 1 kali. do-while Loop Format: Contoh:  \ninisialisasi; \ndo \n{statement; \n... \nincrement; } while(condition). foreach Loop, Perulangan khusus untuk array, Perulangan untuk mengakses elemen pada array tanpa mengidentifikasi index-nya",
+        "Break: Fungsinya untuk keluar dari sebuah perulangan. Continue: Digunakan untuk melewati satu siklus perulangan / iterasi. Exit(): Digunakan untuk keluar dari sebuah program. Walaupun terdapat statements",
+        "Baca Tulis Dari Keyboard: Untuk menerima input/masukan dari keyboar menggunakan <input> yang merupakan tag form html. Atribut input: Type (jenis input) : text, Name: nama elemen, value : nilai isian. Contoh: <html> \n<head> \n<title>Input Text</title> \n</head> \n<body> \n<form> \nNama: <input type=\"text\" \nname=\"nama\"/> \n</form> \n</body> \n</html>",
+        "function adalah instruksi kepada PHP bahwa kita akan membuat fungsi nama_fungsi adalah nama dari fungsi yang akan ditulis $parameter1, $parameter2 : variabel perantara yang akan menyimpan inputan yang diperlukan dalam pemrosesan fungsi (argumen). Jumlah parameter sesuai yang didibutuhkan. return : perintah khusus untuk fungsi, dimana kata return menginstruksikan kepada PHP bahwa pemrosesan fungsi telah selesai. return $nilai_akhir berarti bahwa fungsi akan 'mengembalikan' $nilai_akhir sebagai hasil dari fungsi. Contoh prosedur <?php function sayHello(){ echo \"Hello..<br />\"; } sayHello(); ?>. Contoh prosedur Dalam kedua contoh di atas, kita mendefinisikan fungsi di PHP dan prosedur di JavaScript yang menampilkan pesan sapaan. Perhatikan bahwa di PHP, kita dapat menggunakan echo dalam fungsi untuk menampilkan output langsung ke layar tanpa mengembalikan nilai. Di JavaScript, kita menggunakan console.log untuk mencetak pesan ke konsol. Fungsi : prosedur yang memberikan (mengembalikan) nilai. Contoh: <?php function perkalian($bil_1, $bil_2){ $hasil = $bil_1 * $bil_2; return $hasil; } echo \"5 x 10 = \".perkalian(5, 10); ?> Dalam contoh di atas, kita mendefinisikan sebuah fungsi bernama sapaan yang menerima satu parameter ($nama di PHP dan nama di JavaScript) dan mengembalikan pesan sapaan. Kemudian, kita memanggil fungsi tersebut dengan memberikan argumen (\"John\") dan menampilkan hasilnya",
+        "Array adalah salah satu struktur data yang berisi sekumpulan data dan memiliki indeks. Indeks digunakan untuk mengakses nilai array. Indeks array selalu dimulai dari nol (0). Array atau Larik : tipe data bentukan yang terdiri dari kumpulan tipe data lainnya. Kumpulan beberapa data yang disimpan dalam sebuah variabel. Masing-masing data yang disimpan dalam array tersebut mempunyai index, sebagai sebuah pengenal. Setiap anggota dari array disebut sebagai elemen. Contoh array: $nama_variabel = array( \nindex => elemen, \nindex2 => elemen2, \nindex3 => elemen3, \n... \n). Komponen array terdiri dari pasangan index dan elemen array. Index sebagai penunjuk posisi dimana elemen disimpan. Pengaksesan array menggunakan kombinasi $nama_variable dan nilai index : $nama_variable[index]",
+        "Index Numeric : menggunakan angka untuk menandai sebuah elemen array; Index Asosiatif : memberikan nama sebagai penanda sebuah elemen",
+        "Array di PHP dapat kita buat dengan fungsi array() dan tanda kurung kotak []. Untuk memanggil data array dapat memanggil index atau nama variabel. Array dapat di isi dengan tipe data apa saja. Bahkan dicampur dengan data lain juga boleh. Untuk menampilkan isi array, kita bisa mengaksesnya melalui indeks. Biasanya kita menggunakan perulangan untuk menampilkan data yang banyak pada sebuah array. Contoh: Fungsi count() digunakan untuk menghitung banyaknya isi array. Pada contoh diatas isi array sebanyak 3, maka pengulangan akan dilakukan sebanyak 3x. Selain menggunakan perulangan for, kita juga bisa menggunakan perulangan while dan foreach. Untuk menghapus isi array, digunakan fungsi unset(). Fungsi ini juga dapat digunakan untuk menghapus variabel. Kita menggunakan fungsi print_r() untuk menampilkan array secara mentah (raw). Biasanya fungsi ini digunakan untuk debugging. Menambahkan isi Array: Ada dua cara yang bisa dilakukan untuk menambah isi array: Mengisi langsung ke nomer indeks yang ingin ditambahkan, 1. Mengisi langsung ke indeks terakhir, 2. Menambahkan isi Array",
+        "Array asosiatif adalah array yang indeksnya tidak menggunakan nomer atau angka. Indeks array asosiatif berbentuk kata kunci. Array multi dimensi adalah array yang memiliki dimensi lebih dari satu. Biasanya digunakan untuk membuat matrik, graph, dan stuktur data rumit lainnya.",
+        "Operasi File pada PHP, PHP memiliki beberapa fungsi untuk: Membuka file, Menulis data ke dalam file, Membaca data dari file, Menutup file. Membuka File: Sebelum melakukan operasi file, terlebih dahulu kita buka file yang akan dioperasi. Asumsikan kita sudah punya file welcome.txt, yang tentunya satu folder dengan file php kita. Gunakan perintah : fopen();. Menutup File: Layaknya sebuah rumah, file juga harus ditutup kembali. Gunakan perintah: fclose();. Sekarang kita akan membaca sebuah file. Misal file welcome.txt. Kita gunakan perintah : fgets(String filename, int length); Untuk int length, itu hanya opsi saja, menandakan berapa panjang karakter yang kita baca dalam file itu. Output dari program diatas adalah: Misalkan, pada file yang kita baca terdapat tag HTML seperti : <b>,<p>,<em> dan sebagainya. Kalau kita gunakan perintah pembaca file fgets, tag tersebut akan diterjemahkan oleh browser sebagai tag HTML. Sehingga jika kita punya file yang isinya <b>Percobaan</b> pasti akan muncul seperti ini: Percobaan. Berikut contohnya (usahakan file anda terdapat tag HTML-nya), sebagai contoh pada file welcome2.txt terdapat tag HTML.",
+        "Perbedaan Struktur Iterasi antara PhP vs Javascript. PhP (For Loop) Javascript (For Loop). For Loop digunakan Ketika: 1. Ketika Jumlah Iterasi Diketahui: for loop sangat berguna ketika kita tahu pasti berapa kali iterasi yang diperlukan. 2. Penggunaan Variabel Pengulangan: Ketika kita membutuhkan variabel pengulangan dengan cara tertentu (misalnya, untuk iterasi melalui elemen array dengan menggunakan indeks). 3. Struktur Iterasi Yang Lebih Ringkas: for loop dapat menyederhanakan kode dalam kasus iterasi dengan langkah dan kondisi yang jelas. PhP (While Loop) Javascript (While Loop). For While digunakan Ketika: 1. Ketika Jumlah Iterasi Tidak Diketahui Secara Pasti: while loop lebih sesuai ketika jumlah iterasi tidak diketahui di awal atau dapat berubah selama proses eksekusi. 2. Pengecekan Kondisi Dinamis: Saat kita perlu melakukan iterasi selama kondisi tertentu terpenuhi dan tidak memiliki informasi pasti tentang berapa kali iterasi yang akan dilakukan. 3. Iterasi Berdasarkan Kejadian Eksternal: Dalam beberapa kasus, kita dapat menggunakan while loop untuk menunggu atau melakukan iterasi berdasarkan kejadian eksternal (seperti input pengguna atau perubahan kondisi tertentu).",
+        "Membuat Koneksi dengan database MySQL, Menjalankan query MySQL dari PHP, Menampilkan Data, Menambahkan Data, Mengupdate Data, Menghapus Data, Login ke Database. Untuk login ke database digunakan perintah: Opsi -u digunakan untuk menentukan pengguna atau username yang akan digunakan untuk masuk. Dalam kasus ini, kita menggunakan username \"root\". \"Root\" adalah Opsi -p menunjukkan bahwa pengguna dengan hak istimewa kita ingin meminta sistem tertinggi dalam MySQL atau memasukkan password MariaDB, yang biasanya memiliki setelah menjalankan perintah akses penuh ke server database. Tabel Pemesanan Paket Wisata: id INT AUTO_INCREMENT PRIMARY KEY: Kolom ID sebagai integer dengan pertambahan otomatis dan diatur sebagai kunci utama. Nama_Pemesan VARCHAR(30) NOT NULL: Kolom Nama_Pemesan sebagai string dengan panjang maksimal 30 karakter dan tidak boleh kosong. No_HP VARCHAR(15) NOT NULL: Kolom No_HP sebagai string dengan panjang maksimal 15 karakter dan tidak boleh kosong. Waktu_Pelaksanaan INT(2) NOT NULL: Kolom Waktu_Pelaksanaan sebagai integer dengan panjang maksimal 2 digit dan tidak boleh kosong. Paket INT(2) NOT NULL: Kolom Paket sebagai integer dengan panjang maksimal 2 digit dan tidak boleh kosong. Jumlah_Peserta INT(3) NOT NULL: Kolom Jumlah_Peserta sebagai integer dengan panjang maksimal 3 digit dan tidak boleh kosong. Harga DECIMAL(10,2) NOT NULL: Kolom Harga sebagai nilai desimal dengan total panjang maksimal 10 digit, termasuk 2 digit di belakang koma, dan tidak boleh kosong. Tagihan DECIMAL(10,2) NOT NULL: Kolom Tagihan sebagai nilai desimal dengan total panjang maksimal 10 digit, termasuk 2 digit di belakang koma, dan tidak boleh kosong. Membuat Koneksi PHP MySQL. <?php \n// Konfigurasi koneksi ke database \n$host = \"localhost\"; \n$user = \"root\"; \n$password = \"\";  \n$database = \"dbWisata\"; n// Membuat koneksi menggunakan bahasa \n$conn = new mysqli($host, $user, $password, $database); \npemograman PHP. \n// Memeriksa koneksi \nif ($conn->connect_error) { baru dengan nama \ndie(\"Koneksi gagal: \" . $conn->connect_error);} \nkoneksi.php dan ketikklan \nscript berikut ini : \necho \"Koneksi berhasil ke database $database\"; \n// Menutup koneksi \n$conn->close(); \n?>",
+        "Membuat Form Inputan Data Dengan PHP: Langkah yang pertama kita akan membuat sebuah form dengan nama file form-input.php, form ini akan kita gunakan sebagai interface bagi pengguna untuk menginputkan data yang akan disimpan kedalam database. Form ini menggunakan elemen textbox, radio button dan dropdown. Jika sudah selesai menulis scriptnya, silahkan save dan akses form-input.php melalui web browser anda, maka akan tampil."
+      ],
+      "evaluasi": [
+      {
+        "bloom_level": "C2",
+        "soal": "Seorang siswa ingin mengembangkan sebuah program yang dapat menghitung total biaya pembelian barang dengan menggunakan pendekatan pemrograman terstruktur. Dalam proses tersebut, siswa perlu merancang struktur alur program secara sistematis agar mudah dipahami dan diimplementasikan. Berdasarkan prinsip pemrograman terstruktur, pernyataan mana di bawah ini yang paling tepat untuk membuat sebuah program yang efektif, terstruktur, dan dapat diuji secara konsisten?",
+        "pilihan": [
+          "a) Jelaskan secara singkat bagaimana program akan menghitung total biaya, lalu uraikan langkah-langkah perhitungan secara bertahap, dan akhiri dengan ringkasan hasil akhir.",
+          "b) Uraikan secara lengkap alur pemrograman dari awal hingga akhir, termasuk semua kondisi dan perubahan data, tanpa menyertakan penjelasan awal tentang tujuan program.",
+          "c) Ringkas hanya hasil akhir program tanpa menjelaskan proses perhitungan atau struktur alur, karena waktu implementasi terbatas.",
+          "d) Buat satu program yang menggabungkan semua proses tanpa membagi menjadi modul atau fungsi, agar lebih mudah dijalankan secara langsung."
+        ],
+        "jawaban": "a) Jelaskan secara singkat bagaimana program akan menghitung total biaya, lalu uraikan langkah-langkah perhitungan secara bertahap, dan akhiri dengan ringkasan hasil akhir."
+      },
+      {
+        "bloom_level": "C2",
+        "soal": "Seorang siswa ingin mengembangkan sebuah program yang dapat menghitung rata-rata nilai siswa berdasarkan input nilai-nilai yang diberikan. Untuk mengimplementasikan pemrograman terstruktur secara efektif, siswa tersebut harus melakukan langkah-langkah berikut:",
+        "pilihan": [
+          "a) Jelaskan secara rinci alur perhitungan rata-rata, uraikan setiap langkah input dan proses, lalu ringkasnya dalam satu kalimat untuk digunakan sebagai kerangka program.",
+          "b) Uraikan secara sistematis bagaimana program akan berjalan, jelaskan fungsi setiap variabel, dan kemudian ringkas keseluruhan proses menjadi satu alur logis yang dapat diimplementasikan.",
+          "c) Ringkas proses perhitungan rata-rata menjadi satu kalimat, lalu jelaskan secara mendalam setiap bagian dari program, akhirnya mengembangkan struktur program berdasarkan itu.",
+          "d) Jalankan program secara langsung tanpa perencanaan, kemudian evaluasi hasilnya, dan sesuaikan hanya jika diperlukan."
+        ],
+        "jawaban": "b) Uraikan secara sistematis bagaimana program akan berjalan, jelaskan fungsi setiap variabel, dan kemudian ringkas keseluruhan proses menjadi satu alur logis yang dapat diimplementasikan."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Seorang siswa ingin mengimplementasikan pemrograman terstruktur dalam proyeknya untuk membuat program yang dapat menghitung rata-rata nilai siswa. Untuk itu, ia harus menggunakan struktur program yang terdiri dari pernyataan urutan, percabangan, dan perulangan. Langkah yang paling tepat untuk mengimplementasikan pemrograman terstruktur dalam kasus ini adalah:",
+        "pilihan": [
+          "a) Menulis kode secara acak tanpa memperhatikan struktur, lalu menguji hasilnya secara manual.",
+          "b) Membuat alur proses secara visual, kemudian mengubahnya menjadi pernyataan dalam bahasa pemrograman dengan struktur yang jelas.",
+          "c) Menggunakan satu pernyataan perulangan untuk menghitung semua nilai tanpa memperhatikan kondisi tertentu.",
+          "d) Menyalin kode dari program lain tanpa memahami logika di baliknya."
+        ],
+        "jawaban": "b) Membuat alur proses secara visual, kemudian mengubahnya menjadi pernyataan dalam bahasa pemrograman dengan struktur yang jelas."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Seorang siswa ingin mengimplementasikan pemrograman terstruktur dalam pembuatan program yang menghitung total harga belanjaan dengan menggunakan struktur kontrol seperti percabangan dan perulangan. Untuk itu, siswa harus:",
+        "pilihan": [
+          "a) Menyusun alur pemikiran secara acak tanpa memperhatikan urutan logis",
+          "b) Menggunakan bahasa alami untuk menulis program tanpa sintaks tertentu",
+          "c) Terapkan struktur program yang jelas, seperti penggunaan blok instruksi, pernyataan kondisi, dan perulangan, dalam bentuk kode yang terstruktur",
+          "d) Menyalin program dari internet tanpa memahami logika di baliknya"
+        ],
+        "jawaban": "c) Terapkan struktur program yang jelas, seperti penggunaan blok instruksi, pernyataan kondisi, dan perulangan, dalam bentuk kode yang terstruktur"
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Seorang siswa ingin mengimplementasikan pemrograman terstruktur dalam membuat program untuk menghitung rata-rata nilai siswa. Untuk itu, siswa harus:",
+        "pilihan": [
+          "a) Menulis kode tanpa menggunakan struktur seperti pernyataan if-else atau perulangan.",
+          "b) Menggunakan variabel secara acak tanpa memperhatikan urutan logika program.",
+          "c) Terapkan struktur pemrograman yang jelas, seperti deklarasi variabel, pernyataan kondisional, dan perulangan, dalam urutan yang logis.",
+          "d) Menggunakan bahasa pemrograman yang tidak mendukung struktur kontrol seperti C atau Python."
+        ],
+        "jawaban": "c) Terapkan struktur pemrograman yang jelas, seperti deklarasi variabel, pernyataan kondisional, dan perulangan, dalam urutan yang logis."
+      },
+      {
+        "bloom_level": "C4",
+        "soal": "Dalam proses mengimplementasikan pemrograman terstruktur, seorang programmer harus menganalisis, membandingkan, dan mengevaluasi berbagai pendekatan untuk memastikan keberhasilan sistem yang dibangun. Manakah dari pernyataan berikut yang paling tepat menggambarkan langkah evaluasi yang harus dilakukan setelah analisis struktur alur program dan perbandingan antara metode top-down dan bottom-up?",
+        "pilihan": [
+          "a) Programmer harus mengabaikan hasil uji coba karena hasilnya tidak dapat dipercaya dalam lingkungan produksi.",
+          "b) Programmer harus membandingkan kompleksitas kode antara dua metode, tetapi tidak perlu mengevaluasi efisiensi waktu eksekusi.",
+          "c) Programmer harus menganalisis kebutuhan pengguna, membandingkan keunggulan metode top-down dan bottom-up, lalu mengevaluasi kinerja sistem berdasarkan kecepatan, keandalan, dan kemudahan pemeliharaan.",
+          "d) Programmer hanya perlu mengimplementasikan metode top-down karena metode ini lebih umum digunakan dalam pendidikan tinggi."
+        ],
+        "jawaban": "c) Programmer harus menganalisis kebutuhan pengguna, membandingkan keunggulan metode top-down dan bottom-up, lalu mengevaluasi kinerja sistem berdasarkan kecepatan, keandalan, dan kemudahan pemeliharaan."
+      },
+      {
+        "bloom_level": "C4",
+        "soal": "Dalam proses mengimplementasikan pemrograman terstruktur, seorang pengembang harus menganalisis, membandingkan, dan mengevaluasi berbagai pendekatan untuk memastikan keberhasilan sistem yang dibangun. Dari pilihan berikut, manakah yang paling tepat menggambarkan langkah analisis yang harus dilakukan sebelum memilih struktur algoritma dalam pemrograman?",
+        "pilihan": [
+          "a) Menggunakan struktur perulangan tanpa mempertimbangkan kondisi awal untuk mempercepat proses.",
+          "b) Membandingkan berbagai metode pengujian dengan fokus hanya pada hasil akhir tanpa melihat proses internal.",
+          "c) Menganalisis kebutuhan sistem, membandingkan kemungkinan struktur kontrol (seperti if-else, loop), dan mengevaluasi kompleksitas serta efisiensi dari setiap struktur untuk memilih yang paling sesuai.",
+          "d) Menjalankan kode secara langsung tanpa melakukan evaluasi terhadap struktur logika yang digunakan."
+        ],
+        "jawaban": "c) Menganalisis kebutuhan sistem, membandingkan kemungkinan struktur kontrol (seperti if-else, loop), dan mengevaluasi kompleksitas serta efisiensi dari setiap struktur untuk memilih yang paling sesuai."
+      },
+      {
+        "bloom_level": "C5",
+        "soal": "Seorang siswa ingin mengembangkan sebuah program yang dapat menghitung rata-rata dari tiga nilai siswa. Untuk mengimplementasikan pemrograman terstruktur secara efektif, langkah yang paling tepat untuk dilakukan adalah:",
+        "pilihan": [
+          "a) Menyusun algoritma secara acak tanpa memperhatikan urutan langkah-langkahnya",
+          "b) Mengubah program yang sudah ada hanya dengan menambahkan satu fungsi tanpa merancang struktur baru",
+          "c) Rancang alur pemrograman yang jelas, desain struktur pengendali (seperti if-else dan loop), lalu modifikasi kode sesuai kebutuhan pengguna",
+          "d) Menyalin program dari internet tanpa meninjau atau mengedit struktur logikanya"
+        ],
+        "jawaban": "c) Rancang alur pemrograman yang jelas, desain struktur pengendali (seperti if-else dan loop), lalu modifikasi kode sesuai kebutuhan pengguna"
+      },
+      {
+        "bloom_level": "C6",
+        "soal": "Seorang siswa ingin mengembangkan sebuah aplikasi sederhana yang dapat menghitung jumlah total nilai siswa berdasarkan input nilai dari pengguna. Untuk mengimplementasikan pemrograman terstruktur, langkah yang paling tepat yang harus dilakukan oleh siswa tersebut adalah:",
+        "pilihan": [
+          "a) Menyusun alur logika secara tidak teratur dan langsung menulis kode tanpa pembagian modul.",
+          "b) Membuat struktur alur program dengan penggunaan perintah kondisional dan perulangan, lalu mengembangkan program secara bertahap dengan pembagian fungsi.",
+          "c) Menggunakan bahasa pemrograman yang tidak didukung oleh struktur pemrograman, seperti bahasa yang tidak memiliki blok perintah.",
+          "d) Menyusun program hanya dengan perintah dasar tanpa mempertimbangkan struktur pengendalian seperti if-else atau while."
+        ],
+        "jawaban": "b) Membuat struktur alur program dengan penggunaan perintah kondisional dan perulangan, lalu mengembangkan program secara bertahap dengan pembagian fungsi."
+      }
+    ]
+    },
+    {
+      "kode_unit": "J.620100.015.01",
+      "judul_unit": "Menyusun fungsi, file atau sumber daya pemrograman yang Lain dalam organisasi yang rapi",
+      "konsep": [
+        "fungsionalitas dari suatu variable, konstanta, fungsi atau prosedur. Dalam kode program, pemberian nama yang baik membantu menjadikan kode lebih mudah dibaca, dimengerti, dan dikelola. Pemberian Nama yang Baik Deskriptif: utama fungsi atau prosedur. Singkat dan Jelas: Pilih nama yang singkat namun jelas menggambarkan aksi atau hasil yang diharapkan. Pakai Kata Kerja: Gunakan kata kerja yang memberikan indikasi bahwa fungsi melakukan suatu tindakan. Hindari Singkatan yang Membingungkan: Jika perlu, gunakan singkatan yang umum dan dapat dimengerti oleh programmer lain. Ikuti Konvensi Penamaan: Gunakan konvensi penamaan yang konsisten, seperti camelCase atau snake_case, sesuai dengan standar komunitas PHP. Konsisten dalam Gaya Penamaan: Gunakan gaya penamaan yang konsisten di seluruh program. Tips Jangan Takut Menulis Nama yang Panjang: Lebih baik memiliki nama yang panjang dan jelas daripada nama yang ambigu. Gunakan Bahasa atau istilah yang Baku: Jika memungkinkan, utamakan menggunakan bahasa Inggris, agar bisa dipahami oleh banyak pihak Hindari penggunaan bahasa lokal atau singkatan yang tidak universal. Hindari Nama Variabel yang Terlalu Umum: Nama variabel yang terlalu umum seperti $data atau $temp dapat membingungkan. Pilih Nama yang Menyiratkan Tipe Data atau Isi Variabel: Misalnya, $angka, $string, atau $arrayData. Perbarui Nama Saat Kode Berkembang: saat ini. atau fungsi variabel berubah, pastikan untuk memperbarui nama variabel. Contoh Variabel untuk Menyimpan Usia: $usiaPengguna = 25. Variabel untuk Nama Pengguna: $namaPengguna = \"JohnDoe\" Variabel untuk Menghitung Total Belanja: $totalBelanja = 75. Contoh Konstanta untuk Nilai PI: define(\"PI\" 14), Konstanta untuk Panjang Maksimum Nama Produk: define(\"MAX_NAMA_PRODUK\", 50), Konstanta untuk Warna Utama: define(\"WARNA_UTAMA\", \"#3498db\"), Contoh Konstanta untuk Status Aktif: define(\"STATUS_AKTIF\", 1), Konstanta untuk Versi Aplikasi: define(\"VERSI_APLIKASI\", \" 3\"). Contoh Fungsi untuk Menambah Dua Angka: function tambahAngka($angka1, $angka2) { // ... } Fungsi untuk Memeriksa Kevalidan Email: function validasiEmail($email) { // ... } Contoh Fungsi untuk Menghitung Diskon: function hitungDiskon($totalHarga, $persentaseDiskon) { // ... } Prosedur untuk Menampilkan Pesan Selamat Datang: function sambutPengguna($nama) { // ... } Contoh Fungsi untuk Menggabungkan Dua String: function gabungString($str1, $str2) { // ... } Fungsi untuk Menghitung Luas Persegi Panjang: function hitungLuasPersegiPanjang($panjang, $lebar) { // ... } Memberi Komentar Mengelola Sumber Daya Pemrograman Pendahuluan Komentar adalah bagian kritis dalam penulisan kode. Komentar akan memberikan informasi tambahan yang membantu programmer atau orang lain yang membaca kode dan cara kerja suatu bagian dari program. Dalam fungsi atau prosedur, komentar membantu menjelaskan dari setiap blok kode. Penulisan Komentar Komentar Satu Baris: Gunakan tanda “//” untuk komentar satu baris // Ini adalah komentar satu baris Komentar Multibaris: Gunakan tanda “/* */” untuk komentar yang melibatkan beberapa baris /* Ini adalah komentar lebih dari satu baris */ Penggunaan Komentar umum dari suatu bagian, fungsi, atau prosedur /** * Fungsi untuk menghitung jumlah total barang * dalam keranjang belanja. */ function hitungTotalBarang() { // ... logika perhitungan } Penggunaan Komentar Penjelasan Parameter Memberikan penjelasan setiap parameter dan tipe data pada fungsi, atau prosedur /** * Fungsi untuk menggabungkan dua string. * * @param string $str1 String pertama. * @param string $str2 String kedua. * @return string Hasil penggabungan kedua string. */ function gabungString($str1, $str2) { // ... logika penggabungan } Penggunaan Komentar Keterangan Logika Internal Memberikan penjelasan langkah-langkah atau keputusan logika yang diambil dalam fungsi atau prosedur /** * Fungsi untuk memeriksa apakah angka genap. * * @param int $angka Angka yang diperiksa. * @return bool True jika genap, false jika ganjil. */ function cekGenap($angka) { // ... logika pemeriksaan } Contoh Komentar pada Fungsi /** * Fungsi untuk menghitung luas segitiga. * * @param float $alas Panjang alas segitiga. * @param float $tinggi Tinggi segitiga. * @return float Luas segitiga. */ function hitungLuasSegitiga($alas, $tinggi) { // Rumus luas segitiga $luas = 5 * $alas * $tinggi return $luas } Contoh Komentar pada Prosedur /** * Prosedur untuk mencetak pesan selamat datang. * * @param string $nama Nama pengguna. */ function sambutPengguna($nama) { // Cetak pesan selamat datang echo \"Selamat datang, $nama!\" } Mengorganisasikan Folder dan Sub-Folder Mengorganisasikan Sumber Daya Pemrograman Mengapa perlu Mengorganisasikan Project? PHP memberi Anda banyak kebebasan, hampir tidak ada aturan. Jika tidak melakukan organisasi atau pengaturan pada project, baik struktur folder, sub-folder, atau aturan penamaan, pada batasan tertentu kita pasti akan mendapatkan project dengan kode program yang “berantakan” dan sulit “dibaca” (dikenal dengan istilah: spaghetti code). Hal ini sering terjadi pada proyek PHP “cepat” yang kemudian berkembang secara organik. Membuat File Read Me Mengorganisasikan Sumber Daya Pemrograman , fungsionalitas, dan cara penggunaan proyek PHP. Lebih detil, dapat dilihat pada tabel di slide berikut: Mengapa perlu Membuat File Read Me? Manfaat README dalam Proyek PHP Bagi Programmer Bagi Pengguna Memberikan informasi tentang struktur dan Memudahkan pengguna memahami Dokumentasi yang Jelas fungsi proyek tanpa melihat kode. cara menggunakan proyek. Membantu pengembang dan kontributor Memberikan langkah-langkah jelas Panduan Instalasi yang Lengkap mengonfigurasi dan menjalankan proyek. dalam menginstal proyek. Mendorong pengguna untuk Menyediakan informasi cara berkontribusi Kontribusi dan Kolaborasi berpartisipasi dalam pengembangan dan aturan pengembangan. proyek. Pemahaman Struktur dan Memberikan pandangan umum tentang Memudahkan pengguna menavigasi Organisasi struktur direktori dan komponen utama. dan memahami organisasi proyek. Memberikan kejelasan hukum tentang cara Memberikan pemahaman tentang Lisensi dan Hak Cipta proyek dapat digunakan. batasan dan hak pengguna. Memudahkan kontributor atau pengguna Menyediakan rute komunikasi untuk Informasi Kontak dan Dukungan untuk menghubungi pengembang. pertanyaan atau pelaporan masalah. Menyajikan riwayat perubahan, pembaruan, Memungkinkan pengguna memahami Histori Perubahan dan Versi dan pemecahan masalah. perubahan dari versi ke versi. Panduan Penggunaan dan Memberikan contoh penggunaan dan Mempermudah pengguna memahami Contoh pengimplementasian kode. cara menggunakan fitur tertentu. Penjelasan Ketergantungan dan Menyajikan daftar ketergantungan dan Memudahkan pengguna menyiapkan Konfigurasi konfigurasi yang diperlukan. lingkungan yang dibutuhkan. Panduan Penulisan yang Baik Jelas dan Singkat Informasi disampaikan dengan jelas dan tidak berlebihan. Terstruktur Dibagi menjadi bagian-bagian yang terstruktur untuk kemudahan navigasi. Relevan Memuat informasi yang relevan dan diperlukan. Dilengkapi dengan Contoh Memberikan contoh penggunaan atau tangkapan layar jika diperlukan. Summary File, fungsi, prosedur, variabel, konstanta, dan sumberdaya yang kita buat, harus diberi nama. Memberikan nama yang baik akan membantu membuat kode lebih mudah dimengerti dan dipelihara. Praktik ini membantu dalam meningkatkan kolaborasi dan kejelasan kode dalam pengembangan perangkat lunak. Memberikan komentar yang baik dan informatif dalam kode program sangat penting untuk mempermudah pemahaman dan pemeliharaan kode. , sehingga membuat kode lebih mudah dipahami oleh diri sendiri dan orang lain yang membaca kode tersebut.",
+        "File, fungsi, prosedur, variabel, konstanta, dan sumberdaya yang kita buat, harus diberi nama. Memberikan nama yang baik akan membantu membuat kode lebih mudah dimengerti dan dipelihara. Praktik ini membantu dalam meningkatkan kolaborasi dan kejelasan kode dalam pengembangan perangkat lunak.",
+        "Menyusun fungsi, File atau Sumber Daya. Pemrograman yang Lain dalam Organisasi yang Rapi, ini berhubungan dengan pengorganisasian sumber daya hasil pemrograman seperti source code, memiliki sikap, pengetahuan dan keterampilan yang dibutuhkan dalam mengorganisasikan",
+        "Dokumentasi, dan lainnya dalam organisasi yang rapi sehingga memudahkan diri sendiri maupun orang lain dalam mengakses dan menggunakan sumber daya tersebut. panduan penggunaan source code, panduan modifikasi source code, atau file basis"
+      ],
+      "evaluasi": [
+      {
+        "bloom_level": "C2",
+        "soal": "Sebagai seorang pengembang perangkat lunak di sebuah organisasi, Anda diperintahkan untuk menyusun fungsi, file, dan sumber daya pemrograman lainnya agar terstruktur dan mudah diakses oleh tim lain. Dalam konteks ini, langkah yang paling tepat untuk mencapai tujuan tersebut adalah:",
+        "pilihan": [
+          "a) Jelaskan secara singkat peran setiap komponen sistem secara umum, lalu uraikan bagaimana mereka saling berhubungan dalam alur kerja.",
+          "b) Ringkas semua file program yang ada dan berikan deskripsi singkat tentang fungsi masing-masing, tanpa menyertakan struktur hierarki.",
+          "c) Buat sebuah dokumen yang menyusun secara sistematis fungsi, file, dan sumber daya pemrograman berdasarkan kebutuhan operasional, dengan struktur yang jelas and mudah dipahami oleh semua anggota tim.",
+          "d) Sediakan satu file Excel yang mengandung semua nama file dan alamat lokasi, tanpa penjelasan atau kategori yang terstruktur."
+        ],
+        "jawaban": "c) Buat sebuah dokumen yang menyusun secara sistematis fungsi, file, dan sumber daya pemrograman berdasarkan kebutuhan operasional, dengan struktur yang jelas and mudah dipahami oleh semua anggota tim."
+      },
+      {
+        "bloom_level": "C2",
+        "soal": "Sebagai manajer teknis di sebuah perusahaan, Anda ditugaskan untuk menyusun fungsi, file, dan sumber daya pemrograman yang lain dalam organisasi secara rapi agar dapat diakses dan digunakan oleh tim pengembang secara efisien. Dalam konteks ini, apa yang paling tepat dilakukan untuk menciptakan struktur yang komprehensif, terorganisir, dan dapat dipertahankan dalam jangka panjang?",
+        "pilihan": [
+          "a) Jelaskan secara singkat peran setiap departemen teknis, lalu uraikan alur kerja yang digunakan oleh tim pemrograman.",
+          "b) Ringkas informasi tentang sumber daya yang tersedia dan jelaskan bagaimana file-file tersebut dikelola secara harian.",
+          "c) Uraikan secara sistematis bagaimana fungsi-fungsi pemrograman dibagi berdasarkan tujuan, kemudian susun file dan sumber daya secara terstruktur dengan kategori yang jelas dan terhubung dengan proses kerja.",
+          "d) Buat satu dokumen yang hanya mencantumkan nama file dan lokasi penyimpanan tanpa penjelasan atau kategori."
+        ],
+        "jawaban": "c) Uraikan secara sistematis bagaimana fungsi-fungsi pemrograman dibagi berdasarkan tujuan, kemudian susun file dan sumber daya secara terstruktur dengan kategori yang jelas dan terhubung dengan proses kerja."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Sebagai bagian dari proses pengembangan sistem informasi di suatu perusahaan, seorang ahli teknis diminta untuk mengintegrasikan fungsi pemrograman baru yang telah dikembangkan oleh tim lain. Untuk memastikan keberlanjutan dan kinerja sistem, langkah yang paling tepat yang harus diambil adalah...",
+        "pilihan": [
+          "a) Menyusun dokumen peraturan yang mengatur penggunaan semua file program secara umum, tanpa memperhatikan struktur kerja tim.",
+          "b) Menggunakan fungsi pemrograman tersebut secara eksklusif hanya untuk satu modul tanpa menyusun koneksi antar sistem.",
+          "c) Terapkan dan implementasikan fungsi pemrograman baru tersebut secara bertahap, dengan memastikan keterhubungan data dan konsistensi dengan sistem lain di organisasi.",
+          "d) Mengabaikan file sumber daya yang sudah ada dan langsung menggantinya dengan fungsi baru yang belum diuji secara komprehensif."
+        ],
+        "jawaban": "c) Terapkan dan implementasikan fungsi pemrograman baru tersebut secara bertahap, dengan memastikan keterhubungan data dan konsistensi dengan sistem lain di organisasi."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Seorang pengembang perangkat lunak di sebuah perusahaan sedang mempersiapkan sistem integrasi antara aplikasi internal dengan sistem keuangan perusahaan. Untuk memastikan kerja sama antar departemen berjalan lancar, ia perlu menyusun fungsi, file, dan sumber daya pemrograman lain yang telah ada dalam organisasi. Dalam konteks ini, tindakan yang paling tepat untuk dilakukan oleh pengembang tersebut adalah:",
+        "pilihan": [
+          "a) Menganalisis secara teoritis bagaimana sistem keuangan berfungsi dan mengidentifikasi kebutuhan teknis secara umum.",
+          "b) Menggunakan dokumentasi lama dari sistem sebelumnya untuk memahami struktur dan alur kerja yang sudah ada.",
+          "c) Terapkan struktur data baru yang dihasilkan dari penelitian independen tanpa mempertimbangkan sumber daya yang sudah ada.",
+          "d) Gunakan dan implementasikan fungsi, file, serta sumber daya pemrograman yang sudah ada dalam organisasi secara sistematis untuk memastikan konsistensi dan keandalan sistem."
+        ],
+        "jawaban": "d) Gunakan dan implementasikan fungsi, file, serta sumber daya pemrograman yang sudah ada dalam organisasi secara sistematis untuk memastikan konsistensi dan keandalan sistem."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Sebagai bagian dari proses pengembangan sistem informasi di sebuah perusahaan, seorang analis sistem diminta untuk menyusun fungsi, file, atau sumber daya pemrograman yang lain dalam organisasi secara rapi. Dalam konteks ini, tindakan yang paling tepat untuk dilakukan oleh analis tersebut adalah:",
+        "pilihan": [
+          "a) Membuat peraturan teknis yang ketat tentang penggunaan bahasa pemrograman tanpa mempertimbangkan kebutuhan pengguna.",
+          "b) Menggunakan sistem manajemen sumber daya yang sudah ada untuk mengelola file program, namun tidak melakukan peninjauan ulang terhadap struktur fungsi.",
+          "c) Terapkan struktur organisasi pemrograman yang jelas dengan mengintegrasikan fungsi-fungsi berbeda, memastikan keterhubungan antar file, dan mengimplementasikan standar dokumentasi yang konsisten.",
+          "d) Gunakan alat bantu otomatis untuk mengelola file program, tanpa memperhatikan kebutuhan fungsional dari berbagai departemen."
+        ],
+        "jawaban": "c) Terapkan struktur organisasi pemrograman yang jelas dengan mengintegrasikan fungsi-fungsi berbeda, memastikan keterhubungan antar file, dan mengimplementasikan standar dokumentasi yang konsisten."
+      },
+      {
+        "bloom_level": "C4",
+        "soal": "Seorang manajer teknis di sebuah perusahaan perangkat lunak sedang mempersiapkan rencana untuk menyusun struktur fungsi dan sumber daya pemrograman yang lain di dalam organisasi. Dalam proses ini, ia harus menganalisis kebutuhan fungsional dari berbagai departemen, membandingkan efisiensi penggunaan sumber daya antara tim yang berbeda, dan mengevaluasi risiko terjadinya ketidaksesuaian antara fungsi pemrograman dan tujuan organisasi secara keseluruhan. Berdasarkan analisis tersebut, manakah dari pernyataan berikut yang paling tepat sebagai langkah strategis selanjutnya dalam menyusun struktur tersebut?",
+        "pilihan": [
+          "a) Mengabaikan evaluasi risiko karena dianggap tidak relevan dalam tahap awal pengembangan.",
+          "b) Menyusun struktur secara acak tanpa membandingkan performa tim yang berbeda.",
+          "c) Membuat rencana penyusunan fungsi berdasarkan analisis kebutuhan, perbandingan efisiensi, dan evaluasi risiko terhadap ketidaksesuaian tujuan organisasi.",
+          "d) Menugaskan semua tugas ke satu tim utama tanpa mempertimbangkan kebutuhan fungsi lain."
+        ],
+        "jawaban": "c) Membuat rencana penyusunan fungsi berdasarkan analisis kebutuhan, perbandingan efisiensi, dan evaluasi risiko terhadap ketidaksesuaian tujuan organisasi."
+      },
+      {
+        "bloom_level": "C4",
+        "soal": "Dalam sebuah organisasi teknologi, seorang manajer sistem ingin menyusun fungsi, file, dan sumber daya pemrograman yang lain secara rapi agar dapat digunakan secara efisien oleh tim pengembang. Untuk mencapai tujuan tersebut, manajer tersebut harus melakukan analisis, perbandingan, dan evaluasi terhadap berbagai elemen sistem. Dari pilihan berikut, pernyataan mana yang paling tepat menggambarkan proses evaluasi yang harus dilakukan untuk menentukan keberlanjutan dan kinerja sistem pemrograman?",
+        "pilihan": [
+          "a) Mengurutkan file berdasarkan nama abjad dan menyimpannya di folder yang sama tanpa mempertimbangkan kebutuhan pengguna.",
+          "b) Membandingkan kinerja dua versi kode yang berbeda dengan memperhatikan waktu eksekusi dan keamanan, lalu memilih versi yang paling efisien.",
+          "c) Menyalin semua file program ke dalam satu lokasi tanpa memverifikasi keberlakuan atau kebutuhan pengguna.",
+          "d) Mengabaikan sumber daya yang tidak digunakan dan hanya mengatur file yang sudah ada tanpa evaluasi kinerja sistem."
+        ],
+        "jawaban": "b) Membandingkan kinerja dua versi kode yang berbeda dengan memperhatikan waktu eksekusi dan keamanan, lalu memilih versi yang paling efisien."
+      },
+      {
+        "bloom_level": "C5",
+        "soal": "Sebagai ahli sistem informasi, Anda diminta untuk merancang sebuah struktur sistem pemrograman yang efisien dalam organisasi. Untuk itu, Anda harus menyusun fungsi, file, dan sumber daya pemrograman lainnya secara teratur dan dapat dipantau. Apa yang paling tepat dilakukan untuk mencapai tujuan tersebut secara sistematis?",
+        "pilihan": [
+          "a) Menggunakan file lama yang sudah ada tanpa perubahan, karena dianggap sudah teruji dan aman",
+          "b) Menyalin semua file dari sistem sebelumnya dan menyimpannya di folder yang tidak teratur",
+          "c) Merancang arsitektur sistem baru dengan mengintegrasikan fungsi yang sesuai, merancang struktur file yang jelas, dan mengatur akses sumber daya secara teratur",
+          "d) Mengubah fungsi-fungsi yang sudah ada secara acak tanpa perencanaan, hanya untuk memenuhi kebutuhan sementara"
+        ],
+        "jawaban": "c) Merancang arsitektur sistem baru dengan mengintegrasikan fungsi yang sesuai, merancang struktur file yang jelas, dan mengatur akses sumber daya secara teratur"
+      },
+      {
+        "bloom_level": "C6",
+        "soal": "Sebagai manajer teknologi di sebuah perusahaan, Anda ditugaskan untuk membangun sistem pengelolaan kode sumber yang efisien dan terstruktur. Untuk mencapai tujuan tersebut, langkah yang paling tepat adalah:",
+        "pilihan": [
+          "a) Membuat daftar fitur yang akan dikembangkan, lalu mengirimkan ke semua staf tanpa evaluasi.",
+          "b) Mengembangkan sebuah alur kerja standar untuk penggunaan file kode, serta membangun sistem klasifikasi berdasarkan departemen.",
+          "c) Membuat satu file kode utama yang diisi semua fungsi tanpa pembagian modul.",
+          "d) Menyusun rencana pelatihan untuk semua programmer, tanpa menyusun struktur file atau fungsi yang jelas."
+        ],
+        "jawaban": "b) Mengembangkan sebuah alur kerja standar untuk penggunaan file kode, serta membangun sistem klasifikasi berdasarkan departemen."
+      }
+    ]
+    },
+    {
+      "kode_unit": "J.620100.016.01",
+      "judul_unit": "Menulis kode dengan prinsip sesuai guidelines dan best practices",
+      "konsep": [
+        "1. Coding- guidelines dan best practices dalam penulisan program. Coding Guidelines: Ini adalah aturan dan standar yang diikuti para pengembang saat menulis kode. Tujuannya adalah untuk menciptakan konsistensi dalam kode yang ditulis oleh berbagai pengembang. Guidelines ini bisa mencakup: Penamaan variabel dan fungsi yang konsisten dan deskriptif, Penggunaan komentar untuk menjelaskan bagian kode yang kompleks, Format penulisan kode, seperti indentasi dan penempatan kurung, Penggunaan struktur kontrol seperti loop dan kondisional. Mematuhi standar pemrograman untuk bahasa yang digunakan, seperti PEP 8 untuk Python. Best Practices: Best practices adalah teknik atau metode yang dianggap ideal berdasarkan pengalaman dan riset dalam pengembangan perangkat lunak. Best practices membantu meningkatkan kualitas kode dan efisiensi proses pengembangan. Contoh best practices meliputi: Menulis kode yang modular dan reusable, Melakukan testing secara teratur dan menyeluruh, Menggunakan version control systems seperti Git, Menulis dokumentasi yang jelas untuk kode, Menerapkan prinsip-prinsip desain perangkat lunak seperti SOLID atau DRY (Don't Repeat Yourself), Menggunakan alat dan kerangka kerja yang tepat untuk meningkatkan produktivitas, Mengikuti prinsip keamanan dalam pengkodean untuk menghindari kerentanan.",
+        "A Coding-Standard HTML Struktur Dasar Dokumen HTML, Gunakan Lower Case untuk Nama Elemen dan atribut harus ditulis menggunakan huruf lower case  Tag Penutup Baik elemen yang kosong maupun yang tidak kosong, harus memiliki tag penutup yang sesuai. Elemen yang tidak kosong Elemen yang kosong  Tag Penutup (2) Khusus untuk elemen dengan single tag harus menggunakan > di akhir statement.  Elemen Bersarang Elemen bersarang (nested element) harus ditulis dengan benar, sesuai dengan susunan tag-nya. Penulisan yang benar Penulisan yang salah  Nilai dari Atribut Menuliskan nilai (value) dari sebuah atribut harus menggunakan tanda petik dua [“ ”], walaupun nilai tersebut berupa nilai numerik.  Indentasi Gunakan 2 spasi untuk indentasi kode. Gunakan indentasi secara konsisten untuk memudahkan dalam membaca kode. Ketika ada sebuah elemen yang didalamnya terdapat lebih dari satu baris kode, berikan indentasi pada konten elemen, antara tag awal dan tag akhir, untuk memudahkan dalam melihat di mana elemen dimulai dan berakhir.  Encoding dan Charset Gunakan encoding standard untuk dokumen HTML anda, yaitu UTF-8 Normalization Form C (NFC) Beberapa contoh untuk encoding character yang biasa digunakan  HTML Anchors Saat Anda ingin memberi tautan ke bagian di dalam dokumen HTML, gunakan atribut ID Jika tidak mungkin menggunakan ID (misalnya karena platform ASP.NET), gunakan atribut named anchors  Komentar Tuliskan komentar pada bagian akhir setelah tag penutup dari bagian HTML, hindari penulisan komentar pada awal bagian HTML. DTS 2023  Aksesibelitas Gunakan h1 - h6 untuk mengidentifikasi heading Gunakan elemen list (ul, ol, li) untuk mengelompokkan tautan Berikan definisi singkatan dengan menggunakan elemen abbr dan akronim Gunakan atribut bahasa pada elemen html untuk mengidentifikasi bahasa default suatu dokumen HTML DTS 2023  Table Gunakan elemen table <table></table> untuk menyajikan informasi dalam bentuk tabel Gunakan atribut scope untuk mengaitkan sel header dan sel data dalam tabel data Gunakan atribut summary dari elemen tabel untuk memberikan gambaran umum tentang data table  Form Dalam sebuah form selalu sediakan tombol submit. Gunakan atribut alt pada gambar yang digunakan sebagai tombol kirim. Gunakan elemen label untuk mengaitkan label teks dengan kontrol formulir. Gunakan atribut judul untuk mengidentifikasi kontrol, formulir ketika elemen label tidak dapat digunakan.",
+        "B Coding Standard dalam PHP. PHP Coding Standard adalah kumpulan aturan dan pedoman untuk menulis kode PHP yang bersih, konsisten, dan mudah dibaca serta dipelihara oleh pengembang lain. Hal ini mencakup konvensi penamaan, gaya penulisan kode, penggunaan tanda kurung, indentasi, dan praktik terbaik lainnya yang memudahkan kerja sama dalam tim dan meningkatkan kualitas kode secara keseluruhan. PSR (PHP Standards Recommendation) adalah serangkaian rekomendasi standar yang dikembangkan oleh komunitas PHP Framework Interoperability Group (FIG). Standar-standar untuk mempromosikan keseragaman dan interoperabilitas antara framework, pustaka, dan komponen yang ditulis dalam bahasa pemrograman PHP.  Stuktur Program PHP yang Paling Dasar",
+        "Menulis Kode HTML dan PHP: <!DOCTYPE html> \n<html> \n<head> \n<title><?php echo \"Belajar PHP\" ?></title> \n</head> \n<body> \n<?php \necho \"saya sedang belajar PHP<br>\" \necho \"<p>Belajar PHP hingga jadi master</p>\" \n?> \n</body> \n</html>",
+        "Penjelasan Kode PHP yang Anda berikan adalah sebuah dokumen HTML sederhana dengan skrip PHP yang di-embed untuk mengubah judul dan konten di dalam badan (body) dokumen. Berikut adalah penjelasan detilnya: <!DOCTYPE html>: Deklarasi ini mendefinisikan dokumen tersebut sebagai HTML <html>: Elemen root dari sebuah halaman HTML. <head>: Elemen head berisi informasi meta tentang dokumen. <title><?php echo \"Belajar PHP\" ?></title>: Ini adalah judul dari dokumen HTML, yang diatur menggunakan PHP. Kode PHP di dalam tag <title> akan menghasilkan output \"Belajar PHP\" sebagai judul yang muncul di tab atau bar judul browser web. <body>: Elemen body berisi konten-konten dari dokumen HTML. <?php echo \"saya sedang belajar PHP<br>\" ?>: Skrip PHP pertama di dalam body mengeluarkan string \"saya sedang belajar PHP\" diikuti dengan tag <br> yang berarti baris baru. <?php echo \"<p>Belajar PHP hingga jadi master</p>\" ?>: Skrip PHP kedua mengeluarkan string \"Belajar PHP hingga jadi master\" yang dibungkus dengan tag paragraf (<p>).  Variabel dan adalah dua variabel yang berbeda. Mereka tidak sama. $nama $NAMA Penulisan huruf besar dan kecil dalam program harus diperhatikan, karena bisa menyebabkan error bila salah. Penulisan Statement dalam PHP: <?php \necho \"ini statement 1\" \necho \"ini statement 2\" \n$a = $b + $c. Cara penulisan Case PHP adalah bahasa pemrograman yang bersifat case sensitive. Artinya, huruf besar (kapital) dan huruf kecil akan dibedakan. <?php \n$nama = \"Ali\" \n$NAMA = \" Wardana\" ?> Variabel $nama dan $NAMA adalah dua variabel yang berbeda. Mereka tidak sama. Penulisan huruf besar dan kecil dalam program harus diperhatikan, karena bisa menyebabkan error bila salah. Variabel dan adalah dua variabel yang berbeda. Mereka tidak sama. $nama $NAMA Penulisan huruf besar dan kecil dalam program harus diperhatikan, karena bisa menyebabkan error bila salah. Penulisan Komentar di PHP Komentar di PHP dapat ditulis dengan dua cara: Menggunakan tanda // untuk komentar satu baris. Menggunakan tanda /* untuk komentar lebih dari satu baris. Contoh:  Variabel dan adalah dua variabel yang berbeda. Mereka tidak sama. $nama $NAMA Penulisan huruf besar dan kecil dalam program harus diperhatikan, karena bisa menyebabkan error bila salah. Penulisan Blok Program Blok program merupakan kumpulan dari statement dan ekspresi. Blok program di PHP dibungkus dengan kurung kurawal { ... }. Contoh: Program di atas adalah contoh blok kode if yang berisi tiga statement. ",
+        "Cara install / menggunakan JQuery. Definisi dan Install Jquery utama jQuery adalah menyederhanakan penulisan kode JavaScript yang umumnya dibutuhkan dalam pengembangan website, seperti manipulasi DOM, event handling, animasi, AJAX, dan masih banyak lagi. Unduh jQuery: Kunjungi situs resmi jQuery di https://jquery.com/ dan unduh versi terbaru jQuery. Anda dapat memilih untuk mengunduh versi produksi (production) atau versi pengembangan (development). Versi produksi direkomendasikan untuk digunakan di lingkungan produksi karena ukurannya lebih kecil dan sudah dioptimalkan. Sementara itu, versi pengembangan lebih cocok digunakan saat pengembangan atau debugging karena menyertakan komentar dan informasi tambahan. Tambahkan jQuery ke Proyek Anda: Tambahkan jQuery ke Proyek Anda: Jika Anda menggunakan CDN (Content Delivery Network) jQuery, Anda cukup menambahkan tag <script> ke halaman HTML Anda, seperti berikut: <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/0/jquery.min.js\"></script> Jika Anda telah mengunduh file jQuery ke dalam proyek Anda, Anda bisa menyimpannya dalam direktori proyek dan menambahkannya ke dalam halaman HTML Anda, misalnya: <script src=\"path/to/jquery.min.js\"></script>. Gunakan jQuery: Setelah Anda menambahkan jQuery ke halaman HTML Anda, Anda dapat mulai menggunakan fitur-fiturnya dengan menulis kode JavaScript yang memanfaatkannya. Misalnya: Kode di samping menggunakan jQuery untuk menangani event klik pada sebuah tombol dan menampilkan pesan peringatan saat tombol tersebut diklik. Dengan mengikuti langkah-langkah di atas, Anda dapat menginstal dan menggunakan jQuery dalam proyek web Anda. Definisi variable Deklarasi variabel dalam jQuery tidak berbeda dengan deklarasi variabel dalam JavaScript biasa. Anda dapat menggunakan tiga kata kunci var, let, atau const untuk mendeklarasikan variabel. Definisi variable Berikut adalah perbedaan utama antara var, let, dan const dalam JavaScript secara umum, yang juga berlaku dalam konteks penggunaan jQuery: var: Variabel yang dideklarasikan dengan var memiliki lingkup (scope) yang berbeda tergantung pada di mana mereka dideklarasikan. Variabel var bersifat hoisted, yang berarti deklarasinya akan didorong ke atas ruang lingkup (scope) dan dapat diakses sebelum variabel tersebut sebenarnya dideklarasikan. Variabel var dapat dideklarasikan ulang dan diinisialisasi ulang. let: Variabel yang dideklarasikan dengan let memiliki lingkup blok (block scope), yang berarti variabel tersebut hanya dapat diakses di dalam blok di mana ia dideklarasikan. Variabel let juga bersifat hoisted, tetapi hanya akan diberikan nilai undefined sampai titik di mana ia dideklarasikan dalam kode. Variabel let dapat diinisialisasi ulang, tetapi tidak dapat dideklarasikan ulang dalam lingkup yang sama. const: Variabel yang dideklarasikan dengan const juga memiliki lingkup blok (block scope) seperti let. Namun, variabel const harus diinisialisasi dengan nilai saat dideklarasikan dan nilainya tidak dapat diubah setelahnya. Ini berlaku baik untuk primitif maupun objek. Variabel const tidak dapat dideklarasikan ulang atau diinisialisasi ulang. Dalam praktiknya, baik Anda menggunakan var, let, atau const dalam pengembangan dengan jQuery tergantung pada kebutuhan spesifik proyek",
+        "Untuk menuliskan kode program perlu memperhatikan coding-guidelines dan best practices yang dapat dijadikan acuan, 1. Coding guidelines meliputi penamaan, penggunaan komentar, indentasi yang berlaku di organisasi, 2. Terdapat jenis-jenis error dalam membuat kode pemrograman yang harus mampu diperbaiki oleh junior web developer, 3. Dalam menulis program perlu memperhatikan efisiensi penggunaan resources seperti utilisasi memory dan CPU Ketika, 4. program dijalankan",
+        "sebagai praktik yang baik, disarankan untuk menggunakan const untuk variabel yang nilainya tidak akan berubah, let untuk variabel yang nilainya mungkin berubah, dan var hanya digunakan dalam kasus tertentu atau jika Anda bekerja di lingkungan di mana let dan const tidak didukung.",
+        "Operator. Operator Logika: AND (&&): a && b. Dalam jQuery, Anda dapat menggunakan operator seperti yang biasa, OR (||): a || b digunakan dalam JavaScript. Operator-operator ini digunakan untuk NOT (!): !a. Operasi matematika, perbandingan, logika, dan lain-lain. Berikut adalah beberapa contoh operator yang sering digunakan dalam jQuery: Operator Penugasan: Pengisian (=): a = b \nPenambahan (+=): a += b (sama dengan a = a + b). Operator Perbandingan: Sama dengan (==): a == b \nPengurangan (-=): a -= b (sama dengan a = a - b) \nTidak sama dengan (!=): a != b \nPerkalian (*=): a *= b (sama dengan a = a * b) \nLebih besar dari (>): a > b \nPembagian (/=): a /= b (sama dengan a = a / b) \nLebih kecil dari (<): a < b \nModulus (%=): a %= b (sama dengan a = a % b) \nLebih besar dari atau sama dengan (>=): a >= b \nLebih kecil dari atau sama dengan (<=): a <= b. Operator Matematika: Penambahan (+): a + b \nPengurangan (-): a - b \nPerkalian (*): a * b \nOperator Ternary: \nPembagian (/): a / b \nTernary (?:): condition ? expr1 : expr2 \nModulus (%): a % b",
+        "Function. Untuk membuat dan menggunakan fungsi dalam jQuery, Anda dapat menggunakan sintaksis dasar JavaScript untuk mendefinisikan fungsi, dan kemudian menggunakan fungsi tersebut dalam konteks pengembangan jQuery.",
+        "Membuat/Mendefinisikan Fungsi di jQuery: Anda dapat membuat fungsi dalam jQuery dengan menggunakan sintaksis dasar JavaScript. Anda juga dapat menggunakan cara lain untuk mendefinisikan fungsi dalam jQuery, seperti menggunakan ekspresi fungsi atau menggunakan fungsi anonim. Menggunakan Fungsi di jQuery: Setelah Anda mendefinisikan fungsi, Anda dapat memanggilnya diberbagai bagian kode jQuery atau JavaScript.",
+        "Selektor (selector) dalam jQuery digunakan untuk memilih elemen-elemen HTML pada halaman web agar dapat dimanipulasi dengan JavaScript. Ada banyak jenis selektor yang dapat Anda gunakan dalam jQuery, yang memungkinkan Anda untuk memilih elemen-elemen berdasarkan ID, kelas, tipe, atribut, dan hubungan hierarki mereka dalam DOM (Document Object Model).",
+        "Event di jQuery adalah tindakan atau peristiwa yang terjadi pada elemen HTML tertentu di halaman web, seperti klik mouse, mengetik pada keyboard, menggulir halaman, dan lain-lain. jQuery memungkinkan Anda menangani event ini dengan mudah menggunakan metode seperti .on(), .click(), .hover(), dan sebagainya.",
+        "Misalkan kita memiliki elemen dengan ID Misalkan kita memiliki beberapa tombol dengan #myButton yang merupakan sebuah tombol, class .myButton dan masing-masing tombol dan kita ingin menambahkan event click ke memiliki atribut data dengan nama action yang tombol tersebut: menentukan aksi yang akan diambil ketika tombol diklik. Kemudian, kita dapat menambahkan event click ke tombol tersebut dengan jQuery",
+        "Contoh Kasus Membuat Form Order Makanan: Kita memiliki form pemesanan makanan sederhana dengan beberapa item makanan seperti Nasi Goreng, Ayam Goreng, Es Teh, dan Kopi. Setiap item memiliki harga dan input field untuk mengisi jumlah pesanan. Terdapat tombol \"Hitung Total\" yang ketika diklik, akan menghitung total harga dari semua pesanan yang diisi. jQuery digunakan untuk menangani event saat tombol \"Hitung Total\" diklik. Script akan mengambil harga dan jumlah pesanan untuk setiap item, menghitung total harga pesanan, dan menampilkan hasilnya. Contoh Kasus (jawaban), Contoh Kasus (jawaban), Contoh Kasus (Penjelasan). $(document).ready(function() {...});: Ini adalah cara untuk menunggu hingga semua elemen HTML telah dimuat sebelum menjalankan kode JavaScript di dalamnya. Ini memastikan bahwa semua elemen yang kita tuju telah tersedia sebelum kita mulai berinteraksi dengan mereka. $(\"#hitungTotal\"): Ini adalah selector jQuery yang menargetkan elemen dengan ID hitungTotal. Ini adalah tombol \"Hitung Total\" yang akan memicu perhitungan saat diklik. .click(function() {...});: Ini adalah metode jQuery yang menambahkan event handler untuk event \"click\" pada elemen yang dipilih. Fungsi yang diberikan akan dijalankan setiap kali elemen tersebut diklik. .each(function() {...});: Ini adalah metode jQuery yang digunakan untuk mengulangi setiap elemen dalam koleksi yang dipilih. Di sini, kita menggunakan .each untuk mengulangi setiap item makanan dalam tabel. $(this): Ini merujuk pada elemen yang sedang diulangi saat pengulangan. Dalam konteks ini, $(this) merujuk pada elemen .item yang sedang diproses. .find(\".harga\"): Ini adalah metode jQuery yang mencari elemen dengan kelas .harga di dalam elemen yang dipilih ($(this)). Dalam konteks ini, kita mencari elemen harga di dalam setiap baris item makanan. .text(): Ini adalah metode jQuery yang mengambil teks dari elemen yang dipilih. Di sini, kita mengambil teks dari elemen harga untuk mendapatkan nilai harga makanan. Contoh Kasus (Penjelasan): .replace(\"Rp\", \"\").replace(\".\", \"\"): Ini adalah metode JavaScript untuk menghapus karakter \"Rp\" dan titik dari harga yang diambil dari elemen .harga. Ini dilakukan agar harga dapat diubah menjadi angka yang dapat dihitung. parseInt(): Ini adalah fungsi JavaScript yang mengonversi string menjadi bilangan bulat. Kami menggunakannya di sini untuk mengonversi harga makanan dari string menjadi angka bulat. parseInt($(this).find(\".jumlah\").val()): Ini adalah cara untuk mendapatkan nilai jumlah pesanan untuk setiap item makanan. Kami mencari elemen input dengan kelas .jumlah di dalam setiap baris item makanan dan mengambil nilai yang dimasukkan oleh pengguna. total += harga * jumlah;: Di sini, kami menghitung total pesanan dengan menambahkan jumlah harga makanan (harga dikalikan dengan jumlah pesanan) ke total sebelumnya. $(\"#totalPesanan\").text(\"Total Pesanan: \" + total.toFixed(0));: Akhirnya, kami menampilkan total pesanan di dalam elemen dengan ID totalPesanan. Kami menggunakan metode .text() untuk mengatur teks di dalam elemen tersebut menjadi string yang berisi total pesanan. Kami menggunakan .toFixed(0) untuk membulatkan total menjadi bilangan bulat tanpa desimal.",
+        "Error yang sering muncul di HTML dan cara mengatasinya. Tag Tidak Tertutup. Contoh: <p>Paragraf ini tidak pernah ditutup. Cara Mengatasi: Pastikan setiap tag pembuka memiliki tag penutup yang sesuai. <p>Paragraf ini sekarang ditutup.</p>. Atribut Tanpa Tanda Kutip. Contoh: <a href=http://example.com>Link</a>. Cara Mengatasi: Bungkus nilai atribut dengan tanda kutip. <a href=\"http://example.com\">Link</a>. Elemen Bersarang yang Salah. Contoh: <b><i>Text</b></i>. Cara Mengatasi: Pastikan elemen bersarang ditutup dalam urutan yang benar. <b><i>Text</i></b>. Menggunakan Elemen yang Tidak Sesuai Standar atau Usang. Contoh: <font size=\"3\">Text</font> (elemen <font> sudah usang). Cara Mengatasi: Gunakan CSS untuk styling. <span style=\"font-size: 16px;\">Text</span>. Kesalahan DOCTYPE. Contoh: Kesalahan atau ketiadaan deklarasi DOCTYPE. Cara Mengatasi: Pastikan dokumen HTML dimulai dengan DOCTYPE yang benar <!DOCTYPE html>. Error yang sering muncul di PHP dan cara mengatasinya. Parse Error (Syntax Error). Error ini terjadi ketika ada kesalahan sintaks dalam kode PHP. Biasanya karena kekurangan tanda seperti titik koma (;), kurung, tanda kutip, atau kesalahan pengetikan lainnya. <?php echo \"Hello, world\" ?> Cara Mengatasi: Periksa dan tambahkan titik koma (;) yang hilang di akhir pernyataan echo. <?php echo \"Hello, world\"; ?>",
+        "Fatal error terjadi ketika PHP tidak dapat melanjutkan proses eksekusi skrip karena adanya kesalahan seperti memanggil fungsi yang tidak didefinisikan atau mengakses properti dari non-objek. Cara mengatasi Fatal Error Pastikan nama fungsi yang dipanggil sudah benar. Warning biasanya terjadi saat PHP menemukan sesuatu yang bisa menjadi masalah, tapi tidak menghentikan eksekusi skrip. Contohnya, menginclude file yang tidak ada. Cara Mengatasi: Periksa dan pastikan file yang ingin di-include memang ada dan lokasinya benar. Notice adalah pesan kesalahan ringan yang menginformasikan kebiasaan pemrograman yang buruk atau potensi masalah, seperti penggunaan variabel yang belum didefinisikan. Cara Mengatasinya: Definisikan variabel sebelum digunakan. Penggunaan ukuran performansi dalam menuliskan kode sumber di PHP. Dalam pengembangan PHP, performansi adalah aspek penting yang perlu diperhatikan.",
+        "Berikut adalah beberapa ukuran performansi yang umum digunakan: Waktu Eksekusi. Mengukur berapa lama waktu yang diperlukan untuk menjalankan script PHP. Kode yang dioptimalkan akan memiliki waktu eksekusi yang lebih singkat. Terakhir, kita mencetak waktu eksekusi ke layar. Ini akan menampilkan berapa lama waktu yang diperlukan untuk menjalankan blok kode tersebut dalam detik. Penggunaan Memori. Mengukur jumlah memori yang digunakan oleh script PHP. Kode yang efisien akan menggunakan memori seminimal mungkin."
+      ],
+      "evaluasi": [
+      {
+        "bloom_level": "C2",
+        "soal": "Seorang pengembang ingin menulis kode yang sesuai dengan guidelines dan best practices dalam pengembangan perangkat lunak. Untuk mencapai tujuan tersebut, ia perlu mengintegrasikan berbagai aspek teknis dan struktur kode secara sistematis. Dari pilihan berikut, pernyataan mana yang paling tepat untuk membuat sebuah panduan praktis yang dapat digunakan oleh tim pengembang lainnya dalam menulis kode yang efektif, terstruktur, dan mudah dipelihara?",
+        "pilihan": [
+          "a) Jelaskan secara singkat bagaimana cara membuat fungsi yang tidak dapat diubah oleh perubahan data input.",
+          "b) Uraikan langkah-langkah penulisan kode yang sesuai dengan standar PEP 8 dan SOLID, termasuk penamaan variabel, struktur blok, dan dokumentasi komentar.",
+          "c) Ringkas hanya tiga aturan utama tentang penggunaan loop dan perulangan dalam kode Python.",
+          "d) Sertakan contoh kode yang sudah jadi, tanpa penjelasan mengapa kode tersebut dianggap sesuai dengan best practice."
+        ],
+        "jawaban": "b) Uraikan langkah-langkah penulisan kode yang sesuai dengan standar PEP 8 dan SOLID, termasuk penamaan variabel, struktur blok, dan dokumentasi komentar."
+      },
+      {
+        "bloom_level": "C2",
+        "soal": "Seorang pengembang ingin menciptakan sebuah panduan teknis untuk menulis kode yang sesuai dengan guidelines dan best practices dalam pengembangan perangkat lunak. Dalam proses ini, ia harus menggabungkan berbagai aspek seperti struktur kode, dokumentasi, keamanan, dan keberlanjutan. Berdasarkan prinsip-prinsip tersebut, pernyataan mana yang paling tepat untuk dijadikan inti dari panduan tersebut?",
+        "pilihan": [
+          "a) Jelaskan secara rinci bagaimana setiap fungsi harus ditulis dengan menggunakan variabel yang berbeda untuk setiap nilai, tanpa memperhatikan keberlanjutan kode.",
+          "b) Uraikan langkah-langkah penulisan kode yang mencakup penggunaan nama variabel yang jelas, komentar yang relevan, dan struktur blok yang teratur, serta jelaskan bagaimana setiap bagian berkontribusi terhadap keandalan sistem.",
+          "c) Ringkas saja bahwa kode harus ditulis dalam satu baris agar lebih mudah dibaca, dan berikan contoh kode yang sudah sesuai dengan standar.",
+          "d) Jelaskan bahwa penggunaan bahasa pemrograman tertentu adalah satu-satunya cara untuk menulis kode yang baik, tanpa mempertimbangkan konteks atau prinsip desain."
+        ],
+        "jawaban": "b) Uraikan langkah-langkah penulisan kode yang mencakup penggunaan nama variabel yang jelas, komentar yang relevan, dan struktur blok yang teratur, serta jelaskan bagaimana setiap bagian berkontribusi terhadap keandalan sistem."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Seorang pengembang ingin mengembangkan aplikasi web dengan kode yang mudah dibaca, dijaga, dan dapat diperbaiki di masa depan. Untuk itu, ia harus menerapkan prinsip-prinsip penulisan kode yang sesuai dengan guidelines dan best practices. Dalam konteks ini, tindakan yang paling tepat untuk diimplementasikan adalah:",
+        "pilihan": [
+          "a) Gunakan nama variabel yang panjang dan tidak jelas, agar lebih mudah dipahami oleh semua pengguna.",
+          "b) Terapkan struktur kode yang teratur dengan indentasi dan penggunaan spasi sesuai standar code style seperti PEP 8.",
+          "c) Simpan semua kode dalam satu file tanpa pemisahan modul agar lebih mudah diakses.",
+          "d) Gunakan perintah yang tidak teruji secara berulang untuk menghindari kesalahan yang mungkin terjadi."
+        ],
+        "jawaban": "b) Terapkan struktur kode yang teratur dengan indentasi dan penggunaan spasi sesuai standar code style seperti PEP 8."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Seorang developer ingin menulis kode yang efisien, mudah dibaca, dan dapat dipelihara oleh tim lain. Untuk mencapai tujuan tersebut, developer tersebut harus menerapkan prinsip-prinsip penulisan kode yang sesuai dengan guidelines dan best practices. Dalam konteks ini, tindakan mana yang paling tepat dilakukan oleh developer untuk mengimplementasikan kebiasaan penulisan kode yang baik dalam proyeknya?",
+        "pilihan": [
+          "a) Gunakan sintaks bahasa pemrograman yang paling baru untuk mempercepat eksekusi kode.",
+          "b) Terapkan penggunaan komentar yang panjang di awal setiap file untuk menjelaskan latar belakang proyek.",
+          "c) Implementasikan struktur kode yang konsisten dengan code style guide seperti PEP 8 untuk Python.",
+          "d) Gunakan alat otomatis untuk menghapus semua kode yang tidak digunakan tanpa evaluasi."
+        ],
+        "jawaban": "c) Implementasikan struktur kode yang konsisten dengan code style guide seperti PEP 8 untuk Python."
+      },
+      {
+        "bloom_level": "C3",
+        "soal": "Seorang developer ingin mengembangkan aplikasi dengan kode yang mudah dibaca, dipelihara, dan dapat diuji. Untuk itu, ia harus menerapkan prinsip-prinsip penulisan kode yang sesuai dengan guidelines dan best practices. Dalam konteks ini, tindakan apa yang paling tepat dilakukan oleh developer tersebut untuk mengimplementasikan prinsip-prinsip tersebut secara efektif dalam proyeknya?",
+        "pilihan": [
+          "a) Gunakan nama variabel yang panjang dan tidak jelas agar lebih mudah dipahami oleh semua orang.",
+          "b) Terapkan struktur kode yang teratur dengan komentar yang tidak diperlukan, hanya untuk mengisi ruang kosong.",
+          "c) Gunakan konvensi penamaan yang konsisten, pisahkan fungsi menjadi bagian kecil, dan tambahkan komentar untuk setiap perubahan kode.",
+          "d) Implementasikan kode tanpa validasi input karena akan mengurangi jumlah error saat pengujian."
+        ],
+        "jawaban": "c) Gunakan konvensi penamaan yang konsisten, pisahkan fungsi menjadi bagian kecil, dan tambahkan komentar untuk setiap perubahan kode."
+      },
+      {
+        "bloom_level": "C4",
+        "soal": "Seorang pengembang ingin menulis kode yang sesuai dengan standar best practices dan guidelines seperti PSR, PEP 8, dan Clean Code. Manakah dari pernyataan berikut yang paling tepat menggambarkan proses evaluasi yang harus dilakukan oleh pengembang tersebut terhadap dua implementasi kode yang berbeda?",
+        "pilihan": [
+          "a) Pengembang hanya membandingkan jumlah baris kode dan menyimpulkan bahwa versi yang lebih pendek lebih baik, tanpa mempertimbangkan struktur atau keterbacaan.",
+          "b) Pengembang menganalisis keberadaan komentar, struktur blok, dan kekonsistenan gaya penulisan, lalu membandingkan dua versi untuk melihat kejelasan logika, dan akhirnya mengevaluasi kesesuaiannya dengan standar Clean Code.",
+          "c) Pengembang mengabaikan evaluasi terhadap kualitas kode karena mengetahui bahwa semua kode harus diuji secara otomatis tanpa perlu analisis manual.",
+          "d) Pengembang hanya mengandalkan hasil uji otomatis (unit test) dan menganggap bahwa kode yang lolos uji sudah sesuai dengan semua best practices tanpa memeriksa struktur."
+        ],
+        "jawaban": "b) Pengembang menganalisis keberadaan komentar, struktur blok, dan kekonsistenan gaya penulisan, lalu membandingkan dua versi untuk melihat kejelasan logika, dan akhirnya mengevaluasi kesesuaiannya dengan standar Clean Code."
+      },
+      {
+        "bloom_level": "C4",
+        "soal": "Seorang pengembang ingin menulis kode yang sesuai dengan standar best practice dan guidelines seperti PSR, PEP8, dan Clean Code. Manakah dari pernyataan berikut yang paling tepat menggambarkan tindakan analisis, perbandingan, dan evaluasi yang harus dilakukan oleh pengembang tersebut dalam konteks ini?",
+        "pilihan": [
+          "a) Menggunakan sintaksis yang paling pendek untuk memenuhi semua fungsi, tanpa mempertimbangkan kejelasan atau kelangsungan waktu kode.",
+          "b) Menerapkan aturan formatting secara kaku tanpa membandingkan keberbedaan antara berbagai guidelines seperti PSR dan PEP8.",
+          "c) Menganalisis kebutuhan fungsional aplikasi, membandingkan gaya penulisan kode dari berbagai guidelines, dan mengevaluasi dampak pilihan terhadap pembacaan serta skalabilitas kode.",
+          "d) Menyalin kode dari contoh lain tanpa memahami prinsip dasar atau alasan di balik best practice tersebut."
+        ],
+        "jawaban": "c) Menganalisis kebutuhan fungsional aplikasi, membandingkan gaya penulisan kode dari berbagai guidelines, dan mengevaluasi dampak pilihan terhadap pembacaan serta skalabilitas kode."
+      },
+      {
+        "bloom_level": "C5",
+        "soal": "Seorang pengembang ingin merancang sistem aplikasi yang dapat diandalkan dan mudah dipelihara. Dalam proses tersebut, tindakan apa yang paling tepat dilakukan oleh pengembang untuk menciptakan kode yang sesuai dengan standar industri?",
+        "pilihan": [
+          "a) Hanya mengikuti kode yang disediakan oleh tim tanpa meninjau kebutuhan sistem",
+          "b) Mengubah kode lama secara acak tanpa dokumentasi atau evaluasi",
+          "c) Rancang struktur kode awal berdasarkan modularitas, dokumentasi, dan keamanan, lalu desain arsitektur sistem dengan mempertimbangkan skalabilitas",
+          "d) Menyalin kode dari proyek lain tanpa memahami konteks penggunaan atau perubahan yang diperlukan"
+        ],
+        "jawaban": "c) Rancang struktur kode awal berdasarkan modularitas, dokumentasi, dan keamanan, lalu desain arsitektur sistem dengan mempertimbangkan skalabilitas"
+      },
+      {
+        "bloom_level": "C6",
+        "soal": "Sebagai bagian dari pengembangan sistem perangkat lunak yang berkelanjutan, seorang developer harus membangun kode yang sesuai dengan standar pemrograman. Dalam konteks ini, tindakan yang paling tepat untuk menciptakan kode yang dapat dipertahankan, mudah diubah, dan dapat diuji secara efektif adalah:",
+        "pilihan": [
+          "a) Menulis kode secara acak tanpa peduli terhadap struktur atau dokumentasi, hanya untuk memenuhi deadline.",
+          "b) Menggunakan sintaksis yang tidak standar agar lebih cepat dijalankan dalam lingkungan lokal.",
+          "c) Membangun kode dengan struktur yang jelas, mengikuti code style guide, menulis komentar yang jelas, dan membagi fungsi menjadi bagian-bagian kecil yang dapat diuji.",
+          "d) Mengabaikan dokumentasi karena dianggap tidak penting dalam tahap pengembangan awal."
+        ],
+        "jawaban": "c) Membangun kode dengan struktur yang jelas, mengikuti code style guide, menulis komentar yang jelas, and membagi fungsi menjadi bagian-bagian kecil yang dapat diuji."
+      }
+    ]
+    },
+    {
+      "kode_unit": "J.620100.019.02",
+      "judul_unit": "Menggunakan library atau komponen pre-existing",
+      "konsep": [
+        "Konteks variabel: Reuse adalah penggunaan kembali suatu kesatuan kode tanpa menulis ulang atau mengubah kode tersebut. Library adalah pemaketan kode yang dapat digunakan untuk spesiikasi tertentu. Pre-Existing merupakan istilah untuk library atau komponen yang sudah ada dari sebelumnya. Keuntungan menggunakan Library, Mengurangi redundansi(pengulangan) penulisan kode, Menghemat waktu, Menghemat sumber daya. Jenis Library Jenis Contoh Library Pembuatan user interface Bootstrap, DataTables, JQueryUI Image editing Imagine, PHP Graphics Works, Zebra Image Impor/ekspor ke bentuk dokumen TCPDF, PHPOffice tertentu Algoritma kompleks (mis: AI, ANN) PHP-ML, Rubix ML Dan masih banyak lainnya Lisensi Library Lisensi library biasanya terdapat dalam direktori library disimpan dalam file “LICENSE” Mendapatkan Library Untuk mendapatkan library dapat dilakukan dengan dua cara: • Mengunduh file langsung dari website penyedia library • Ketergantungan antar library atau unit dilakukan manual. • Memperbaharui library dilakukan dengan memeriksa di website/repository. • Tidak membutuhkan software tambahan. • Menggunakan library manager (Composer) • Ketergantungan antar library atau unit dapat dilakukan secara otomatis • Memperbaharui library dapat dilakukan dengan mudah • Manajer Ketergantungan (Dependency Manager) untuk PHP Composer (https://getcomposer.org) Update Mengapa memperbaharui library? • Untuk menghindari penggunaan komponen yang sudah kadaluarsa (obsolete), library perlu diperbaharui. • Pembaharuan library yang diunduh secara langsung, proses pembaharuan dilakukan dengan memeriksa langung ke website/repository library terkait. Hal yang perlu dipertimbangkan sebelum update • Apakah update tersebut dapat memperkenalkan perubahan yang anda butuhkan? • Apa manfaat yang Anda dapatkan dari peningkatan dalam pembaharuan? • Apa yang terjadi apabila Anda tidak melakukan update? • Apakah manfaatnya lebih besar daripada risiko atau investasi waktu? Apakah update tersebut dapat memperkenalkan perubahan yang anda butuhkan? • Perubahan pada versi terbaru biasanya untuk memperbaiki bug di versi sebelumnya.",
+        "Apa manfaat yang Anda dapatkan dari peningkatan dalam pembaharuan? Perbaikan pada bug-bug di versi sebelumnya, Fitur-fitur baru yang lebih stabil dan fleksibel, Perbaikan pada system yang digunakan (grid system, js, css, dll), Mendapatkan modul kode yang lebih rapi. Bug diperbaiki Tidak ada bug di versi lama. Fitur-fitur yang ditawarkan Fiturnya tidak terlalu dipakai. Tidak ada nilai tambah bagi nilai tambah bagi perusahaan perusahaan. Biaya yang dibutuhkan sesuai, Biaya yang dibutuhkan berada atau dibawah budget diatas budget. Bila tidak diupdate ada. Tidak ada dependency beberapa script yang berarti menampilkan error",
+        "jQuery adalah library JavaScript yang dirancang untuk mempercepat proses pembuatan website. jQuery merupakan salah satu perangkat lunak berbasis open source yang paling populer digunakan untuk penulisan kode JavaScript. Kelebihan jQuery jQuery adalah library JavaScript yang cukup andal, ringkas, dan mempunyai fitur yang cukup lengkap. jQuery membungkus kode JavaScript dalam method yang dapat dipanggil hanya dengan satu baris kode. jQuery dirancang untuk menyederhanakan traversal dan manipulasi DOM HTML, serta penanganan acara, animasi CSS, dan Ajax. jQuery juga dapat digunakan untuk membuat berbagai macam efek dan animasi menarik pada website yang sedang dikembangkan.",
+        "Langkah-langkah installasi jQuery: Anda Harus memiliki file distribusi jQuery. Anda harus memiliki text editor. Download Bootstrap v3.7.1. Bootstrap merupakan framework untuk membangun desain web secara responsif dan cepat. Bootstrap menyediakan HTML, CSS dan Javascript siap pakai dan mudah untuk dikembangkan. Kelebihan Bootstrap: Penggunaan bootstrap sangat menghemat waktu, Tampilan bootstrap yang sudah cukup terlihat modern Mobile Friendly yang maksudnya tampilan bootstrap sudah sangat responsive, yaitu tampilan bootstrap sudah mendukung segala jenis resolusi, baik itu pc, laptop, tablet dan smartphone Sangat ringan karena bootstrap di buat dengan sangat terstruktur. Anda Harus memiliki file distribusi Bootstrap Sudah terinstal jQuery Library Untuk Bekerja Offline. Anda harus memiliki text editor. Download Bootstrap v5.0.2 PHPspreadsheet. Buat Folder Baru, Copy seluruh file Bootstrap ke dalam Folder Baru Tersebut, Copy file jQuery ke dalam folder js, Buat file HTML. \n<!DOCTYPE html> \n<html> \n<head> \n<title>Belajar Bootstrap</title> \n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\"> \n<script type=\"text/javascript\" src=\"js/jquery.js\"></script> \n<script type=\"text/javascript\" src=\"js/bootstrap.js\"></script> \n</head> \n<body> \n<h1>Cara Menggunakan Bootstrap | DigiTalent</h1> \n<button class=\"btn btn-danger\">TOMBOL MERAH</button> \n<button class=\"btn btn-primary\">TOMBOL BIRU</button> \n</body> \n</html>",
+        "Ingat, letakkan jquery.js pada bagian atas karena bootstrap bekerja menggunakan bantuan jquery bukan jquery menggunakan bantuan bootstrap. Membuat Navigasi Pills. Terdapat class yang disediakan oleh bootstrap untuk membuat navigasi yang berbentuk pills. <body> \nclass nav nav-tabs; \n<div class=\"container\"> \nclass nav -> untuk mendefinisikan navigasi \n<h1>Membuat Navigasi Pills Bootstrap </h1> \n<br/> \nul class=\"nav nav-pills\"> dan nav-pills \n<li class=\"active\"><a href=\"#\">Home</a></li> membuat navigasi dengan bentuk pil. \n<li><a href=\"#\">Menu 1</a></li> \n<li><a href=\"#\">Menu 2</a></li> \n<li><a href=\"#\">Menu 3</a></li> \n</ul> \n</div> \n</body>",
+        "Membuat Form: Bootstrap menyediakan class khusus lagi untuk mendesain form yang terlihat sangat modern dan rapi. Ada tiga macam model form: 1. Form dengan model vertical: form degan model vertikal ini merupakan form default bootstrap; 2. Form dengan model inline: form dengan model inline adalah sebuah form yang label dan form inputnya terletak sebaris; 3. Form dengan model horizontal: form dengan model horizontal ini merupakan form yang memiliki bentuk horizontal. artinya posisi label dan input form terletak horizontal. <body> \n<div class=\"container\"> \n<h1>Membuat Form dengan Bootstrap |</h1> \n<form class=\"form-horizontal\"> \n<div class=\"form-group\"> : \n<label class=\"control-label col-sm-2\" for=\"nama\">Nama class form-group -> untuk Anda:</label> \n<div class=\"col-sm-10\"> \n<input type=\"text\" class=\"form-control\"> \n</div> \n</div> \n<div class=\"form-group\"> <form> berikan class \n<label class=\"control-label col-sm-2“ for=\"alamat\">Alamat form-horizontal anda:</label> \n<div class=\"col-sm-10\"> \n<input type=\"text\" class=\"form-control\" id=\"alamat\"> \n</div> \n</div> \n<button type=\"submit\" class=\"btn btn danger\">Simpan</button> \n</form> \n</div> \n</body>",
+        "Upgrade Sama seperti frame work yang lain, bootstrap juga masih mengalami perkembangan dan perbaikan Perbaikan -> versi baru -> update. Identifikasi kelas dalam library dapat dilakukan dengan membaca dokumentasi library. Penggunaan kembali library/class dapat meningkatkan efisiensi penulisan program, Pengelolaan library dipermudah menggunakan tool manajemen library (composer)",
+        "Menggunakan Library atau Komponen Pre-Existing, ini berhubungan dengan penggunaan komponen-komponen reuse (yang dapat dipergunakan secara berulang) untuk mendukung pengembangan aplikasi yang efisien. Memiliki sikap, pengetahuan dan keterampilan yang dibutuhkan untuk dapat menerapkan pengelolaan log aplikasi dalam membuat program/aplikasi."
+      ],
+      "evaluasi": [
+        {
+          "bloom_level": "C2",
+          "soal": "Seorang pengembang perangkat lunak sedang merancang aplikasi yang membutuhkan fitur pengolahan gambar seperti pembesaran, pengecilan, dan penyesuaian warna. Ia memutuskan untuk menggunakan library yang sudah ada seperti OpenCV atau ImageMagick. Dalam konteks ini, bagaimana langkah yang paling tepat untuk memastikan bahwa penggunaan library tersebut efektif, efisien, dan sesuai dengan kebutuhan aplikasi?",
+          "pilihan": [
+            "a) Jelaskan bahwa library harus diunduh secara manual tanpa dokumentasi; uraikan bahwa penggunaan library mempercepat pengembangan karena fitur sudah ada; ringkas bahwa library hanya untuk aplikasi sederhana.",
+            "b) Jelaskan bahwa library adalah kumpulan fungsi teruji; uraikan bahwa integrasi harus dilakukan dengan memahami dokumentasi dan API; ringkas bahwa penggunaan library menghemat waktu dan mengurangi risiko kesalahan.",
+            "c) Jelaskan bahwa library hanya untuk pengembang ahli; uraikan bahwa integrasi harus memperhatikan keamanan sistem; ringkas bahwa library tidak perlu digunakan karena semua fitur bisa dibuat dari nol.",
+            "d) Jelaskan bahwa library harus diperbarui berkala; uraikan bahwa penggunaan library butuh pemahaman mendalam struktur data; ringkas bahwa library hanya berguna untuk lingkungan web."
+          ],
+          "jawaban": "b) Jelaskan bahwa library adalah kumpulan fungsi teruji; uraikan bahwa integrasi harus dilakukan dengan memahami dokumentasi dan API; ringkas bahwa penggunaan library menghemat waktu dan mengurangi risiko kesalahan."
+        },
+        {
+          "bloom_level": "C2",
+          "soal": "Dalam pengembangan perangkat lunak, seorang pengembang ingin membangun sebuah fitur yang menampilkan grafik data secara real-time. Untuk mempercepat proses pengembangan, ia memutuskan untuk menggunakan komponen yang telah ada. Apa yang paling tepat dilakukan oleh pengembang untuk mengintegrasikan komponen pre-existing tersebut secara efektif?",
+          "pilihan": [
+            "a) Jelaskan bagaimana komponen tersebut dibuat, uraikan proses pengujian, dan ringkas kegunaan untuk pengguna akhir.",
+            "b) Jelaskan kelebihan dan kekurangan komponen, uraikan proses integrasi dengan kode aplikasi, dan ringkas manfaatnya terhadap waktu pengembangan.",
+            "c) Jelaskan proses instalasi, uraikan struktur folder komponen, dan ringkas bagaimana komponen tersebut dapat diakses melalui API.",
+            "d) Jelaskan tujuan penggunaan komponen, uraikan proses pemilihan komponen yang sesuai, dan ringkas bagaimana komponen diimplementasikan dalam sistem."
+          ],
+          "jawaban": "d) Jelaskan tujuan penggunaan komponen, uraikan proses pemilihan komponen yang sesuai, dan ringkas bagaimana komponen diimplementasikan dalam sistem."
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Dalam pengembangan aplikasi berbasis Python, seorang programmer ingin mempercepat proses pembuatan kode tanpa menulis ulang fungsi dasar seperti pengolahan data dan validasi input. Tindakan apa yang paling tepat dilakukan agar fungsi tersebut dapat diterapkan secara efektif?",
+          "pilihan": [
+            "a) Menulis ulang semua fungsi dari nol agar lebih sesuai dengan kebutuhan aplikasi.",
+            "b) Menggunakan modul bawaan Python seperti math dan datetime untuk mempermudah pengolahan data.",
+            "c) Mencari dan mengunduh library eksternal dari GitHub tanpa mempertimbangkan ketersediaan dokumentasi.",
+            "d) Mengimplementasikan semua fungsi secara manual dalam satu file untuk memastikan konsistensi."
+          ],
+          "jawaban": "b) Menggunakan modul bawaan Python seperti math dan datetime untuk mempermudah pengolahan data."
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Seorang programmer ingin mempercepat proses pembuatan fitur baru tanpa menulis kode dari awal. Langkah apa yang paling tepat untuk menggunakan atau menerapkan komponen pre-existing seperti library fungsi matematika dalam bahasa pemrograman Python?",
+          "pilihan": [
+            "a) Menulis ulang semua fungsi matematika secara manual agar lebih cepat dijalankan.",
+            "b) Mencari sumber daya baru dan membuat algoritma sendiri dari nol.",
+            "c) Mengunduh library seperti NumPy, menginstalnya, lalu mengimplementasikan fungsi yang dibutuhkan dalam proyek.",
+            "d) Mengabaikan library karena dianggap tidak sesuai dengan kebutuhan proyek."
+          ],
+          "jawaban": "c) Mengunduh library seperti NumPy, menginstalnya, lalu mengimplementasikan fungsi yang dibutuhkan dalam proyek."
+        },
+        {
+          "bloom_level": "C3",
+          "soal": "Seorang pengembang ingin membuat aplikasi perhitungan nilai siswa yang efisien. Untuk mempercepat pengembangan, ia memutuskan untuk menggunakan fungsi perhitungan rata-rata yang sudah ada dalam library matematika. Tindakan apa yang paling tepat dilakukan untuk menerapkan komponen tersebut dalam aplikasi?",
+          "pilihan": [
+            "a) Menulis ulang fungsi perhitungan rata-rata dari nol menggunakan logika dasar aritmetika.",
+            "b) Mengunduh dan menginstal library matematika, lalu mengintegrasikan fungsi perhitungan rata-rata ke dalam kode aplikasi.",
+            "c) Mengganti seluruh struktur aplikasi dengan sistem yang lebih kompleks untuk memperkuat keamanan.",
+            "d) Mengabaikan komponen pre-existing karena tidak dijamin kinerjanya dalam kondisi tertentu."
+          ],
+          "jawaban": "b) Mengunduh dan menginstal library matematika, lalu mengintegrasikan fungsi perhitungan rata-rata ke dalam kode aplikasi."
+        },
+        {
+          "bloom_level": "C4",
+          "soal": "Dalam pengembangan perangkat lunak, seorang pengembang mempertimbangkan untuk menggunakan library daripada menulis kode dari nol. Manakah pernyataan berikut yang paling tepat dalam menganalisis manfaat dan risiko dari penggunaan library?",
+          "pilihan": [
+            "a) Library lebih mudah dipelajari oleh pemula sehingga harus digunakan dalam semua proyek tanpa kecuali.",
+            "b) Menggunakan library mengurangi waktu pengembangan, namun dapat menyebabkan ketergantungan dan risiko keamanan jika tidak diperbarui.",
+            "c) Semua library adalah hasil pengembangan internal perusahaan sehingga tidak perlu diuji ulang.",
+            "d) Komponen dari nol selalu lebih fleksibel sehingga penggunaan library tidak perlu dipertimbangkan."
+          ],
+          "jawaban": "b) Menggunakan library mengurangi waktu pengembangan, namun dapat menyebabkan ketergantungan dan risiko keamanan jika tidak diperbarui."
+        },
+        {
+          "bloom_level": "C4",
+          "soal": "Manakah pernyataan berikut yang paling tepat dalam menganalisis dan mengevaluasi keberhasilan penggunaan komponen pre-existing dalam konteks keamanan dan efisiensi?",
+          "pilihan": [
+            "a) Library umum memiliki keamanan terbaik karena diuji banyak orang sehingga tidak perlu evaluasi tambahan.",
+            "b) Penggunaan komponen pre-existing mengurangi kompleksitas kode, namun memperbesar risiko data jika tidak dianalisis versinya.",
+            "c) Semua komponen pre-existing dapat langsung digunakan tanpa modifikasi karena dibangun secara profesional.",
+            "d) Keberhasilan library tergantung kebutuhan aplikasi sehingga perlu dibandingkan fungsinya tanpa perlu evaluasi keamanan."
+          ],
+          "jawaban": "b) Penggunaan komponen pre-existing mengurangi kompleksitas kode, namun memperbesar risiko data jika tidak dianalisis versinya."
+        },
+        {
+          "bloom_level": "C5",
+          "soal": "Seorang pengembang ingin merancang antarmuka pengguna yang user-friendly dengan menggunakan komponen pre-existing. Mana aktivitas yang paling tepat agar hasil akhir sesuai dengan kebutuhan khusus pengguna namun tetap efektif?",
+          "pilihan": [
+            "a) Hanya mengganti warna latar belakang komponen tanpa mengubah struktur internalnya.",
+            "b) Menyalin seluruh kode komponen dan mengeditnya secara menyeluruh tanpa memperhatikan dokumentasi.",
+            "c) Merancang struktur antarmuka secara awal, kemudian memodifikasi komponen pre-existing sesuai kebutuhan khusus.",
+            "d) Mengabaikan komponen pre-existing karena dianggap tidak relevan dengan kebutuhan sistem."
+          ],
+          "jawaban": "c) Merancang struktur antarmuka secara awal, kemudian memodifikasi komponen pre-existing sesuai kebutuhan khusus."
+        },
+        {
+          "bloom_level": "C6",
+          "soal": "Seorang pengembang ingin membangun aplikasi pengolah data real-time dengan memanfaatkan library yang telah ada. Tindakan apa yang paling tepat dilakukan untuk membangun aplikasi tersebut secara efisien?",
+          "pilihan": [
+            "a) Menghapus semua komponen yang telah ada agar tidak terjadi konflik dan membuat ulang dari nol.",
+            "b) Menyalin kode dari library dan mengubahnya secara total tanpa mempertimbangkan standar integrasi.",
+            "c) Menggunakan library pengolahan waktu, memodifikasi dan mengintegrasikannya, serta membangun fitur tambahan sesuai kebutuhan.",
+            "d) Mengabaikan library yang tersedia karena dianggap tidak sesuai dengan kebutuhan spesifik."
+          ],
+          "jawaban": "c) Menggunakan library pengolahan waktu, memodifikasi dan mengintegrasikannya, serta membangun fitur tambahan sesuai kebutuhan."
+        }
+      ]
+    }
+  ]
+}

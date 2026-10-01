@@ -1,0 +1,2114 @@
+[
+    {
+        "question": "Untuk menunjukkan kemajuan saat mengunggah gambar secara real-time, elemen antarmuka yang paling sesuai adalah",
+        "options": [
+            "A. Text box",
+            "B. Progress Bar",
+            "C. Check List",
+            "D. Tidak ada yang benar"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam proses pengembangan antarmuka web, alat apa yang paling tepat digunakan oleh seorang developer untuk memeriksa struktur elemen halaman secara real-time saat mengembangkan tampilan halaman?",
+        "options": [
+            "A. Membuat desain visual menggunakan software seperti Adobe XD",
+            "B. Menggunakan alat seperti View Page Source untuk melihat struktur HTML",
+            "C. Menulis kode JavaScript untuk memproses data dari server",
+            "D. Menggunakan AI untuk menghasilkan tampilan antarmuka otomatis"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam proses pengembangan antarmuka pengguna, mengapa penting untuk mengimplementasikan uji coba langsung terhadap rancangan dialog sebelum diluncurkan ke pengguna akhir?",
+        "options": [
+            "A. Untuk memastikan bahwa setiap tombol memiliki warna yang cukup kontras agar mudah dilihat oleh semua pengguna",
+            "B. Agar elemen yang berdekatan secara visual dianggap sebagai kelompok yang terkait dan mudah dipahami oleh pengguna",
+            "C. Agar pengembang dapat mengidentifikasi kegagalan alur interaksi dalam dialog dan menyesuaikannya berdasarkan tanggapan nyata dari pengguna",
+            "D. Agar semua elemen antarmuka menggunakan istilah yang sama secara konsisten agar terlihat profesional"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang desainer antarmuka sedang memutuskan desain tombol pencarian untuk aplikasi mobile. Untuk memastikan desain tersebut mendukung pengalaman pengguna yang optimal, langkah apa yang paling tepat dilakukan secara sistematis?",
+        "options": [
+            "A. Menggunakan desain tombol pencarian yang umum digunakan di aplikasi media sosial karena tampilannya menarik.",
+            "B. Memilih tombol yang paling besar dan terlihat jelas karena diklaim menjadi pilihan yang paling banyak digunakan oleh pengguna.",
+            "C. Menganalisis data perilaku pengguna terhadap pencarian, membandingkan tiga desain berbeda, dan mengevaluasi masing-masing opsi berdasarkan kecepatan respons dan tingkat kesulitan penggunaan.",
+            "D. Mengimplementasikan desain pertama yang dihasilkan tanpa uji coba, karena proses pengembangan harus selesai sesuai jadwal tim."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang sedang membangun fitur tampilan produk di aplikasi e-commerce yang menggunakan pagination untuk menampilkan 20 produk per halaman. Untuk memastikan pengalaman pengguna optimal dan konsistensi antarmuka, langkah-langkah berikut yang paling tepat dalam urutan pelaksanaan adalah:",
+        "options": [
+            "A. Menyalin tampilan produk dari aplikasi kompetitor, lalu menguji pada perangkat berbeda tanpa mengubah struktur interaksi.",
+            "B. Merancang alur navigasi pengguna, menggambar prototipe tampilan halaman dengan pagination, dan mengimplementasikan kode dengan mempertimbangkan responsivitas pada berbagai ukuran layar.",
+            "C. Mengatur tampilan produk secara manual berdasarkan ukuran perangkat, lalu memodifikasi tampilan saat ditemukan keluhan dari pengguna tanpa dokumentasi.",
+            "D. Menggunakan template yang sudah ada dari sistem lain tanpa perubahan, dan hanya menambahkan pagination secara manual di bagian akhir."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C5",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang aplikasi mobile untuk pengguna yang berusia 18-35 tahun. Untuk memastikan pengalaman pengguna tetap responsif dan tidak mengganggu, tindakan apa yang paling strategis dilakukan dalam tahap awal pengembangan aplikasi?",
+        "options": [
+            "A. Meninjau desain UI yang sudah digunakan di aplikasi lain dan langsung mengadaptasikannya",
+            "B. Menggunakan kode sumber lama dari versi sebelumnya untuk mempercepat waktu pengembangan",
+            "C. Membuat prototipe interaktif berdasarkan skema desain yang disetujui, kemudian mengembangkan fitur navigasi berdasarkan hasil uji coba dengan pengguna nyata",
+            "D. Bangun tampilan utama secara langsung tanpa menguji desain visual atau mengobservasi perilaku pengguna"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Bahasa pemrograman apa yang dapat disisipkan langsung ke dalam file HTML agar hasilnya dapat dijalankan secara bersamaan dengan halaman web?",
+        "options": [
+            "A. JavaScript",
+            "B. Python",
+            "C. PHP",
+            "D. Java"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C1",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Dalam pengembangan aplikasi web yang menampilkan animasi atau interaksi grafis secara langsung di halaman browser, perintah eksekusi yang paling tepat untuk menghasilkan respons visual tersebut biasanya dikeluarkan oleh bahasa pemrograman mana dari berikut ini?",
+        "options": [
+            "A. PHP",
+            "B. Python",
+            "C. JavaScript",
+            "D. C++"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C2",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang mengembangkan aplikasi sederhana yang akan menampilkan gambar latar belakang dan memutar musik latar berdasarkan pilihan pengguna. Untuk mencapai tujuan tersebut, perintah apa yang harus diterapkan dalam program untuk memastikan tampilan gambar dan pemutaran suara berjalan secara efektif sesuai dengan input pengguna?",
+        "options": [
+            "A. Menggunakan perintah input() untuk membaca pilihan pengguna, lalu menyimpannya dalam variabel tanpa menampilkan elemen visual atau audio",
+            "B. Menampilkan teks pesan menggunakan print(), dan mengakses file gambar secara manual tanpa memproses tampilan visual",
+            "C. Terapkan perintah pygame.display.set_mode() untuk menampilkan gambar latar belakang, serta menggunakan pygame.mixer.Sound.play() untuk memutar musik latar berdasarkan input pengguna",
+            "D. Membuka file teks untuk menyimpan data pengguna, lalu memprosesnya tanpa menyertakan elemen grafis atau audio"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang pengembang sedang membuat aplikasi edukatif yang menampilkan animasi gambar, suara interaktif, dan teks bergerak secara bersamaan. Untuk memastikan bahwa aplikasi tersebut berjalan lancar dan memberikan pengalaman pengguna yang optimal, pengembang harus menganalisis, membandingkan, dan mengevaluasi berbagai perintah eksekusi yang tersedia. Dari pilihan berikut, pernyataan mana yang paling tepat menggambarkan proses evaluasi yang harus dilakukan oleh pengembang terhadap perintah eksekusi tersebut?",
+        "options": [
+            "A. Pengembang hanya perlu menguji satu perintah eksekusi secara visual pada layar konsol, karena itu cukup untuk memastikan fungsi dasar.",
+            "B. Pengembang harus membandingkan kemampuan perintah eksekusi dalam menangani kecepatan animasi, keandalan dalam memproses data suara, dan kompatibilitas dengan berbagai perangkat, lalu mengevaluasi bagaimana perbedaan tersebut memengaruhi responsivitas dan kestabilan aplikasi.",
+            "C. Pengembang harus mengikuti urutan perintah secara ketat tanpa meninjau perbedaan antar perintah, karena urutan eksekusi dalam bahasa pemrograman selalu diatur secara otomatis oleh sistem komputer.",
+            "D. Pengembang hanya perlu menguji perintah eksekusi pada satu jenis perangkat (misalnya, laptop) dan mengasumsikan bahwa aplikasi akan berjalan sama di semua perangkat."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan sebuah aplikasi web interaktif yang dapat menampilkan animasi bergerak berdasarkan jawaban pengguna, seperti perubahan warna latar belakang atau efek transisi saat memilih opsi. Untuk mencapai tujuan tersebut, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Menghafalkan semua tag HTML yang tersedia dalam modul pembelajaran.",
+            "B. Membaca ulang dokumentasi perangkat lunak yang sudah dibuat tanpa mengubah fungsinya.",
+            "C. Membuat struktur alur program yang menghubungkan input pengguna dengan perubahan visual, lalu memodifikasi perintah HTML agar dapat menangani animasi berdasarkan kondisi input.",
+            "D. Menyalin kode animasi dari website lain tanpa memahami bagaimana kode tersebut berfungsi dalam konteks aplikasi tersebut."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan sistem peringatan otomatis yang dapat menampilkan notifikasi berbentuk grafik, menampilkan teks bergerak secara dinamis, dan memutar suara peringatan saat terjadi kejadian tertentu. Untuk mencapai tujuan ini, langkah apa yang paling tepat dilakukan oleh siswa dalam merancang dan mengimplementasikan sistem tersebut secara menyeluruh?",
+        "options": [
+            "A. Hanya menampilkan teks di layar dan mengatur waktu penampilan secara statis tanpa mengintegrasikan media lain.",
+            "B. Menyalin kode dari sistem peringatan lain tanpa mengubah struktur atau logika perintah eksekusi.",
+            "C. Membangun sistem dengan menggabungkan perintah eksekusi untuk menampilkan grafik, memproses teks secara dinamis, dan memanggil file suara secara berurutan sesuai kejadian.",
+            "D. Menggunakan alat desain grafis untuk membuat visual, lalu mengabaikan pemahaman tentang perintah eksekusi dalam bahasa pemrograman."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Untuk menyimpan nilai berat benda dalam satuan kilogram, tipe data yang paling tepat digunakan adalah",
+        "options": [
+            "A. String",
+            "B. Integer",
+            "C. Float",
+            "D. Boolean"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program dalam bahasa C++ yang dapat menghitung total harga pembelian beberapa barang dengan memperhatikan jumlah barang dan harga per unit. Dalam merancang struktur alur program tersebut, pernyataan mana di bawah ini yang paling tepat untuk memastikan program tersebut efektif, terstruktur, dan dapat diuji secara konsisten?",
+        "options": [
+            "A. Jelaskan secara singkat bagaimana program menghitung total harga, uraikan langkah-langkah perhitungan secara bertahap, dan akhiri dengan ringkasan hasil akhir.",
+            "B. Uraikan secara lengkap setiap kondisi yang mungkin terjadi, termasuk validasi input, tanpa menyebutkan tujuan program atau alur utama.",
+            "C. Ringkas hanya hasil akhir program, seperti total harga yang dihitung, tanpa menjelaskan proses perhitungan atau bagaimana data diolah.",
+            "D. Gabungkan semua proses perhitungan dalam satu blok kode tanpa membagi menjadi fungsi atau modul yang terpisah untuk mempercepat pengembangan."
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C2",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin membuat program untuk menghitung total dan rata-rata nilai dari 5 nilai siswa menggunakan struktur perulangan. Agar program tersebut memenuhi prinsip pemrograman terstruktur, apa yang harus dilakukan oleh siswa tersebut?",
+        "options": [
+            "A. Menggunakan satu pernyataan perulangan tanpa deklarasi variabel dan tanpa pengecekan kondisi.",
+            "B. Menulis kode secara acak dengan nilai yang tidak teratur dan tidak memperhatikan urutan logika.",
+            "C. Menggunakan perulangan counted loop (for) untuk membaca nilai, menghitung total, dan menghitung rata-rata, dengan deklarasi variabel dan struktur kondisional yang jelas.",
+            "D. Menggunakan bahasa pemrograman seperti JavaScript yang tidak mendukung perulangan terstruktur."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang sistem yang memproses data berurutan dari file dengan jumlah tidak diketahui secara eksplisit. Dalam proses ini, ia harus memilih antara menggunakan perulangan terhitung (seperti for loop) atau perulangan tidak terhitung (seperti while loop). Dari pilihan berikut, manakah yang paling tepat menggambarkan langkah analisis yang harus dilakukan sebelum memutuskan struktur perulangan yang digunakan?",
+        "options": [
+            "A. Memilih perulangan terhitung karena lebih mudah ditulis dan diuji secara langsung.",
+            "B. Menghitung jumlah data terlebih dahulu untuk memastikan perulangan terhitung dapat digunakan tanpa risiko error.",
+            "C. Menganalisis kebutuhan sistem terhadap jumlah iterasi, membandingkan keandalan dan kompleksitas antara perulangan terhitung dan tidak terhitung, serta mengevaluasi dampak dari setiap pilihan terhadap performa dan pemeliharaan sistem.",
+            "D. Menggunakan perulangan tidak terhitung karena lebih fleksibel, tanpa perlu mempertimbangkan kondisi awal atau akhir."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program yang dapat menghitung rata-rata dari tiga nilai ujian siswa, namun program harus juga menangani kasus di mana salah satu nilai adalah nol atau negatif. Untuk mengimplementasikan pemrograman terstruktur secara efektif dan mencapai tingkat kognitif Bloom C5, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Mengambil kode dari program lain yang sudah ada dan menambahkan perhitungan rata-rata tanpa memperhatikan struktur logikanya",
+            "B. Mengubah satu fungsi dalam program yang sudah ada agar bisa menghitung rata-rata, tanpa merancang alur baru",
+            "C. Rancang alur logika yang jelas, desain struktur pengendali seperti if-else dan loop untuk menangani kasus nilai nol atau negatif, lalu modifikasi kode sesuai kondisi pengguna",
+            "D. Menyalin program dari sumber internet dan mengeditnya tanpa memahami struktur logikanya"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengembang ingin membuat aplikasi yang dapat menghitung rata-rata nilai siswa berdasarkan input nilai yang diisi secara berulang oleh pengguna. Agar aplikasi tersebut dapat diimplementasikan secara efektif dan terstruktur, langkah yang paling strategis yang harus dilakukan oleh pengembang tersebut adalah:",
+        "options": [
+            "A. Menulis semua kode secara langsung tanpa membagi logika menjadi bagian-bagian, karena input dan perhitungan harus dilakukan sekaligus.",
+            "B. Merancang alur program secara sistematis dengan membagi tugas menjadi fungsi seperti input nilai, validasi, perhitungan rata-rata, dan tampilan hasil, serta menggunakan perulangan untuk memproses input yang terus-menerus.",
+            "C. Menggunakan bahasa pemrograman yang tidak mendukung perulangan, sehingga tidak perlu mempertimbangkan struktur perulangan dalam desain program.",
+            "D. Menyusun program hanya dengan perintah dasar tanpa mempertimbangkan kondisi atau perulangan, karena itu lebih cepat untuk diuji dan diperbaiki."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Dalam penulisan kode PHP, mana yang merupakan contoh konstanta yang sesuai dengan praktik penamaan yang baik berdasarkan unit ini?",
+        "options": [
+            "A. $angka = 10",
+            "B. define(\"MAX_UMUR\", 100)",
+            "C. $total = 500",
+            "D. echo 'Halo'"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai pengembang sistem di sebuah perusahaan teknologi, Anda diminta untuk menyusun struktur dokumentasi yang memungkinkan tim pengembang lainnya dengan cepat memahami dan mengakses fungsi, file, serta sumber daya pemrograman yang ada. Dalam konteks ini, langkah yang paling efektif untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A. Jelaskan secara singkat peran setiap komponen sistem, seperti fungsi dan file, tanpa menyebutkan bagaimana mereka saling terhubung dalam alur kerja.",
+            "B. Daftar semua nama file yang ada, dan sertakan hanya deskripsi singkat tentang isi masing-masing, tanpa kategori atau hierarki.",
+            "C. Buat dokumen yang menyusun secara sistematis fungsi, file, dan sumber daya pemrograman berdasarkan alur kerja dan kebutuhan operasional, dengan struktur yang jelas dan mudah dipahami oleh semua anggota tim.",
+            "D. Simpan semua informasi dalam file Excel yang tidak terstruktur, hanya mencantumkan nama file dan lokasi, tanpa penjelasan atau kategori yang terorganisir."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C2",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebuah perusahaan manufaktur sedang mengintegrasikan sistem perpustakaan digital dengan sistem inventarisasi barang agar dapat memantau stok bahan baku secara real-time. Untuk memastikan konsistensi dan keandalan integrasi, seorang pengembang harus mempertimbangkan penggunaan elemen-elemen yang sudah ada dalam organisasi. Tindakan yang paling tepat untuk dilakukan oleh pengembang tersebut adalah:",
+        "options": [
+            "A. Menganalisis struktur data sistem perpustakaan secara teoritis dan merancang model baru berdasarkan kebutuhan pengguna.",
+            "B. Menggunakan dokumentasi sistem inventarisasi lama untuk memahami alur kerja dan struktur file yang sudah ada.",
+            "C. Membuat fungsi baru dari nol dengan struktur data yang belum pernah digunakan sebelumnya, tanpa merujuk pada sumber daya yang sudah ada.",
+            "D. Terapkan dan integrasikan fungsi pencarian, file katalog bahan, serta modul pengolahan data yang sudah ada dalam sistem perpustakaan dan inventarisasi secara sistematis."
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C3",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebuah tim pengembang ingin menyusun struktur file dan fungsi sistem pemrograman secara efisien agar mudah diakses dan dapat dipertahankan dalam jangka panjang. Untuk memastikan keberlanjutan dan kinerja sistem, manajer teknis harus melakukan evaluasi terhadap berbagai alternatif struktur. Dari pilihan berikut, pernyataan mana yang paling tepat menggambarkan proses evaluasi yang harus dilakukan untuk memilih struktur yang paling sesuai dengan kebutuhan pengguna dan kinerja sistem?",
+        "options": [
+            "A. Mengelompokkan semua file berdasarkan nama direktori yang sudah ada tanpa meninjau kebutuhan akses atau kecepatan eksekusi.",
+            "B. Membandingkan dua struktur file berbeda berdasarkan kecepatan akses, keteraturan, dan kemudahan pemeliharaan, lalu memilih yang paling sesuai dengan kebutuhan pengguna dan kinerja sistem.",
+            "C. Menyalin semua file ke dalam satu direktori utama dan mengabaikan struktur subfolder karena dianggap lebih sederhana.",
+            "D. Menghapus semua file yang tidak digunakan dan hanya mengatur file yang ada secara acak tanpa evaluasi terhadap kebutuhan sistem."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai ahli sistem informasi, Anda ditugaskan untuk mengintegrasikan berbagai modul pemrograman yang sudah ada dalam sistem organisasi, namun setiap modul memiliki struktur dan tingkat abstraksi yang berbeda. Untuk memastikan bahwa seluruh sistem tetap rapi, terstruktur, dan dapat dipantau secara efektif, apa yang paling tepat dilakukan dalam proses integrasi tersebut?",
+        "options": [
+            "A. Menggunakan modul lama tanpa perubahan karena dianggap sudah teruji secara teknis",
+            "B. Menyalin semua modul ke dalam satu folder tanpa klasifikasi berdasarkan fungsi atau tingkat abstraksi",
+            "C. Merancang struktur integrasi yang konsisten dengan tingkat abstraksi masing-masing modul, menyusun fungsi dan file secara teratur, serta mengatur akses sumber daya berdasarkan hierarki kebutuhan sistem",
+            "D. Mengubah beberapa modul secara acak untuk mengatasi kebutuhan sementara tanpa perencanaan sistematis"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai kepala teknologi di sebuah perusahaan yang memiliki tim pengembang dari berbagai bidang seperti pengembangan web, mobile, dan IoT, Anda diminta untuk menyusun sistem pengelolaan kode sumber yang dapat dipakai oleh semua departemen secara efektif. Langkah yang paling strategis dan terstruktur untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A. Mengirimkan semua kode yang sudah ada kepada semua tim tanpa perubahan, agar mereka dapat langsung menggunakannya.",
+            "B. Membangun sistem klasifikasi berbasis bidang teknologi, serta mengembangkan alur kerja standar untuk penggunaan dan pembaruan file kode.",
+            "C. Membuat satu repositori utama yang diisi semua kode tanpa pembagian berdasarkan fungsi atau departemen.",
+            "D. Menyusun rencana pelatihan untuk semua anggota tim, tanpa menyusun struktur atau aturan pengelolaan kode yang jelas."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Manakah dari pernyataan berikut yang benar-benar merupakan manfaat dari penggunaan guidelines dalam penulisan kode?",
+        "options": [
+            "A. mengurangi risiko kesalahan dalam kode",
+            "B. mengurangi biaya pengembangan",
+            "C. mengurangi waktu pengujian",
+            "D. meningkatkan kecepatan kompilasi"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C1",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam penulisan kode, aturan penamaan variabel harus konsisten agar memudahkan pemahaman dan pemeliharaan kode. Manakah pernyataan yang paling tepat menggambarkan pentingnya kekonsistenan dalam penamaan variabel?",
+        "options": [
+            "A. Penamaan variabel harus menggunakan tanda baca yang berbeda setiap kali untuk membedakan tipe data",
+            "B. Kekonsistenan penamaan memastikan bahwa kode dapat dijalankan tanpa kesalahan sintaksis",
+            "C. Penamaan yang konsisten memudahkan pemrogram lain memahami tujuan dan fungsi variabel",
+            "D. Variabel harus diberi nama yang panjang agar semua nilai bisa diingat secara langsung"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C2",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang junior developer sedang membangun aplikasi web yang akan dikembangkan oleh tim besar di masa depan. Untuk memastikan kode yang ditulis dapat dibaca, dijaga, dan diperbaiki secara efektif oleh anggota tim lain, tindakan yang paling tepat untuk diimplementasikan adalah:",
+        "options": [
+            "A. Gunakan nama variabel seperti 'x', 'y', dan 'z' agar lebih singkat dan mudah diinput oleh sistem.",
+            "B. Terapkan struktur modul yang terpisah berdasarkan fungsionalitas, dengan penamaan konsisten dan komentar yang jelas.",
+            "C. Menyimpan semua fungsi dan logika dalam satu file untuk mempermudah pengujian awal tanpa perlu pembagian.",
+            "D. Menggunakan perintah yang sering digunakan dalam kode lama tanpa memperhatikan efisiensi atau kinerja sistem."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin menilai dua versi kode PHP yang berbeda untuk mengevaluasi kepatuhan terhadap standar PSR dan Clean Code. Manakah dari pernyataan berikut yang paling tepat menggambarkan proses evaluasi yang harus dilakukan oleh pengembang untuk menentukan versi mana yang lebih sesuai dengan prinsip-prinsip penulisan kode yang baik?",
+        "options": [
+            "A. Pengembang hanya menghitung jumlah baris kode dan menyimpulkan bahwa versi yang lebih pendek lebih mudah dipahami dan sesuai dengan PSR.",
+            "B. Pengembang menganalisis kejelasan struktur alur logika, kekonsistenan gaya penulisan, dan keberadaan komentar, lalu mengevaluasi kedua versi berdasarkan kepatuhan terhadap standar PSR dan Clean Code.",
+            "C. Pengembang mengabaikan analisis kode karena percaya bahwa semua kode akan otomatis terdeteksi oleh tools lint dan tidak perlu evaluasi manual.",
+            "D. Pengembang hanya memeriksa apakah kode lolos uji unit dan menganggap bahwa versi yang lolos uji sudah memenuhi semua standar best practices tanpa memeriksa struktur atau gaya penulisan."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin membangun aplikasi web yang stabil, mudah dipelihara, dan dapat diperluas seiring pertumbuhan pengguna. Dalam proses perancangan awal, tindakan apa yang paling tepat dilakukan untuk memastikan bahwa kode HTML dan PHP yang digunakan memenuhi standar industri dan menghindari kesalahan umum seperti tag tidak tertutup, atribut tanpa kutip, atau error sintaks PHP?",
+        "options": [
+            "A. Menggunakan kode HTML dan PHP yang sudah ada dari proyek lain tanpa meninjau struktur atau kebutuhan sistem",
+            "B. Memperbaiki kode lama secara acak dengan hanya menambahkan tanda kutip atau tag penutup tanpa evaluasi kebutuhan sistem",
+            "C. Merancang struktur kode awal dengan memperhatikan penutupan tag HTML yang benar, penggunaan atribut dengan kutipan, validasi sintaks PHP, serta membangun sistem yang modular, dokumentasi lengkap, dan siap diperluas",
+            "D. Menyalin kode dari contoh sederhana dan mengubahnya tanpa memahami implikasi perubahan terhadap performa atau keamanan sistem"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Sebagai bagian dari pengembangan sistem yang berkelanjutan, seorang developer harus merancang kode jQuery yang tidak hanya berfungsi, tetapi juga dapat diuji secara terpisah, mudah dibaca, dan dapat diubah di masa depan. Dalam konteks ini, tindakan yang paling tepat untuk membangun kode jQuery yang memenuhi standar ini adalah:",
+        "options": [
+            "A. Menggunakan operator logika seperti && dan || secara acak tanpa memperhatikan struktur logika yang jelas.",
+            "B. Menulis kode dengan banyak pernyataan bersarang agar lebih efisien dalam eksekusi lokal.",
+            "C. Memecah fungsi menjadi bagian kecil yang jelas, menggunakan operator yang sesuai, menulis komentar yang mendukung, dan mengikuti standar gaya penulisan kode.",
+            "D. Mengabaikan penggunaan komentar karena dianggap tidak penting dalam kode yang sudah berjalan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Komponen antarmuka yang umum ditemukan dalam library pre-existing dan biasanya berfungsi sebagai elemen yang menanggapi tindakan saat disentuh adalah...",
+        "options": [
+            "A. Panel navigasi",
+            "B. Drop Down List",
+            "C. Radio Button",
+            "D. Tombol (Button)"
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C1",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Sebuah tim pengembangan sedang membangun sistem IoT yang mengumpulkan dan menganalisis data dari berbagai sensor secara real-time. Untuk mempercepat pengembangan dan memastikan keandalan, mereka mempertimbangkan menggunakan library pre-existing untuk pemrosesan data. Dalam konteks ini, langkah apa yang paling tepat untuk memastikan bahwa library tersebut digunakan secara efektif, aman, dan sesuai dengan kebutuhan sistem?",
+        "options": [
+            "A. Gunakan library tanpa memeriksa dokumentasinya karena semua fitur sudah tersedia secara otomatis.",
+            "B. Pahami dokumentasi dan API library untuk menyesuaikan integrasi dengan arsitektur sistem, serta evaluasi keamanan data saat pemrosesan.",
+            "C. Hapus penggunaan library karena semua fungsi dapat dibangun dari nol dengan kode sumber terbuka.",
+            "D. Terapkan library hanya pada bagian yang sederhana, karena library tidak dapat diandalkan dalam sistem kompleks."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang aplikasi ingin mempercepat pengembangan fitur yang melibatkan manipulasi data berbentuk matriks, seperti perhitungan determinan dan transposisi. Apa langkah yang paling tepat untuk mengintegrasikan komponen pre-existing yang sesuai dengan kebutuhan tersebut?",
+        "options": [
+            "A. Menulis ulang semua operasi matriks dari nol menggunakan logika matematika dasar.",
+            "B. Mencari solusi dari pengembang pribadi yang belum pernah diuji sebelumnya.",
+            "C. Mengunduh dan menginstal library seperti NumPy, kemudian mengintegrasikan fungsi matriks yang dibutuhkan ke dalam kode aplikasi.",
+            "D. Menolak penggunaan library karena dianggap tidak kompatibel dengan sistem operasi yang digunakan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Dalam pengembangan aplikasi PHP, seorang pengembang memutuskan untuk menggunakan library eksternal untuk mengelola autentikasi pengguna. Manakah pernyataan berikut yang paling tepat dalam menganalisis dan mengevaluasi dampak penggunaan library tersebut terhadap keamanan sistem dan efisiensi kinerja aplikasi?",
+        "options": [
+            "A. Karena library tersebut populer di komunitas, maka pasti aman digunakan tanpa evaluasi versi.",
+            "B. Penggunaan library mempercepat pengembangan karena mengurangi waktu penulisan kode, namun dapat memperbesar risiko kebocoran data jika versi library tidak diperiksa.",
+            "C. Semua library autentikasi dapat langsung diintegrasikan tanpa modifikasi karena dirancang secara komprehensif dan teruji.",
+            "D. Keamanan library hanya bergantung pada kebutuhan aplikasi, sehingga tidak perlu evaluasi apapun terhadap versi atau fungsinya."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin menciptakan aplikasi mobile yang mudah digunakan oleh lansia, dengan memanfaatkan komponen pre-existing dari library UI. Apa langkah yang paling strategis untuk memastikan antarmuka tetap efektif dan sesuai dengan kebutuhan pengguna tanpa melanggar syarat lisensi open source?",
+        "options": [
+            "A. Hanya mengubah font dan warna komponen agar lebih terlihat, tanpa mengubah struktur atau logika interaksi.",
+            "B. Menyalin seluruh kode komponen dan mengeditnya secara menyeluruh agar sesuai dengan desain baru, tanpa merujuk ke dokumentasi atau syarat lisensi.",
+            "C. Merancang alur penggunaan dan struktur antarmuka terlebih dahulu, lalu memodifikasi komponen pre-existing yang ada untuk mendukung kebutuhan khusus lansia.",
+            "D. Mengganti semua komponen dengan yang dibuat dari nol, karena dianggap lebih aman dari risiko lisensi open source."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengembangkan sistem yang dapat menangkap dan memproses data sensor secara real-time dari perangkat IoT. Apa tindakan yang paling strategis untuk membangun sistem tersebut secara efisien dan sesuai dengan standar pengembangan perangkat lunak?",
+        "options": [
+            "A. Menghapus semua kode dari sistem sebelumnya dan membangun dari nol dengan kode yang ditulis sendiri.",
+            "B. Menyalin seluruh kode dari library sensor dan mengubahnya secara menyeluruh tanpa memperhatikan struktur integrasi yang ada.",
+            "C. Menggunakan komponen library sensor yang sudah ada, memodifikasi bagian yang diperlukan, dan menambahkan fitur pengolahan data real-time sesuai kebutuhan sistem.",
+            "D. Mengabaikan library sensor karena dianggap tidak mendukung kecepatan respon yang dibutuhkan dalam sistem real-time."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Komponen antarmuka yang digunakan untuk memasukkan teks dari pengguna disebut apa?",
+        "options": [
+            "A. Tombol",
+            "B. Drop Down List",
+            "C. Radio Button",
+            "D. Text Field"
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C1",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam desain antarmuka web, tooltip berfungsi untuk memberikan informasi tambahan ketika pengguna mengarahkan pointer ke suatu elemen. Pernyataan manakah yang paling tepat menjelaskan peran dan penggunaan tooltip dalam konteks pengalaman pengguna?",
+        "options": [
+            "A. Tooltip digunakan untuk mengatur urutan tata letak elemen pada halaman.",
+            "B. Tooltip menampilkan petunjuk singkat yang muncul saat pointer diarahkan ke elemen, membantu pengguna memahami fungsi atau konteks elemen tersebut.",
+            "C. Tooltip berfungsi sebagai menu navigasi yang memungkinkan pengguna berpindah antar halaman.",
+            "D. Tooltip adalah elemen yang digunakan untuk mengatur warna latar belakang seluruh halaman saat diaktifkan."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam sebuah aplikasi perangkat lunak, saat pengguna memilih opsi 'Lihat Riwayat' di menu utama, sistem menampilkan form dengan daftar riwayat yang telah disimpan. Jika pengguna kemudian memilih opsi 'Laporkan Masalah' di menu yang sama, sistem harus menampilkan form pelaporan. Berdasarkan alur akses antarmuka yang terstruktur, pernyataan mana yang paling tepat menggambarkan perilaku sistem dalam konteks ini?",
+        "options": [
+            "A. Sistem langsung menampilkan form pelaporan tanpa meminta konfirmasi",
+            "B. Sistem menampilkan form riwayat terlebih dahulu, lalu berpindah ke form pelaporan",
+            "C. Sistem menampilkan form pelaporan setelah pengguna memilih opsi 'Laporkan Masalah' di menu utama",
+            "D. Sistem tidak merespons karena tidak ada koneksi ke database"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang desainer antarmuka sedang mengembangkan aplikasi yang akan digunakan oleh lansia dengan gangguan penglihatan. Untuk memastikan icon yang digunakan mudah dikenali, ia harus membandingkan tiga desain icon berbeda: satu dengan warna kontras tinggi, satu dengan bentuk geometri sederhana, dan satu dengan simbol yang sangat umum. Manakah dari pernyataan berikut yang paling tepat menggambarkan langkah evaluasi yang harus dilakukan agar desain icon tersebut dapat memenuhi kebutuhan pengguna secara optimal?",
+        "options": [
+            "A. Memilih icon dengan warna kontras tinggi karena itu paling menonjol di layar, meskipun tidak diuji terhadap kebutuhan pengguna.",
+            "B. Menggunakan icon yang sudah terkenal secara global karena desain tersebut sering digunakan di aplikasi lain.",
+            "C. Menganalisis kebutuhan pengguna berdasarkan data observasi dari lansia, membandingkan ketiga opsi desain, lalu mengevaluasi efektivitas setiap icon dalam membantu pengguna menemukan fitur secara cepat dan akurat.",
+            "D. Mengabaikan evaluasi dan langsung mengimplementasikan icon dengan bentuk geometri sederhana karena dianggap lebih intuitif secara umum."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang aplikasi pelatihan digital yang memungkinkan pengguna memilih beberapa topik pembelajaran secara bersamaan. Untuk memastikan pengalaman pengguna yang optimal, langkah-langkah berikut yang paling strategis dalam urutan pelaksanaan adalah:",
+        "options": [
+            "A. Menyalin tampilan pilihan topik dari aplikasi lain, lalu menguji responsivitas pada perangkat berbeda.",
+            "B. Merancang alur interaksi pengguna, menggambar prototipe dengan checkbox untuk memilih lebih dari satu opsi, dan mengimplementasikan kode dengan memperhatikan responsivitas dan konsistensi.",
+            "C. Mengatur tampilan secara manual berdasarkan ukuran layar, tanpa desain awal, lalu memperbaiki berdasarkan umpan balik tanpa dokumentasi.",
+            "D. Menggunakan checkbox secara tunggal untuk memilih satu opsi, dan mengabaikan kemungkinan memilih lebih dari satu untuk menghindari kebingungan pengguna."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C5",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang aplikasi sedang merancang fitur tampilan gambar berputar (image carousel) di aplikasi mobile berbasis Android. Untuk memastikan bahwa tampilan ini tidak hanya estetis tetapi juga responsif terhadap perilaku pengguna, tindakan apa yang paling strategis dilakukan oleh pengembang dalam tahap pengembangan awal?",
+        "options": [
+            "A. Menggunakan desain gambar yang sudah ada dan menambahkan animasi tanpa uji coba terhadap pengguna",
+            "B. Mengambil kode dari aplikasi lama dan menyesuaikannya untuk menghindari waktu pengembangan yang panjang",
+            "C. Membuat prototipe interaktif dari skema desain yang telah disetujui, menguji responsivitas terhadap interaksi pengguna, lalu mengembangkan navigasi berbasis pola penggunaan",
+            "D. Menyusun tampilan secara langsung dengan kode tanpa melibatkan desain visual atau pengujian interaktif"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Alat yang digunakan untuk menulis source code dalam bahasa pemrograman PHP adalah, kecuali:",
+        "options": [
+            "A. VS Code",
+            "B. Notepad++",
+            "C. Sublime Text",
+            "D. Adobe Illustrator"
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C1",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Dalam pengembangan aplikasi web berbasis browser, jika terjadi kesalahan saat eksekusi perintah pada suatu bahasa pemrograman, pesan kesalahan tersebut biasanya muncul di bagian mana? Bahasa pemrograman yang paling sesuai dengan karakteristik ini adalah …",
+        "options": [
+            "A. Dalam file log server saat eksekusi di backend",
+            "B. Di antarmuka pengguna saat aplikasi dijalankan",
+            "C. Di console browser saat perintah dijalankan",
+            "D. Di terminal server saat kompilasi dilakukan"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C2",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang membangun aplikasi interaktif yang menampilkan animasi bergerak dari sebuah objek grafis dan menyajikan efek suara saat objek tersebut bergerak. Untuk mencapai tujuan tersebut, tindakan yang paling tepat yang harus dilakukan oleh siswa adalah:",
+        "options": [
+            "A. Menyimak video tutorial tentang animasi dan suara, lalu menghafal perintah yang digunakan tanpa menguji di lingkungan simulasi.",
+            "B. Menggunakan perintah eksekusi seperti 'animate' dan 'playSound' dalam bahasa pemrograman berbasis grafik dan multimedia untuk menggerakkan objek dan memicu suara, lalu menguji hasilnya secara langsung di aplikasi yang dibangun.",
+            "C. Menyalin kode dari website lain yang menampilkan efek serupa tanpa memahami bagaimana perintah-perintah tersebut berfungsi di dalam sistem.",
+            "D. Mengabaikan pengembangan aplikasi karena perangkat keras yang digunakan tidak mendukung animasi dan audio secara bersamaan."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang mengembangkan aplikasi multimedia di Visual Studio Code yang menggunakan perintah eksekusi untuk menampilkan efek transisi antara gambar berdasarkan input pengguna. Manakah pernyataan berikut yang paling tepat sebagai evaluasi kritis terhadap efektivitas dan efisiensi eksekusi perintah, jika dilihat dari aspek analisis, perbandingan, dan evaluasi?",
+        "options": [
+            "A. Transisi gambar berhasil ditampilkan saat pengguna menginput kata, dan tampilan terlihat halus pada semua perangkat.",
+            "B. Saya membandingkan dua metode: satu menggunakan perintah bawaan dari library grafis dan satu menggunakan perintah eksternal dari library khusus; perintah eksternal memberikan efek yang lebih halus tetapi membutuhkan waktu lebih lama dan mengkonsumsi lebih banyak CPU.",
+            "C. Saya menerapkan perintah untuk menampilkan gambar dan transisi, dan hasilnya tampak stabil di layar komputer saat dijalankan.",
+            "D. Perintah eksekusi berhasil dijalankan, namun saya belum menguji bagaimana perubahan input memengaruhi durasi transisi."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan sebuah aplikasi interaktif yang dapat menampilkan animasi berdasarkan kata-kata yang diinput oleh pengguna, dengan menggabungkan elemen teks, grafik, dan efek suara. Untuk mencapai tujuan tersebut, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Menghafalkan semua perintah yang tersedia dalam panduan program 4GL untuk animasi.",
+            "B. Membaca dokumentasi perangkat lunak secara penuh tanpa melakukan perubahan pada struktur program.",
+            "C. Merancang struktur alur program yang mengintegrasikan input teks dengan pengolahan grafik dan efek suara, lalu memodifikasi perintah eksekusi agar dapat dijalankan secara real-time.",
+            "D. Menyalin kode dari aplikasi lain yang sudah ada dan mengubahnya hanya untuk tampilan visual tanpa memahami logika kerjanya."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang mengembangkan aplikasi interaktif yang dapat menampilkan animasi grafis, menampilkan teks bergerak secara dinamis, dan memutar suara latar belakang saat pengguna mengakses halaman utama. Untuk mencapai tujuan tersebut secara efektif dan menyeluruh, langkah apa yang paling tepat dilakukan oleh siswa dalam proses pembangunan aplikasi tersebut?",
+        "options": [
+            "A. Hanya mencetak teks di layar dengan gaya dasar tanpa menampilkan elemen grafis atau suara.",
+            "B. Menyalin kode dari proyek lain yang sudah jadi dan langsung menjalankan tanpa menyesuaikan dengan kebutuhan aplikasi.",
+            "C. Merancang dan mengintegrasikan perintah eksekusi yang memproses teks dinamis, menggerakkan elemen grafis, dan memanggil file audio secara berurutan sesuai alur aplikasi.",
+            "D. Menggunakan aplikasi desain visual untuk membuat animasi dan suara, lalu mengabaikan pemahaman tentang struktur perintah eksekusi dalam bahasa pemrograman."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Apa yang dimaksud dengan counted loop dalam pemrograman terstruktur?",
+        "options": [
+            "A. Perulangan yang jumlah iterasinya ditentukan sebelumnya dan diketahui secara eksplisit",
+            "B. Perulangan yang berjalan tanpa batas hingga kondisi tertentu terpenuhi",
+            "C. Perulangan yang menggunakan kondisi untuk menghentikan eksekusi",
+            "D. Perulangan yang dijalankan berdasarkan input dari pengguna"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C1",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program yang dapat menghitung rata-rata harga belanja dari sejumlah barang yang dibeli. Agar program tersebut dapat diimplementasikan secara terstruktur, mudah dipahami, dan dapat diuji secara konsisten, pernyataan mana di bawah ini yang paling tepat untuk merancang struktur alur program tersebut?",
+        "options": [
+            "A. Jelaskan secara singkat bagaimana program akan menghitung rata-rata harga, lalu uraikan langkah-langkah perhitungan secara bertahap, dan akhiri dengan ringkasan hasil akhir.",
+            "B. Uraikan secara lengkap setiap proses pengolahan data, termasuk semua kemungkinan input dan kondisi eksternal, tanpa menyertakan penjelasan awal tentang tujuan program.",
+            "C. Ringkas hanya hasil akhir program, seperti nilai rata-rata, tanpa menjelaskan bagaimana data diolah atau proses perhitungan dilakukan, karena waktu pengembangan terbatas.",
+            "D. Gabungkan semua proses perhitungan dalam satu blok kode tanpa membaginya menjadi bagian-bagian yang terpisah, agar lebih cepat dijalankan secara langsung."
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C2",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin membuat program PHP yang dapat menghitung nilai rata-rata dari 5 nilai ujian siswa, dengan memeriksa apakah nilai tersebut valid (di atas 0 dan di bawah 100). Untuk mengimplementasikan pemrograman terstruktur secara efektif dalam kasus ini, langkah yang paling strategis adalah:",
+        "options": [
+            "A. Menulis kode secara langsung tanpa membuat alur proses, dengan mengasumsikan semua nilai valid.",
+            "B. Menggambar diagram alur proses secara visual untuk menunjukkan urutan pengolahan data, kemudian mengubahnya menjadi kode PHP dengan struktur pernyataan urutan, percabangan, dan perulangan.",
+            "C. Menggunakan satu pernyataan perulangan untuk memproses semua nilai tanpa mengecek validitas atau mengatur kondisi tertentu.",
+            "D. Menyalin kode dari program lain yang sudah ada untuk menghitung rata-rata, tanpa memahami logika pengecekan validitas nilai."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang sistem yang akan mengelola data pengguna berdasarkan kategori usia. Untuk memastikan sistem tersebut dapat dikelola secara efisien dan mudah diperbarui, ia harus memilih struktur algoritma yang sesuai dengan kebutuhan sistem. Dari pilihan berikut, manakah yang paling tepat menggambarkan langkah analisis yang harus dilakukan sebelum memutuskan antara menggunakan satu prosedur besar atau beberapa fungsi kecil untuk memproses data tersebut?",
+        "options": [
+            "A. Menggunakan satu prosedur besar karena lebih mudah dijalankan dan mengurangi jumlah kode yang harus ditulis.",
+            "B. Memilih fungsi kecil hanya karena lebih cepat dijalankan secara komputasi tanpa mempertimbangkan struktur data yang digunakan.",
+            "C. Menganalisis kebutuhan sistem terhadap modulitas dan perubahan data, membandingkan kegunaan satu prosedur besar dengan beberapa fungsi kecil, dan mengevaluasi keterbacaan, pemeliharaan, dan kemungkinan kesalahan dari setiap pendekatan.",
+            "D. Menjalankan simulasi langsung pada data tanpa melakukan evaluasi terhadap bagaimana struktur kode memengaruhi fleksibilitas sistem."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin membuat program yang dapat menghitung nilai rata-rata dari tiga nilai ujian siswa, di mana nilai-nilai tersebut dapat berupa angka desimal (misalnya 8.5, 9.2, 7.8). Untuk mengimplementasikan pemrograman terstruktur secara efektif, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Menggunakan tipe data float untuk menyimpan nilai, lalu menghitung rata-rata secara manual tanpa merancang alur logika yang jelas",
+            "B. Menyalin kode dari program lain yang sudah ada dan hanya mengganti nilai-nilai yang digunakan tanpa meninjau struktur logikanya",
+            "C. Rancang alur pemrograman yang jelas, desain struktur pengendali seperti perulangan (loop) dan kondisi (if-else), lalu modifikasi kode sesuai kebutuhan untuk menghitung nilai rata-rata desimal",
+            "D. Menggunakan hanya satu variabel float untuk menyimpan hasil akhir, tanpa memperhitungkan proses perhitungan yang terstruktur"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengembang ingin membuat aplikasi sederhana yang dapat menyimpan dan menghitung rata-rata nilai siswa berdasarkan input dari pengguna. Agar aplikasi tersebut diimplementasikan secara terstruktur dan efektif, langkah yang paling tepat yang harus diambil adalah:",
+        "options": [
+            "A. Menulis semua kode secara langsung tanpa merancang alur logika, karena input nilai akan langsung diolah.",
+            "B. Menggunakan array untuk menyimpan nilai-nilai siswa, menghitung jumlah data dengan fungsi count(), dan menghitung rata-rata menggunakan perulangan for.",
+            "C. Menggabungkan semua perhitungan dalam satu fungsi tanpa pembagian modul, agar lebih mudah dijalankan.",
+            "D. Mengabaikan penggunaan array karena data nilai tidak perlu disimpan secara terstruktur."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Tipe data yang digunakan untuk menyimpan nilai bilangan bulat dalam bahasa pemrograman adalah?",
+        "options": [
+            "A. Float",
+            "B. Double",
+            "C. Int",
+            "D. Char"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai kepala tim pengembangan perangkat lunak di sebuah perusahaan, Anda diminta untuk merancang struktur penyimpanan dan pengelolaan kode agar mudah diakses, dipahami, dan dipertahankan oleh tim yang berbeda-beda. Dalam konteks ini, strategi apa yang paling efektif untuk menciptakan sistem yang tidak hanya terorganisir secara fisik, tetapi juga dapat dipahami secara logis oleh semua anggota tim secara konsisten?",
+        "options": [
+            "A. Buat satu dokumen panduan yang hanya menyebutkan nama file, versi, dan tanggal dibuat, tanpa kategori atau deskripsi fungsi.",
+            "B. Berikan penjelasan singkat tentang peran tiap bagian tim, lalu sertakan daftar file yang digunakan dalam setiap proyek secara terpisah.",
+            "C. Kelompokkan fungsi-fungsi kode berdasarkan tujuan kerja (misalnya, autentikasi, pengolahan data, komunikasi), lalu susun file dan sumber daya secara terstruktur dengan kategori yang jelas dan terhubung dengan alur kerja sistem.",
+            "D. Gunakan sistem penyimpanan otomatis yang mengatur file secara acak berdasarkan waktu pembuatan, tanpa kategori atau penjelasan tambahan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C2",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Dalam proses pengembangan sistem informasi di sebuah perusahaan, seorang pengembang sistem diminta untuk mengintegrasikan modul pemrograman baru yang dikembangkan oleh tim riset teknologi. Modul ini akan digunakan untuk mengelola data pelanggan, namun sistem lama sudah memiliki arsitektur data yang terintegrasi dengan berbagai departemen. Langkah yang paling strategis dan aman untuk dilakukan agar tidak mengganggu sistem lama dan memastikan kinerja sistem tetap stabil adalah...",
+        "options": [
+            "A. Menerapkan modul baru secara langsung di seluruh sistem tanpa melakukan uji coba terlebih dahulu.",
+            "B. Menggunakan modul baru hanya di satu departemen untuk menguji kinerja, tanpa menyusun koneksi dengan sistem lain.",
+            "C. Mengintegrasikan modul baru secara bertahap, dengan memastikan keterhubungan data dan konsistensi dengan sistem lama yang sudah ada.",
+            "D. Menghapus semua file sumber daya lama dan menggantinya dengan modul baru yang belum diuji secara menyeluruh."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebuah tim pengembang ingin memastikan bahwa sistem pemrograman yang mereka gunakan memiliki keberlanjutan dan kinerja optimal. Untuk itu, mereka harus membandingkan dua struktur file berbeda yang digunakan dalam sistem mereka. Dari pilihan berikut, pernyataan mana yang paling tepat menggambarkan proses evaluasi yang harus dilakukan agar sistem tetap efisien, mudah dipelihara, dan aman dari risiko kegagalan?",
+        "options": [
+            "A. Menyimpan kedua struktur file dalam satu folder dengan nama yang menggunakan karakter khusus seperti @ dan #, lalu mengurutkan berdasarkan tanggal pembuatan.",
+            "B. Membandingkan dua struktur file berdasarkan jumlah penggunaan, waktu eksekusi, dan risiko keamanan, kemudian memilih yang paling efisien dan dapat dipertahankan dalam jangka panjang.",
+            "C. Menyalin struktur file kedua ke dalam direktori utama tanpa memeriksa kebutuhan pengguna atau dampak terhadap sistem lain.",
+            "D. Mengabaikan struktur file yang tidak digunakan dan hanya memperbarui file yang sudah ada tanpa melakukan evaluasi sistematis."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai ahli sistem informasi, Anda diperintahkan untuk merancang sistem pemantauan data real-time di sebuah perusahaan yang memiliki banyak departemen. Untuk memastikan sistem tersebut dapat diakses secara efisien, mudah dipelihara, dan terstruktur, apa yang paling tepat dilakukan dalam proses perancangan sistem tersebut?",
+        "options": [
+            "A. Menggunakan file data lama yang sudah ada tanpa perubahan karena dianggap sudah stabil dan aman",
+            "B. Menyalin semua file dari sistem sebelumnya ke folder yang tidak teratur agar mudah ditemukan oleh semua pengguna",
+            "C. Merancang sistem baru dengan membagi fungsi berdasarkan departemen, membuat struktur direktori file yang jelas, dan mengatur akses berdasarkan peran pengguna",
+            "D. Mengubah beberapa fungsi secara acak untuk memenuhi kebutuhan sementara tanpa merancang struktur yang teratur"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai kepala tim pengembangan perangkat lunak, Anda diminta untuk merancang sistem pengelolaan file kode yang dapat digunakan oleh seluruh tim lintas departemen. Langkah yang paling strategis dan efektif untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A. Mengirimkan satu template file kode kepada semua anggota tim tanpa perubahan, agar semua orang menggunakan format yang sama.",
+            "B. Membangun sistem klasifikasi berbasis proyek dan fungsi, serta mengembangkan alur kerja standar untuk penamaan dan versi file kode.",
+            "C. Menyusun daftar fitur yang ingin dikembangkan, lalu meminta semua programmer untuk mengisi file kode secara independen tanpa koordinasi.",
+            "D. Mengatur satu direktori utama yang menyimpan semua file kode, tanpa pembagian atau klasifikasi berdasarkan kebutuhan fungsional."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Manakah bentuk indentasi yang digunakan dalam penulisan kode untuk memudahkan keterbacaan struktur program?",
+        "options": [
+            "A. A. Horizontal",
+            "B. B. In-line",
+            "C. C. Vertical",
+            "D. D. Diagonal"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin menyusun panduan kerja tim yang memastikan semua kode yang ditulis oleh anggota tim sesuai dengan best practices, khususnya dalam hal penulisan nilai awal variabel. Pernyataan mana yang paling tepat untuk digunakan sebagai dasar panduan tersebut, agar dapat diaplikasikan secara sistematis dan efektif oleh seluruh anggota tim?",
+        "options": [
+            "A. Jelaskan bagaimana nilai awal variabel harus ditentukan secara dinamis berdasarkan kondisi input.",
+            "B. Uraikan langkah-langkah penulisan kode yang sesuai dengan best practice, termasuk deklarasi variabel dengan nilai awal yang langsung diberikan, struktur blok kondisional, dan penulisan komentar untuk kejelasan kode.",
+            "C. Ringkas tiga poin utama tentang pentingnya memberikan nilai awal variabel dalam perangkat lunak.",
+            "D. Sertakan kode contoh dengan nilai awal variabel yang sudah diatur, tanpa menjelaskan mengapa praktik tersebut dianggap baik."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam proses pengurutan data dengan jumlah elemen yang besar, algoritma yang paling efisien secara waktu akan memiliki kompleksitas yang terbaik sebesar...",
+        "options": [
+            "A. O(1)",
+            "B. O(n)",
+            "C. O(n log n)",
+            "D. O(n^2)"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin merancang struktur kode yang konsisten dan mudah dipelihara dalam proyek berbasis PHP. Dalam proses ini, ia harus mempertimbangkan berbagai standar seperti PSR-12, PEP8, dan prinsip-prinsip Clean Code. Manakah dari pernyataan berikut yang paling tepat menggambarkan tindakan analitis, perbandingan, dan evaluasi yang harus dilakukan oleh pengembang tersebut terhadap penerapan standar tersebut?",
+        "options": [
+            "A. Menggunakan PSR-12 karena merupakan standar resmi PHP, tanpa mempertimbangkan kebutuhan spesifik proyek atau kejelasan kode saat dipahami oleh pengguna lain.",
+            "B. Menerapkan format penulisan kode secara kaku berdasarkan aturan PSR-12 tanpa membandingkan keberbedaan antara PSR-12 dan PEP8 dalam konteks penggunaan kode.",
+            "C. Menganalisis kebutuhan fungsional dan struktur proyek, membandingkan kejelasan dan konsistensi dari PSR-12, PEP8, dan prinsip Clean Code, serta mengevaluasi bagaimana pilihan tersebut memengaruhi pembacaan, pemeliharaan, dan skalabilitas kode jangka panjang.",
+            "D. Menyalin struktur kode dari proyek lain tanpa memahami dasar-dasar atau alasan di balik standar formatting yang digunakan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin membangun aplikasi yang dapat dipertahankan dan diintegrasikan dengan sistem lain di masa depan. Dalam tahap awal pengembangan, tindakan apa yang paling tepat dilakukan untuk memastikan kode yang dibuat sesuai dengan standar industri dan mudah diperbarui oleh tim lain?",
+        "options": [
+            "A. Menggunakan kode yang sudah ada dari proyek lain tanpa meninjau kebutuhan atau konteks penggunaan",
+            "B. Menyesuaikan struktur kode hanya dengan memperbaiki bug kecil yang ditemukan",
+            "C. Merancang arsitektur sistem secara terstruktur dengan mempertimbangkan modularitas, dokumentasi, keamanan, dan kemampuan untuk diperluas di masa depan",
+            "D. Mengabaikan dokumentasi karena dianggap tidak penting dalam pengembangan cepat"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Sebagai bagian dari pengembangan sistem perangkat lunak yang berkelanjutan, seorang developer harus merancang kode yang tidak hanya berjalan, tetapi juga dapat dipelihara, diubah, dan diuji secara efektif. Tindakan yang paling tepat untuk menciptakan kode yang sesuai dengan prinsip desain perangkat lunak dan standar pemrograman adalah:",
+        "options": [
+            "A. Menulis kode dengan struktur yang tidak teratur agar lebih cepat dikembangkan dalam lingkungan pengembang pribadi.",
+            "B. Menggunakan sintaksis yang tidak standar untuk menghindari konflik dengan versi lama sistem yang sudah ada.",
+            "C. Merancang kode dengan membagi fungsi menjadi komponen kecil, mengikuti standar gaya penulisan kode, dan menulis komentar yang jelas untuk memudahkan pemahaman dan pengujian.",
+            "D. Mengabaikan pengujian otomatis karena dianggap sebagai proses tambahan yang memperlambat pengembangan awal."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam pengembangan aplikasi web, komponen mana yang paling tepat digunakan untuk menampilkan daftar pilihan interaktif seperti jenis produk atau kategori, jika dikembangkan menggunakan library pihak ketiga yang tersedia secara open source?",
+        "options": [
+            "A. Button",
+            "B. Dropdown List",
+            "C. Image",
+            "D. Table"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengintegrasikan komponen notifikasi otomatis yang telah ada dalam sistem manajemen penggunaannya untuk mengirim pesan saat terjadi aktivitas penting. Agar integrasi tersebut efektif dan sesuai kebutuhan sistem, apa yang paling tepat dilakukan oleh pengembang untuk memastikan komponen tersebut digunakan secara optimal?",
+        "options": [
+            "A. Jelaskan proses pengembangan komponen, uraikan bagaimana komponen diuji secara berulang, dan ringkas kegunaan untuk pengguna akhir.",
+            "B. Jelaskan kelebihan dan kekurangan komponen, uraikan bagaimana komponen terintegrasi dengan kode aplikasi, dan ringkas manfaatnya terhadap efisiensi pengembangan.",
+            "C. Jelaskan proses instalasi, uraikan struktur folder komponen, dan ringkas bagaimana komponen diakses melalui API.",
+            "D. Jelaskan tujuan penggunaan komponen, uraikan proses pemilihan komponen yang sesuai, dan ringkas bagaimana komponen diimplementasikan dalam sistem."
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C2",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang sedang mengembangkan aplikasi manajemen keuangan pribadi yang membutuhkan fitur perhitungan total pengeluaran bulanan. Untuk mempercepat pengembangan dan menghindari pengulangan kode, ia mempertimbangkan untuk menggunakan komponen perhitungan total yang sudah ada dalam library keuangan aplikasi. Tindakan apa yang paling tepat dilakukan oleh pengembang untuk menerapkan komponen tersebut dalam aplikasi?",
+        "options": [
+            "A. Menulis ulang fungsi perhitungan total dari nol menggunakan rumus dasar aritmetika dan logika pemrograman.",
+            "B. Mengunduh dan mengintegrasikan komponen perhitungan total dari library keuangan ke dalam struktur aplikasi.",
+            "C. Mengganti seluruh sistem perhitungan dengan alat otomatisasi berbasis AI untuk meningkatkan akurasi.",
+            "D. Mengabaikan komponen tersebut karena tidak dijamin kinerjanya saat data jumlah besar terjadi."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang sedang mempertimbangkan untuk menggunakan library pengolahan data yang sudah ada dalam proyeknya, bukan menulis ulang fungsi pengolahan dari nol. Manakah pernyataan berikut yang paling tepat dalam menilai keputusan ini dari segi efisiensi, keamanan, dan keberlanjutan pengembangan?",
+        "options": [
+            "A. Library lebih mudah dipahami oleh semua pengembang, sehingga harus digunakan dalam semua proyek tanpa evaluasi tambahan.",
+            "B. Penggunaan library mempercepat pengembangan, tetapi dapat menimbulkan risiko keamanan dan ketergantungan jika tidak diawasi secara berkala.",
+            "C. Semua library yang tersedia di pasar telah melalui uji coba komprehensif sehingga tidak perlu diuji ulang dalam proyek apa pun.",
+            "D. Kode dari nol selalu lebih aman dan fleksibel, sehingga library tidak perlu dipertimbangkan dalam sistem kritis."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengembangkan sistem manajemen data yang efisien dengan memanfaatkan komponen pre-existing seperti form input, tabel data, dan navigasi. Untuk memastikan sistem tersebut tetap mudah dipelihara dan sesuai dengan kebutuhan pengguna, apa yang paling tepat dilakukan dalam proses pengembangan?",
+        "options": [
+            "A. Hanya mengubah tampilan komponen seperti warna dan font tanpa mengubah logika internalnya.",
+            "B. Menyalin seluruh komponen dan mengedit kode secara menyeluruh tanpa merujuk pada dokumentasi atau arsitektur.",
+            "C. Merancang struktur sistem secara menyeluruh terlebih dahulu, lalu memodifikasi komponen pre-existing untuk sesuai dengan alur data dan kebutuhan pengguna.",
+            "D. Mengabaikan komponen pre-existing karena dianggap tidak dapat diintegrasikan dengan sistem data yang kompleks."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengembangkan sistem monitoring real-time untuk perangkat IoT dengan memanfaatkan komponen yang sudah ada. Tindakan apa yang paling strategis dilakukan untuk memastikan sistem tersebut dibangun secara efisien, aman, dan sesuai dengan standar kepatuhan terhadap lisensi?",
+        "options": [
+            "A. Menghapus semua komponen yang digunakan dan membangun sistem dari nol agar tidak ada risiko konflik kebijakan.",
+            "B. Menyalin seluruh kode dari komponen yang tersedia dan mengubahnya secara total tanpa mempertimbangkan cara integrasi yang baik.",
+            "C. Memilih komponen yang sesuai, mengintegrasikannya secara terstruktur, memodifikasi sesuai kebutuhan, dan membangun fitur tambahan dengan mematuhi syarat lisensi.",
+            "D. Mengabaikan semua komponen pre-existing karena dianggap tidak dapat dipercaya untuk digunakan dalam sistem produksi."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Untuk meminta pelanggan memilih satu jenis penggunaan layanan (misalnya: pelanggan baru, pelanggan lama, atau pelanggan VIP), jenis kontrol input yang paling sesuai adalah",
+        "options": [
+            "A. Check Box",
+            "B. List Box",
+            "C. Radio Button",
+            "D. Text Field"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Bagaimana cara Anda menggunakan komponen navbar di Bootstrap untuk menciptakan menu navigasi yang efektif, dan mengapa komponen ini menjadi elemen kunci dalam pengalaman pengguna situs web?",
+        "options": [
+            "A. Dengan menggunakan komponen navbar di Bootstrap, Anda dapat menyusun menu navigasi yang mudah diakses secara visual, dan komponen ini penting karena memudahkan pengguna menemukan halaman yang dibutuhkan dengan cepat, sesuai dengan prinsip desain UX yang menekankan keterbacaan dan aksesibilitas.",
+            "B. Komponen navbar dapat diintegrasikan dengan card di Bootstrap untuk menampilkan informasi konten secara menarik, karena card secara otomatis menekankan kontras antara elemen, yang memperkuat pengalaman visual dan memfasilitasi navigasi antar halaman.",
+            "C. Menu navigasi dapat dibangun dengan sistem grid di Bootstrap karena memungkinkan penataan elemen secara proporsional, yang memastikan tampilan yang konsisten di berbagai perangkat, namun sistem ini tidak berfungsi sebagai navigasi utama dalam desain UI.",
+            "D. Navbar di Bootstrap dapat digunakan untuk menampilkan elemen interaktif seperti tombol, namun tidak memiliki fungsi navigasi karena hanya berfungsi sebagai penghubung antar komponen, sehingga tidak memengaruhi pengalaman pengguna secara langsung."
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C2",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Perhatikan kode HTML berikut: <!DOCTYPE html><html><head><style> .highlight { background-color: yellow; font-weight: bold; } </style></head><body><h1>Halaman Utama</h1><p class=\"highlight\">Ini paragraf pertama yang di-highlight.</p><p>Ini paragraf kedua yang tidak di-highlight.</p><p class=\"highlight\">Ini paragraf ketiga yang di-highlight.</p></body></html>. Dari hasil rendering di browser, pernyataan yang paling tepat adalah:",
+        "options": [
+            "A. Semua paragraf memiliki latar belakang kuning dan teks tebal",
+            "B. Hanya paragraf pertama dan ketiga yang memiliki latar belakang kuning dan teks tebal",
+            "C. Hanya paragraf kedua yang tidak memiliki gaya yang diatur",
+            "D. Teks semua elemen berwarna default dan tidak ada perubahan gaya"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Bagaimana implementasi komponen Carousel di Bootstrap memengaruhi efektivitas struktur navigasi dalam sistem informasi berbasis konten yang dinamis, dan bagaimana hubungannya dengan prinsip desain antarmuka yang berfokus pada pengalaman pengguna secara kognitif?",
+        "options": [
+            "A. Komponen Carousel memungkinkan perancang mengelola alur visual konten secara berurutan, sehingga memudahkan pengguna memahami hierarki informasi melalui pola penglihatan yang konsisten, yang krusial untuk memperkuat pengalaman navigasi berdasarkan prinsip Proximity dan Visual Flow.",
+            "B. Carousel berfungsi sebagai alat untuk menguji konsistensi warna dan tata letak di berbagai ukuran layar, yang memastikan bahwa elemen navigasi tetap terlihat jelas dan proporsional pada semua perangkat, namun tidak secara langsung memengaruhi beban kognitif pengguna.",
+            "C. Penggunaan Carousel memungkinkan analisis terhadap beban kognitif pengguna saat memproses informasi visual berurutan; komponen ini mengharuskan perancang untuk mengevaluasi apakah transisi antar slide sudah cukup efisien untuk menghindari kehilangan fokus dan meminimalkan waktu respons pengguna.",
+            "D. Carousel berperan sebagai kerangka kerja untuk memvalidasi pola perilaku pengguna (F-pattern) dalam memproses konten, karena pengguna cenderung mengalami pergeseran pandangan secara alami saat melihat slide, yang memungkinkan perancang memahami arah alur pengguna secara intuitif."
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C4",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang aplikasi IoT yang memungkinkan pengguna mengontrol perangkat rumah seperti lampu, kipas, dan kamera secara real-time melalui antarmuka mobile. Untuk memastikan pengalaman pengguna yang intuitif dan responsif, langkah-langkah berikut yang paling tepat dalam urutan pelaksanaan adalah:",
+        "options": [
+            "A. Menyalin tampilan antarmuka dari aplikasi rumah pintar lain tanpa modifikasi, lalu menguji langsung pada pengguna akhir.",
+            "B. Merancang struktur alur interaksi pengguna, menggambar prototipe antarmuka, dan kemudian mengimplementasikan kode dengan mempertimbangkan responsivitas terhadap perubahan kondisi real-time.",
+            "C. Mengatur tampilan antarmuka secara manual berdasarkan ukuran layar per perangkat, tanpa perencanaan awal, lalu memodifikasi berdasarkan umpan balik tanpa dokumentasi.",
+            "D. Menggunakan desain yang sudah ada dari aplikasi lama, memperbarui hanya bagian visual, dan menguji fungsi tanpa evaluasi alur interaksi."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C5",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang sedang mengembangkan aplikasi web responsif berbasis Bootstrap untuk platform mobile. Untuk memastikan antarmuka pengguna yang intuitif dan dapat diakses oleh berbagai perangkat, tindakan apa yang paling strategis dilakukan oleh pengembang dalam tahap pengembangan awal?",
+        "options": [
+            "A. Menggunakan template Bootstrap yang sudah ada tanpa modifikasi untuk mempercepat waktu pengembangan",
+            "B. Menyalin kode navigasi dari situs lain dan menempatkan di aplikasi tanpa peninjauan desain",
+            "C. Membuat prototipe antarmuka berbasis desain yang sudah disetujui, mengintegrasikan komponen Bootstrap untuk responsivitas, dan menguji interaksi dengan pengguna nyata",
+            "D. Bangun tampilan secara langsung dari kode HTML dasar tanpa mempertimbangkan struktur desain atau ukuran layar"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Berikut ini yang tidak termasuk alat untuk menjalankan source code pada sistem komputer adalah",
+        "options": [
+            "A. XAMPP",
+            "B. Visual Studio Code",
+            "C. Adobe Premiere Pro",
+            "D. Notepad++"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Sebelum menjalankan kode JavaScript yang diletakkan dalam tag <script> pada file HTML, langkah apa yang harus dilakukan terlebih dahulu di lingkungan pengembangan lokal?",
+        "options": [
+            "A. Menjalankan server Node.js dengan perintah 'node server.js'",
+            "B. Menyimpan file HTML dan JavaScript di direktori yang sama dan membukanya di browser",
+            "C. Menjalankan layanan Apache di XAMPP dengan klik start",
+            "D. Menjalankan layanan Node.js di XAMPP dengan klik start"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang mengembangkan aplikasi interaktif yang menampilkan animasi bergerak dan memutar suara saat pengguna mengklik tombol tertentu. Untuk mencapai tujuan tersebut, tindakan yang paling tepat dilakukan oleh siswa adalah:",
+        "options": [
+            "A. Menghafal struktur perintah dari buku teks dan mencoba mengimplementasikannya tanpa menguji hasil eksekusi secara langsung.",
+            "B. Menggunakan perintah eksekusi seperti 'animate' dan 'play' dalam bahasa pemrograman multimedia untuk menggerakkan objek dan memutar suara, lalu menguji hasilnya dengan interaksi pengguna secara langsung.",
+            "C. Menyalin kode dari situs web lain yang telah dibuat sebelumnya tanpa memahami bagaimana perintah-perintah tersebut bekerja di dalam sistem.",
+            "D. Menyimpulkan bahwa aplikasi tersebut tidak dapat dibuat karena tidak ada perangkat keras yang mendukung animasi dan suara secara bersamaan."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang mengembangkan aplikasi web yang dapat menampilkan gambar dinamis, memutar audio secara berkelanjutan, dan menampilkan teks yang bergerak secara real-time. Untuk mencapai hasil yang optimal dan memastikan kinerja aplikasi yang stabil di berbagai perangkat, siswa harus menganalisis, membandingkan, dan mengevaluasi berbagai perintah eksekusi yang tersedia. Dari pilihan berikut, pernyataan manakah yang paling tepat menggambarkan proses evaluatif yang harus dilakukan oleh siswa terkait perintah eksekusi tersebut?",
+        "options": [
+            "A. Siswa hanya perlu memilih perintah yang paling populer di internet dan langsung diintegrasikan ke dalam kode tanpa membandingkan kegunaannya.",
+            "B. Siswa harus menganalisis kecepatan eksekusi, keandalan, dan kompatibilitas perintah dengan berbagai perangkat, lalu mengevaluasi bagaimana perintah tersebut memengaruhi responsivitas dan kenyamanan pengguna saat interaksi.",
+            "C. Siswa harus mengikuti urutan perintah secara linear seperti yang diberikan dalam buku panduan, karena perintah eksekusi dalam bahasa pemrograman selalu berjalan sesuai urutan tanpa perlu evaluasi.",
+            "D. Siswa hanya perlu menguji tampilan visual dari perintah pada satu perangkat, tanpa mempertimbangkan perbedaan performa antar sistem operasi atau ukuran layar."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan aplikasi yang dapat menampilkan efek transisi antara gambar-gambar berbeda saat pengguna menggesek layar. Untuk mencapai tujuan tersebut, siswa harus:",
+        "options": [
+            "A. Menghafalkan semua kode perintah transisi yang tersedia dalam modul dokumentasi.",
+            "B. Membaca secara cermat petunjuk penggunaan perangkat lunak tanpa melakukan perubahan pada fungsi bawaan.",
+            "C. Rancang struktur alur interaksi pengguna, desain logika eksekusi perintah, dan modifikasi perintah eksekusi untuk mengolah data grafik dan multimedia secara dinamis.",
+            "D. Menyalin kode transisi dari aplikasi lain tanpa memahami bagaimana perintah tersebut bekerja di balik layar."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang pengembang ingin menciptakan aplikasi web interaktif yang dapat menampilkan animasi teks bergerak, memunculkan gambar secara dinamis saat di klik, dan memutar suara saat tombol ditekan. Dalam konteks pembelajaran pemrograman, langkah apa yang paling tepat dilakukan oleh pengembang untuk merancang dan mengembangkan aplikasi tersebut secara komprehensif dan berkelanjutan?",
+        "options": [
+            "A. Menggunakan perintah JavaScript dasar untuk hanya mencetak teks statis dan mengabaikan interaksi dengan media lain.",
+            "B. Menyalin kode dari aplikasi lain tanpa menyesuaikan dengan kebutuhan fungsional dan tidak menguji interaksi media.",
+            "C. Merancang program dengan menggabungkan perintah eksekusi JavaScript untuk menggerakkan teks, memunculkan gambar berdasarkan klik, dan memanggil file audio saat tombol ditekan.",
+            "D. Mengandalkan alat grafis dan editor audio tanpa menyusun struktur perintah eksekusi dalam kode JavaScript untuk mengontrol interaksi tersebut."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Dalam pemrograman terstruktur, fungsi yang benar memiliki dua komponen utama. Komponen mana yang merupakan bagian dari fungsi yang menerima data dari luar sistem dan menghasilkan hasil yang diinginkan?",
+        "options": [
+            "A. Variabel dan loop",
+            "B. Input dan output",
+            "C. Proses dan kondisi",
+            "D. Nilai dan tipe data"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program C++ yang dapat menghitung total biaya pembelian barang hanya untuk barang dengan harga di atas Rp500.000, menggunakan pendekatan pemrograman terstruktur. Agar program tersebut efektif, terstruktur, dan dapat diuji secara konsisten, pernyataan mana di bawah ini yang paling tepat untuk merancang struktur alur programnya?",
+        "options": [
+            "A. Jelaskan secara singkat bagaimana program akan memfilter barang berdasarkan harga, lalu uraikan langkah-langkah perulangan dan perhitungan total biaya secara bertahap, dan akhiri dengan ringkasan hasil akhir.",
+            "B. Uraikan secara lengkap alur program dari awal hingga akhir, termasuk semua kondisi perbandingan, perubahan variabel, dan perulangan, tanpa menyertakan penjelasan awal tentang tujuan atau konteks penggunaan.",
+            "C. Ringkas hanya hasil akhir program, seperti total biaya yang dihitung, tanpa menjelaskan proses pemfilteran atau struktur perulangan yang digunakan.",
+            "D. Buat satu program yang menggabungkan semua proses — pemfilteran, perhitungan, dan output — dalam satu blok tanpa membagi menjadi bagian-bagian terpisah atau fungsi yang jelas."
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C2",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program C++ yang dapat mengelola data nilai siswa dengan memeriksa validitas nilai (misalnya, nilai di bawah 0 atau di atas 100 dianggap tidak valid), menghitung rata-rata nilai yang valid, dan mencetak pesan berbeda tergantung pada hasilnya. Untuk mengimplementasikan struktur pemrograman terstruktur yang efektif dalam kasus ini, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Menulis semua pernyataan kode secara acak, lalu menguji secara manual untuk memastikan hasilnya benar.",
+            "B. Menggambar alur proses secara visual yang mencakup validasi nilai, perhitungan rata-rata, dan output berdasarkan kondisi, kemudian mengubahnya menjadi kode C++ yang terstruktur.",
+            "C. Menggunakan satu pernyataan perulangan untuk memproses semua nilai tanpa memeriksa validitas atau membagi proses berdasarkan kondisi.",
+            "D. Menyalin kode dari program lain yang sudah ada, tanpa memahami logika atau struktur yang digunakan dalam program tersebut."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang sistem untuk menampilkan pesan penggunaan layanan yang mencakup nama pengguna, alamat email, dan pesan harian. Dalam konteks ini, mana yang paling tepat menggambarkan langkah analisis yang harus dilakukan sebelum memilih cara menulis string dalam PHP untuk memastikan keakuratan, keamanan, dan efisiensi dalam menampilkan data tersebut?",
+        "options": [
+            "A. Menggunakan petik ganda untuk semua string karena lebih cepat dalam eksekusi.",
+            "B. Memilih petik satu hanya karena lebih mudah dibaca oleh manusia.",
+            "C. Menganalisis kebutuhan untuk menampilkan data sensitif seperti email, membandingkan kemungkinan penggunaan petik ganda dan petik satu dalam konteks penggabungan variabel, dan mengevaluasi dampak terhadap kesalahan runtime, kejelasan output, dan keamanan data.",
+            "D. Menjalankan kode tanpa analisis terlebih dahulu karena hasilnya akan langsung terlihat dalam pengujian awal."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengajar ingin mengembangkan program yang dapat menghitung rata-rata nilai dari sejumlah siswa dalam satu kelas, di mana jumlah siswa tidak diketahui secara pasti. Untuk mengimplementasikan pemrograman terstruktur secara efektif dan akurat, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Menyalin program hitung rata-rata dari sumber lain tanpa meninjau logikanya",
+            "B. Mengubah program yang sudah ada dengan hanya menambahkan satu perintah perulangan",
+            "C. Rancang alur pemrograman yang jelas, desain struktur pengendali seperti perulangan (loop) untuk memproses nilai siswa secara dinamis, lalu modifikasi kode agar sesuai dengan jumlah siswa yang bervariasi",
+            "D. Menyusun algoritma secara acak tanpa memperhatikan urutan logika atau struktur perulangan"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin membuat aplikasi web sederhana yang dapat menghitung rata-rata nilai siswa berdasarkan input nilai yang dimasukkan oleh pengguna. Untuk mengimplementasikan pemrograman terstruktur secara efektif, langkah yang paling tepat yang harus dilakukan oleh siswa tersebut adalah:",
+        "options": [
+            "A. Menulis semua perintah kode langsung di dalam halaman HTML tanpa membagi fungsi, dan hanya mengandalkan perintah dasar tanpa struktur kontrol.",
+            "B. Merancang alur program dengan penggunaan struktur perulangan untuk memproses nilai-nilai, serta membagi fungsi-fungsi seperti input, pengolahan, dan output menjadi modul yang terpisah.",
+            "C. Menggunakan bahasa pemrograman yang tidak mendukung perintah blok seperti if-else atau while, karena dianggap lebih sederhana untuk pemula.",
+            "D. Mengabaikan struktur pengendalian dan hanya mengandalkan perintah tanpa kondisi atau perulangan untuk mempermudah proses pengembangan."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Dalam organisasi pengembangan perangkat lunak, apa yang paling tepat digunakan sebagai sumber daya utama dalam penyusunan fungsi dan file pemrograman secara rapi?",
+        "options": [
+            "A. Database yang tidak terstruktur",
+            "B. File sumber kode (source code) yang diorganisasi secara terstruktur",
+            "C. Alat kompresi file tanpa ekstensi",
+            "D. File konfigurasi yang tidak diperbarui"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai pengembang sistem di sebuah perusahaan yang mengelola aplikasi manajemen data, Anda diminta untuk menyusun dokumen yang menjelaskan struktur dan integrasi antara berbagai komponen pemrograman seperti fungsi, modul, dan file konfigurasi agar mudah diakses dan dipahami oleh tim pengembang lain. Dalam konteks ini, langkah yang paling tepat untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A) Jelaskan secara singkat peran masing-masing komponen sistem, tanpa menyertakan hubungan antar komponen atau alur kerja.",
+            "B) Daftarkan semua file dan fungsi yang ada dengan nama saja, tanpa kategori atau struktur hierarki yang jelas.",
+            "C) Buat dokumen yang menyusun secara sistematis komponen-komponen pemrograman berdasarkan alur kerja operasional, termasuk hubungan antar fungsi dan modul, serta keterangan akses dan pemeliharaan.",
+            "D) Sediakan satu file PDF yang hanya mengandung daftar nama file dengan lokasi fisik, tanpa penjelasan atau deskripsi fungsi."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C2",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebuah tim pengembangan di perusahaan sedang mempersiapkan integrasi antara sistem manajemen karyawan dan sistem pelaporan keuangan. Untuk memastikan bahwa sistem baru dapat berjalan dengan lancar dan konsisten dengan sistem yang sudah ada, mereka perlu menyusun fungsi, file, dan sumber daya pemrograman yang sudah ada dalam organisasi. Tindakan yang paling tepat untuk dilakukan oleh tim tersebut adalah:",
+        "options": [
+            "A. Menganalisis kebutuhan sistem keuangan secara teoritis dan merancang arsitektur baru berdasarkan asumsi yang dihasilkan.",
+            "B. Menggunakan dokumentasi teknis dari sistem HR dan sistem laporan keuangan untuk memahami struktur dan alur kerja yang sudah ada, lalu merancang integrasi berdasarkan data tersebut.",
+            "C. Mengembangkan struktur data baru secara independen untuk memenuhi kebutuhan integrasi, tanpa mempertimbangkan sumber daya yang sudah ada dalam sistem.",
+            "D. Menyusun fungsi baru dari nol tanpa memanfaatkan file atau sumber daya yang telah ada dalam organisasi untuk menghindari risiko ketidaksesuaian."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai kepala tim pengembangan perangkat lunak, Anda diminta untuk menyusun struktur fungsi dan sumber daya pemrograman yang akan digunakan di seluruh departemen di perusahaan. Dalam proses ini, Anda harus menganalisis kebutuhan fungsional dari masing-masing departemen, membandingkan konsistensi gaya penamaan variabel dan fungsi antara tim yang berbeda, serta mengevaluasi risiko terjadinya ketidaksesuaian antara praktik penamaan yang digunakan dan tujuan kolaborasi dan pemeliharaan kode secara keseluruhan. Berdasarkan analisis tersebut, langkah strategis apa yang paling tepat untuk diambil dalam penyusunan struktur tersebut?",
+        "options": [
+            "A. Menggunakan gaya penamaan yang paling umum di tim terbesar sebagai standar tanpa evaluasi risiko.",
+            "B. Menyusun struktur tanpa membandingkan gaya penamaan karena dianggap tidak memengaruhi fungsi program.",
+            "C. Membuat rencana penyusunan struktur penamaan berdasarkan analisis kebutuhan fungsional, perbandingan konsistensi gaya penamaan, dan evaluasi risiko terhadap ketidaksesuaian dengan tujuan kolaborasi dan pemeliharaan kode.",
+            "D. Menugaskan semua tugas penamaan kepada satu individu untuk memastikan konsistensi tanpa mempertimbangkan kebutuhan fungsional dari departemen lain."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai ahli sistem informasi, Anda diperintahkan untuk membantu mengembangkan sistem pengelolaan data karyawan di sebuah perusahaan. Sistem ini harus dapat memudahkan pengelolaan informasi secara efisien dan teratur. Apa yang paling tepat dilakukan untuk memastikan sistem tersebut terstruktur, mudah dipantau, dan sesuai dengan standar organisasi?",
+        "options": [
+            "A. Menggunakan file data karyawan yang sudah ada dari tahun lalu tanpa perubahan, karena dianggap sudah stabil",
+            "B. Menyalin semua data ke dalam folder yang tidak teratur dan menggunakan nama file yang mengandung simbol seperti @, #, atau $",
+            "C. Merancang sistem baru dengan menyusun fungsi pengolahan data yang sesuai, membuat struktur folder yang teratur berdasarkan departemen, dan mengatur akses ke file secara berlapis berdasarkan peran",
+            "D. Mengubah format data secara acak dan menambahkan beberapa fungsi tambahan tanpa perencanaan terlebih dahulu"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai kepala tim pengembangan perangkat lunak, Anda diminta untuk merancang sistem pengelolaan sumber daya pemrograman yang dapat digunakan oleh seluruh divisi teknologi dalam perusahaan. Langkah yang paling strategis dan efektif untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A. Menyusun satu dokumen panduan umum yang diisi oleh semua fungsi teknis tanpa membagi berdasarkan kebutuhan atau departemen.",
+            "B. Mengembangkan sistem klasifikasi berbasis kebutuhan fungsional dan membangun alur kerja standar untuk penggunaan file kode yang dapat diakses oleh semua tim.",
+            "C. Membuat satu file konfigurasi utama yang diisi oleh semua modul dan diubah secara berkala oleh satu orang tanpa audit atau kontrol akses.",
+            "D. Mengadakan pertemuan rutin untuk membahas perubahan kode, tanpa menyusun struktur atau sistem pengelolaan yang jelas."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Apa yang sebaiknya digunakan dalam penamaan fungsi atau method sesuai dengan guidelines dan best practices?",
+        "options": [
+            "A. Kata kerja",
+            "B. Kata benda",
+            "C. Kata sifat",
+            "D. Semua pilihan di atas"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C1",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin menyusun kode jQuery yang dapat dibaca, dijaga, dan mudah diperbaiki oleh tim lain di masa depan. Untuk itu, tindakan yang paling tepat untuk diimplementasikan adalah:",
+        "options": [
+            "A. Gunakan operator logika seperti && dan || secara acak tanpa mempertimbangkan struktur logika yang jelas.",
+            "B. Terapkan gaya penulisan kode yang konsisten, termasuk penggunaan indentasi yang teratur dan spasi yang sesuai dengan standar industri.",
+            "C. Menyimpan semua fungsi dan kode dalam satu file tanpa pemisahan agar lebih mudah diakses saat diperlukan.",
+            "D. Menggunakan variabel dengan nama yang panjang dan tidak jelas untuk memastikan semua orang memahami maksudnya."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam sebuah program yang membaca satu data gaji dari file dan menyimpannya ke dalam variabel lokal, kompleksitas storage (ruang) yang digunakan oleh program tersebut adalah?",
+        "options": [
+            "A. O(1)",
+            "B. O(n)",
+            "C. O(n log n)",
+            "D. O(n^2)"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C4",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin membangun sistem aplikasi yang dapat diandalkan, mudah diperbaiki, dan dapat diperluas seiring pertumbuhan kebutuhan. Untuk mencapai tujuan tersebut, tindakan apa yang paling strategis dilakukan oleh pengembang dalam tahap awal pengembangan?",
+        "options": [
+            "A. Menyalin kode dari proyek lain yang sudah ada tanpa meninjau kebutuhan atau arsitektur sistem",
+            "B. Mengubah struktur kode lama secara acak untuk mempercepat waktu pengembangan",
+            "C. Merancang struktur kode awal dengan mempertimbangkan modularity, dokumentasi, keamanan, dan skalabilitas sistem",
+            "D. Mengandalkan framework yang sudah digunakan oleh tim tanpa melakukan evaluasi terhadap kebutuhan sistem"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Sebagai bagian dari pengembangan sistem perangkat lunak yang dapat diperbarui dan diuji secara berkelanjutan, seorang pengembang harus merancang kode yang tidak hanya berjalan, tetapi juga mudah dipahami, diubah, dan diuji. Tindakan yang paling efektif untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A. Menulis fungsi-fungsi yang panjang dan kompleks tanpa pembagian, karena lebih efisien dalam menjalankan logika utama.",
+            "B. Menggunakan struktur kode yang tidak konsisten dengan standar tim, agar lebih fleksibel dalam pengembangan cepat.",
+            "C. Memecah logika menjadi fungsi-fungsi kecil, menulis komentar yang jelas, mengikuti standar gaya penulisan kode, dan memastikan setiap fungsi dapat diuji secara terpisah.",
+            "D. Mengabaikan dokumentasi karena dianggap sebagai bagian yang tidak penting saat pengembangan awal dan dapat ditambahkan nanti."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Komponen yang dapat digunakan kembali dalam pengembangan aplikasi, seperti fungsi atau modul yang sudah dibuat sebelumnya, lebih tepat digolongkan pada",
+        "options": [
+            "A. Data yang belum diproses",
+            "B. Library atau modul pre-existing",
+            "C. Perangkat lunak yang diinstal secara manual",
+            "D. Proses pengolahan data baru"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang aplikasi yang dapat menangani data sensor secara real-time. Ia mempertimbangkan untuk menggunakan library grafik yang telah ada, tetapi harus memutuskan apakah library tersebut sesuai dengan kebutuhan sistemnya. Apa yang paling tepat dilakukan oleh pengembang untuk memastikan integrasi library tersebut tidak hanya efisien, tetapi juga menghindari ketergantungan pada versi perangkat lunak tertentu?",
+        "options": [
+            "A. Jelaskan bagaimana library tersebut dibangun, uraikan proses pengujian, dan ringkas kegunaan untuk pengguna akhir.",
+            "B. Jelaskan kelebihan dan kekurangan library, uraikan bagaimana library dapat diintegrasikan dengan kode aplikasi, dan ringkas manfaatnya terhadap kecepatan pengembangan.",
+            "C. Jelaskan proses instalasi, uraikan struktur folder library, dan ringkas bagaimana library dapat diakses melalui API.",
+            "D. Jelaskan tujuan penggunaan library, uraikan proses pemilihan library yang sesuai dengan kebutuhan sistem, dan ringkas bagaimana integrasinya meminimalkan ketergantungan versi perangkat lunak."
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C2",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mempercepat pengembangan fitur yang melibatkan pengolahan data besar tanpa harus menulis algoritma dari nol. Langkah apa yang paling efektif dan sesuai dengan prinsip penggunaan komponen pre-existing dalam konteks ini?",
+        "options": [
+            "A. Menulis ulang semua proses pengolahan data secara manual untuk memastikan kecepatan eksekusi.",
+            "B. Mencari algoritma baru yang belum pernah ada sebelumnya dan mengembangkan dari awal.",
+            "C. Menggunakan library seperti Pandas untuk memproses data, lalu mengintegrasikan fungsinya ke dalam sistem aplikasi.",
+            "D. Mengabaikan pengolahan data besar karena dianggap tidak sesuai dengan kebutuhan pengguna akhir."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang perangkat lunak mempertimbangkan untuk menggunakan komponen open source dalam aplikasi yang dikembangkan untuk pasar global. Manakah pernyataan berikut yang paling tepat dalam menilai dampak dari penggunaan komponen tersebut terhadap keamanan sistem, ketergantungan, dan kewajiban hukum?",
+        "options": [
+            "A. Karena komponen open source biasanya diperbarui secara berkala, penggunaan komponen ini selalu mengurangi risiko keamanan tanpa risiko lain.",
+            "B. Penggunaan komponen open source mempercepat pengembangan, tetapi dapat menciptakan ketergantungan sistemik dan memerlukan evaluasi terhadap lisensi untuk memastikan kepatuhan hukum.",
+            "C. Semua komponen open source memiliki lisensi yang sama, sehingga tidak perlu dipertimbangkan dalam pengembangan produk.",
+            "D. Komponen open source tidak perlu diuji karena telah diuji oleh komunitas, sehingga dapat digunakan tanpa risiko teknis atau hukum."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang sedang membangun aplikasi web yang menyediakan fitur pencarian produk dengan menggunakan library pencarian pre-existing. Agar antarmuka aplikasi tetap user-friendly dan dapat disesuaikan dengan kebutuhan pengguna tertentu, langkah apa yang paling strategis dilakukan oleh pengembang?",
+        "options": [
+            "A. Hanya mengubah ikon dan warna pada tombol pencarian tanpa mengubah logika kerja library.",
+            "B. Menyalin seluruh kode library dan mengganti bagian tertentu tanpa membaca dokumentasi resmi.",
+            "C. Merancang alur penggunaan pencarian secara awal, lalu menyesuaikan tampilan dan interaksi dengan library pre-existing sesuai alur tersebut.",
+            "D. Mengganti library dengan sistem pencarian dari nol karena dianggap tidak fleksibel untuk kebutuhan khusus."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengembangkan sistem monitoring real-time untuk perangkat IoT, namun tidak memiliki waktu untuk membuat semua komponen dari awal. Tindakan apa yang paling efektif dan bijaksana dilakukan untuk membangun sistem tersebut secara efisien?",
+        "options": [
+            "A. A) Menghapus semua modul yang sudah ada dan membuat sistem dari nol untuk menghindari kemungkinan kesalahan integrasi.",
+            "B. B) Menyalin kode dari library yang tersedia dan mengubahnya secara menyeluruh tanpa memperhatikan dokumentasi atau standar integrasi.",
+            "C. C) Menggunakan komponen library monitoring yang sudah ada, memodifikasi sesuai kebutuhan, dan menambahkan fitur pengolahan data sesuai konteks aplikasi.",
+            "D. D) Menolak semua library yang tersedia karena diperkirakan tidak sesuai dengan spesifikasi perangkat IoT yang digunakan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Untuk memilih tanggal dan waktu secara konsisten dalam sebuah aplikasi, komponen antarmuka yang paling tepat digunakan adalah",
+        "options": [
+            "A. button",
+            "B. radio button",
+            "C. dropdown list",
+            "D. date and time picker"
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C1",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam pengembangan antarmuka web, mengapa Bootstrap dianggap sangat efektif untuk desain responsif di berbagai perangkat?",
+        "options": [
+            "A. Karena Bootstrap memungkinkan penggunaan kode JavaScript yang sangat kompleks untuk animasi halaman.",
+            "B. Karena Bootstrap menyediakan komponen UI yang dapat diatur secara otomatis sesuai ukuran layar.",
+            "C. Karena Bootstrap mempercepat proses pengembangan dengan menyediakan template desain yang bisa diubah secara manual.",
+            "D. Karena Bootstrap memunginkan pengembang untuk membuat desain grafis dari nol tanpa perlu alat desain tertentu."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam proses pengembangan antarmuka pengguna, mengapa pengujian langsung terhadap fungsi toggle button oleh pengguna dianggap penting sebelum diluncurkan?",
+        "options": [
+            "A. Agar diketahui seberapa mudah pengguna memahami perubahan antara dua kondisi yang ditampilkan oleh toggle button",
+            "B. Agar elemen yang terletak dekat secara visual dianggap sebagai bagian dari satu kelompok interaksi yang terkait",
+            "C. Agar warna elemen yang digunakan memudahkan pengguna dalam menemukan tombol utama",
+            "D. Agar konsistensi istilah dan penekanan tombol dalam antarmuka dapat diuji melalui simulasi interaksi"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C3",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang aplikasi sedang merancang antarmuka untuk fitur pencarian yang akan digunakan oleh pengguna umum. Untuk memastikan bahwa antarmuka tersebut efektif dalam membantu pengguna menemukan informasi dengan cepat dan akurat, langkah apa yang paling tepat dilakukan secara sistematis sebelum mengimplementasikan desain akhir?",
+        "options": [
+            "A. Menggunakan desain pencarian yang sudah digunakan oleh aplikasi media sosial terkenal sebagai referensi utama.",
+            "B. Menyalin struktur antarmuka dari aplikasi lain yang memiliki fitur pencarian kompleks untuk menghemat waktu pengembangan.",
+            "C. Menganalisis pola perilaku pencarian pengguna berdasarkan data survei, membandingkan empat desain antarmuka yang berbeda, dan mengevaluasi setiap opsi berdasarkan kemampuan menghasilkan hasil yang relevan dan cepat.",
+            "D. Mengimplementasikan desain pencarian tanpa uji coba, karena proses pengembangan harus selesai sesuai jadwal proyek."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang aplikasi web berbasis e-commerce dengan antarmuka pengguna yang responsif dan intuitif. Untuk memastikan pengalaman pengguna yang optimal, urutan langkah yang paling strategis dan terstruktur adalah:",
+        "options": [
+            "A. Menyalin tampilan dari aplikasi e-commerce lain, menguji pada pengguna nyata, dan memperbaiki berdasarkan umpan balik tanpa merancang alur interaksi awal.",
+            "B. Merancang alur interaksi pengguna secara sistematis, menggambar prototipe UI yang mencakup semua komponen seperti search field, breadcrumb, pagination, dan image carousel, kemudian mengimplementasikan kode dengan memperhatikan responsivitas di berbagai perangkat.",
+            "C. Mengatur tampilan secara manual pada perangkat berbeda, mengubah elemen UI sesuai ukuran layar, dan hanya memperbarui setelah uji coba pengguna akhir.",
+            "D. Memilih komponen UI yang sudah ada, menggabungkan beberapa elemen seperti slider dan tag tanpa merancang alur interaksi, lalu menguji secara langsung tanpa prototipe awal."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C5",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang sedang membangun aplikasi web untuk layanan keuangan yang membutuhkan antarmuka yang responsif dan mudah digunakan oleh pengguna umum. Untuk memastikan bahwa antarmuka tersebut tidak hanya menarik secara visual, tetapi juga efisien dalam membantu pengguna menyelesaikan tugas seperti transfer dana atau melihat saldo, tindakan apa yang paling tepat dilakukan oleh pengembang dalam tahap implementasi?",
+        "options": [
+            "A. Menggunakan template antarmuka yang sudah ada untuk semua halaman tanpa perubahan signifikan",
+            "B. Mengintegrasikan fitur navigasi berbasis data pengguna yang dikumpulkan dari uji coba awal, dengan memperhatikan konsistensi dan alur kerja yang familiar",
+            "C. Menambahkan efek animasi berat pada setiap interaksi untuk memberikan kesan dinamis dan modern",
+            "D. Mengabaikan pengujian pengguna dan langsung mengimplementasikan desain yang dihasilkan oleh desainer grafis"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam Visual Studio Code, perintah yang digunakan untuk menulis dan menjalankan kode program disebut sebagai…",
+        "options": [
+            "A. Perintah grafik",
+            "B. Perintah multimedia",
+            "C. Perintah eksekusi",
+            "D. Perintah pengaturan tampilan"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang mengembangkan aplikasi interaktif menggunakan lingkungan pembelajaran berbasis grafik. Untuk menampilkan pesan 'Berhasil! Anda telah menyelesaikan tugas.' di layar, siswa perlu menggunakan perintah eksekusi yang tepat. Tindakan yang paling sesuai dan efektif untuk menerapkan perintah eksekusi tersebut adalah:",
+        "options": [
+            "A. Membuka file kode sumber yang sudah ada dan menjalankan eksekusi secara otomatis tanpa mengecek hasil tampilan.",
+            "B. Menggunakan perintah tampilan seperti 'tampilkan' atau 'show' untuk menampilkan pesan di layar, lalu memastikan hasilnya terlihat dengan mengamati tampilan langsung.",
+            "C. Menulis ulang semua perintah tampilan dari awal, mengabaikan struktur perintah yang sudah digunakan sebelumnya.",
+            "D. Mengganti semua elemen grafik dengan elemen teks, dan hanya menggunakan perintah teks untuk menampilkan pesan tanpa mempertahankan interaksi visual."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang aplikasi web interaktif yang menampilkan animasi grafis, memutar audio, dan menampilkan teks bergerak secara bersamaan. Untuk memastikan aplikasi tersebut efisien, kompatibel dengan berbagai perangkat, dan memberikan pengalaman pengguna yang optimal, pengembang harus menganalisis, membandingkan, dan mengevaluasi berbagai metode eksekusi JavaScript di dalam HTML. Dari pilihan berikut, pernyataan manakah yang paling tepat menggambarkan proses evaluasi yang harus dilakukan oleh pengembang terhadap metode eksekusi tersebut?",
+        "options": [
+            "A. Pengembang hanya perlu memilih metode yang paling mudah diimplementasikan karena waktu pengembangan lebih singkat.",
+            "B. Pengembang harus membandingkan kecepatan eksekusi, keandalan dalam menjalankan perintah, dan kompatibilitas dengan berbagai perangkat, lalu mengevaluasi bagaimana setiap metode memengaruhi responsivitas dan kualitas pengalaman pengguna.",
+            "C. Pengembang harus mengikuti urutan penulisan kode secara langsung tanpa evaluasi karena perintah JavaScript selalu dijalankan secara otomatis sesuai urutan kode.",
+            "D. Pengembang hanya perlu menguji tampilan hasil akhir pada satu perangkat dengan satu resolusi layar, tanpa mempertimbangkan variasi media atau performa sistem."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan sebuah aplikasi interaktif yang dapat menampilkan efek animasi berdasarkan input teks dari pengguna, seperti perubahan warna atau ukuran objek grafis saat pengguna mengetik kata kunci. Untuk mencapai tujuan tersebut, siswa harus melakukan langkah-langkah berikut:",
+        "options": [
+            "A. Menghafalkan semua perintah animasi yang tersedia dalam dokumentasi resmi tanpa mengubahnya sesuai kebutuhan.",
+            "B. Membaca secara cermat kode sumber yang sudah ada, lalu menyalinnya ke aplikasi tanpa mengubah struktur logika.",
+            "C. Rancang struktur alur program yang menghubungkan input teks dengan perubahan grafis, lalu modifikasi perintah eksekusi agar dapat memproses data teks dan menggerakkan elemen grafis secara dinamis.",
+            "D. Menggunakan template aplikasi lama yang sudah terbukti, tanpa meninjau atau mengembangkan fungsi sesuai kebutuhan pengguna."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin membuat aplikasi interaktif yang dapat menampilkan animasi grafis, menampilkan teks bergerak secara dinamis, serta memutar suara latar belakang saat pengguna mengakses halaman. Untuk mencapai tujuan tersebut secara menyeluruh, langkah apa yang paling tepat dilakukan oleh siswa dalam proses pembangunan aplikasi tersebut?",
+        "options": [
+            "A. Hanya mencetak teks statis di halaman dengan gambar statis tanpa interaksi.",
+            "B. Menyalin kode dari aplikasi lain yang sudah ada dan langsung menjalankannya tanpa penyesuaian.",
+            "C. Membangun program dengan menggabungkan perintah eksekusi untuk memuat animasi, menampilkan teks bergerak, dan memanggil file audio secara berurutan sesuai alur penggunaan.",
+            "D. Menggunakan software desain grafis untuk membuat elemen visual, lalu mengabaikan perintah pemrograman karena dianggap tidak penting dalam pengembangan interaktif."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Dalam sebuah aplikasi e-commerce yang dibangun menggunakan C++, untuk memasukkan data jenis kelamin pelanggan (misalnya: laki-laki atau perempuan), komponen antarmuka yang paling sesuai digunakan adalah",
+        "options": [
+            "A. Text Field",
+            "B. List Box",
+            "C. Radio Button",
+            "D. Check Box"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program PHP yang dapat membaca isi file \"data.txt\" dan menampilkan satu baris isi file secara bertahap menggunakan fungsi fgets. Agar program tersebut diimplementasikan secara terstruktur, langkah-langkah apa yang harus diuraikan secara sistematis, termasuk fungsi setiap komponen dalam alur pembacaan file?",
+        "options": [
+            "A. Mulai dengan menulis data ke file, lalu baca isi file dengan fungsi fgets, dan akhiri dengan menutup file.",
+            "B. Uraikan alur pembacaan file dari membuka file dengan fopen, membaca satu baris dengan fgets, hingga menutup file dengan fclose, dengan penjelasan fungsi setiap langkah.",
+            "C. Ringkas proses membaca file menjadi satu kalimat: 'Buka file, baca satu baris, tutup file.'",
+            "D. Jalankan program secara langsung, amati output, dan sesuaikan hanya jika hasilnya tidak sesuai dengan harapan."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin membuat program yang dapat menghitung jumlah nilai yang lebih dari rata-rata dari sekelompok nilai siswa. Untuk mengimplementasikan pemrograman terstruktur dengan benar, langkah yang paling efektif dan terstruktur adalah:",
+        "options": [
+            "A. Menggunakan satu pernyataan perulangan untuk memproses semua nilai tanpa memperhatikan kondisi tertentu.",
+            "B. Menyalin kode program yang sama dari proyek lain tanpa memahami logika di baliknya.",
+            "C. Membuat alur proses secara visual, membagi tugas menjadi pernyataan urutan, percabangan, dan perulangan terstruktur, lalu mengubahnya menjadi kode yang jelas.",
+            "D. Menulis kode secara langsung tanpa membuat perencanaan, lalu menguji hasilnya secara manual."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang sistem yang akan memproses daftar data pengguna dengan jumlah tidak diketahui secara dinamis. Untuk mengakses setiap elemen dalam daftar tersebut tanpa harus menghitung indeks, serta memastikan bahwa proses perulangan minimal dijalankan satu kali terlepas dari kondisi awal, manakah dari pilihan berikut yang paling tepat sebagai strategi analisis yang harus dilakukan sebelum memilih struktur perulangan yang digunakan?",
+        "options": [
+            "A. Menggunakan foreach untuk mengakses elemen array karena memudahkan akses tanpa indeks, dan mengabaikan kebutuhan iterasi minimal satu kali.",
+            "B. Memilih do-while karena memastikan perulangan minimal satu kali, namun tidak dapat digunakan untuk array secara langsung.",
+            "C. Menganalisis kebutuhan sistem untuk menentukan apakah data harus diakses secara acak atau berurutan, membandingkan kegunaan foreach untuk array dan do-while untuk kondisi yang tidak pasti, serta mengevaluasi efisiensi dan keandalan setiap struktur dalam konteks aplikasi.",
+            "D. Menjalankan foreach terlebih dahulu untuk menguji kelancaran eksekusi, lalu mengganti dengan do-while hanya jika hasilnya tidak sesuai dengan harapan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program yang dapat menghitung rata-rata dari tiga nilai yang diinput oleh pengguna, dengan syarat nilai tidak boleh kurang dari 0. Untuk memastikan program tersebut diimplementasikan secara terstruktur dan efektif, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Menyalin program dari sumber online dan hanya menambahkan validasi input tanpa merancang struktur logika baru",
+            "B. Mengubah program yang sudah ada dengan hanya menambahkan satu blok perulangan tanpa merancang alur logika secara keseluruhan",
+            "C. Rancang alur logika program secara sistematis, termasuk validasi input, perhitungan rata-rata, dan penanganan kesalahan, lalu desain struktur pengendali seperti loop dan kondisi if-else untuk mewujudkannya",
+            "D. Menyusun algoritma secara acak, tanpa memperhatikan urutan atau konsistensi logika antar langkah"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan aplikasi yang dapat menghitung total nilai siswa berdasarkan input nilai yang diberikan oleh pengguna, dengan syarat jumlah nilai tidak diketahui secara pasti dan akan terus ditambahkan hingga pengguna memilih untuk berhenti. Langkah yang paling tepat untuk mengimplementasikan pemrograman terstruktur dalam kasus ini adalah:",
+        "options": [
+            "A. Menyusun alur program secara acak dengan hanya menggunakan perintah dasar tanpa perulangan atau kondisi.",
+            "B. Membangun struktur alur program dengan penggunaan perintah kondisional dan perulangan, lalu mengembangkan program secara bertahap dengan pembagian fungsi untuk memudahkan pemeliharaan dan pengujian.",
+            "C. Menggunakan bahasa pemrograman yang tidak mendukung struktur perulangan, seperti bahasa interpretasi tanpa blok perintah, agar lebih mudah dijalankan oleh pengguna baru.",
+            "D. Menyusun program hanya dengan perulangan for karena jumlah iterasi awal diketahui, tanpa mempertimbangkan kondisi berhenti yang dinamis dari pengguna."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Tipe data yang digunakan untuk menyimpan nilai bilangan bulat dalam bahasa pemrograman C++ adalah?",
+        "options": [
+            "A. char",
+            "B. float",
+            "C. int",
+            "D. string"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Dalam pengembangan sistem pemrograman, struktur data apa yang digunakan untuk menyimpan informasi secara terstruktur dan dapat diakses secara langsung dalam satu lokasi, serta merupakan bagian dari dokumentasi yang rapi dalam pengelolaan sumber daya pemrograman?",
+        "options": [
+            "A. Tipe data string",
+            "B. Perulangan",
+            "C. Struktur data tumpukan (stack)",
+            "D. Array"
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C2",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Dalam proses pengembangan sistem informasi, seorang pengembang diminta untuk mengintegrasikan fungsi baru yang telah dibuat oleh tim lain ke dalam sistem yang sudah ada. Untuk memastikan bahwa sistem tetap terstruktur, mudah dipelihara, dan dapat diakses oleh tim lain, langkah yang paling tepat adalah...",
+        "options": [
+            "A. Menggunakan fungsi baru secara langsung di semua modul tanpa menambahkan komentar atau penamaan yang jelas.",
+            "B. Menyimpan fungsi baru dalam folder terpisah tanpa menyusun hubungan antar file atau komentar yang menjelaskan fungsinya.",
+            "C. Mengintegrasikan fungsi baru secara bertahap, dengan memberikan nama yang deskriptif, menyertakan komentar yang menjelaskan logika internal, dan memastikan keterhubungan data dengan sistem lain.",
+            "D. Mengganti semua fungsi lama dengan fungsi baru yang belum diuji, dengan asumsi bahwa struktur folder akan otomatis menyesuaikan diri."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebuah tim pengembang sedang mempersiapkan struktur kode baru untuk aplikasi PHP mereka, dengan tujuan agar kode menjadi lebih mudah dibaca, dipahami, dan dipelihara oleh seluruh anggota tim. Untuk mencapai tujuan tersebut, tim tersebut harus menganalisis, membandingkan, dan mengevaluasi berbagai pendekatan terhadap organisasi kode. Dari pilihan berikut, pernyataan mana yang paling tepat menggambarkan proses evaluasi yang harus dilakukan untuk menentukan keberlanjutan dan kualitas struktur kode dalam sistem pemrograman?",
+        "options": [
+            "A. Mengelompokkan file berdasarkan nama abjad dan menyimpannya dalam satu folder tanpa mempertimbangkan konsistensi penamaan atau kebutuhan pengguna.",
+            "B. Membandingkan dua pendekatan dalam struktur kode — yaitu penggunaan gaya penamaan camelCase dan snake_case — dengan mempertimbangkan kejelasan, konsistensi, dan kemudahan pemeliharaan, lalu memilih yang paling sesuai dengan standar tim.",
+            "C. Menyalin semua file lama ke dalam direktori baru tanpa melakukan evaluasi terhadap keberlakuan atau kebutuhan pengguna.",
+            "D. Mengabaikan semua komentar dalam kode dan hanya mengatur struktur folder berdasarkan jenis fungsi tanpa evaluasi terhadap kejelasan atau kinerja sistem."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai pengembang sistem informasi, Anda ditugaskan untuk menyusun sistem pemrograman baru yang dapat diintegrasikan dengan berbagai departemen di dalam organisasi. Untuk memastikan sistem tersebut dapat dikelola secara efektif dan terstruktur, apa yang paling tepat dilakukan dalam tahap awal pengembangan sistem ini?",
+        "options": [
+            "A. Menggunakan file dan fungsi dari proyek lama karena dianggap sudah teruji dan dapat diandalkan",
+            "B. Menyalin semua kode dari sistem sebelumnya dan menyimpannya dalam direktori yang tidak terorganisir",
+            "C. Merancang struktur sistem baru dengan mempertimbangkan kebutuhan berbagai departemen, menyusun fungsi secara terpisah, dan mengatur akses sumber daya sesuai peran",
+            "D. Mengubah beberapa fungsi secara acak untuk memenuhi kebutuhan sementara, tanpa merancang struktur yang baru"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai kepala tim pengembangan perangkat lunak, Anda diperintahkan untuk menyusun sistem pengelolaan modul kode yang dapat digunakan oleh seluruh tim developer di perusahaan. Langkah yang paling strategis dan efektif untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A. Membuat satu dokumen panduan umum yang disebarkan ke semua anggota tim tanpa struktur pengelompokan modul.",
+            "B. Mengembangkan sistem klasifikasi modul berdasarkan fungsi dan departemen, serta membangun alur kerja standar untuk penambahan dan pengeditan modul.",
+            "C. Menyediakan satu file konfigurasi utama yang diisi semua modul tanpa pembagian atau pengelompokan.",
+            "D. Mengadakan sesi diskusi untuk memperoleh pendapat semua developer, lalu menentukan pengaturan tanpa menyusun sistem klasifikasi atau alur kerja."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Dalam pengkodean, aspek mana yang paling langsung memengaruhi penggunaan memori dan durasi eksekusi suatu program?",
+        "options": [
+            "A. Aturan penamaan variabel",
+            "B. Penggunaan tanda baca dalam kode",
+            "C. Scoping variabel",
+            "D. Pemilihan warna dalam tampilan antarmuka"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam pengembangan aplikasi PHP, kode yang memiliki kompleksitas algoritma O(n²) tetap dapat digunakan dalam praktik jika",
+        "options": [
+            "A. Kode tersebut digunakan untuk memproses data besar secara real-time",
+            "B. Kode tersebut ditulis dalam bahasa pemrograman C",
+            "C. Kode tersebut digunakan untuk mencari data di database",
+            "D. Jumlah data yang diproses sangat terbatas dan tidak memerlukan penanganan efisien"
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C2",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam pengembangan aplikasi, seorang pengembang ingin membuat kode yang mudah dibaca dan diubah di masa depan. Prinsip desain kode mana yang paling sesuai dengan best practice untuk mencapai tujuan tersebut?",
+        "options": [
+            "A. Memecah fungsi besar menjadi fungsi kecil yang berfokus pada satu tugas",
+            "B. Menyimpan semua logika dalam satu file dengan nama yang panjang",
+            "C. Menggunakan nama variabel yang tidak jelas seperti 'x' atau 'temp'",
+            "D. Menulis kode tanpa komentar karena menghemat ruang"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C3",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam sebuah program yang menghitung total biaya pembelian barang, nilai awal variabel untuk total biaya dideklarasikan dan diisi secara langsung saat deklarasi. Berapa kompleksitas storage (storage complexity) dari variabel tersebut selama eksekusi program?",
+        "options": [
+            "A. O(1)",
+            "B. O(n)",
+            "C. O(n log n)",
+            "D. O(n^2)"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C4",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang sistem manajemen data berbasis objek yang akan digunakan oleh tim pengembang lain. Untuk memastikan sistem tersebut mudah dipahami dan dipelihara di masa depan, tindakan apa yang paling tepat dilakukan oleh pengembang dalam tahap awal desain sistem?",
+        "options": [
+            "A. Menyalin struktur kode dari sistem yang sudah ada tanpa meninjau kebutuhan atau aturan penamaan",
+            "B. Menggunakan nama method yang sama dengan nama kelas sebagai cara cepat untuk mengurangi jumlah kode",
+            "C. Merancang arsitektur sistem dengan memastikan nama method tidak mengulang nama kelas dan menggunakan konvensi penamaan yang konsisten",
+            "D. Mengubah struktur kode secara acak untuk mempercepat pengembangan tanpa evaluasi terhadap kejelasan atau konsistensi"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Sebagai bagian dari pengembangan sistem perangkat lunak yang berkelanjutan, seorang developer harus merancang kode yang tidak hanya berfungsi, tetapi juga dapat diperbarui, diuji, dan dipertahankan dalam waktu panjang. Tindakan yang paling strategis untuk menciptakan kode yang efisien dan dapat diandalkan adalah:",
+        "options": [
+            "A. Menulis kode dengan sintaks yang tidak standar agar lebih cepat dijalankan pada mesin lokal, dengan asumsi bahwa kode akan diuji secara otomatis di lingkungan produksi.",
+            "B. Mengabaikan struktur kode dan dokumentasi karena dianggap sebagai tambahan yang tidak perlu dalam tahap pengembangan awal.",
+            "C. Bangun kode dengan struktur yang teratur, membagi fungsi menjadi unit kecil yang berdiri sendiri, mengikuti standar gaya penulisan kode, dan menulis komentar yang menjelaskan tujuan dan alur logika setiap bagian.",
+            "D. Menggunakan kode yang panjang dan kompleks sebagai bentuk ekspresi teknis, karena dianggap lebih menunjukkan kualitas pemrograman daripada efisiensi."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Komponen antarmuka dalam library yang masih didukung dan tidak dianggap deprecated berdasarkan dokumentasi resmi adalah",
+        "options": [
+            "A. Tombol submit yang tetap tersedia dalam semua versi library antarmuka",
+            "B. Input tanggal yang telah diperbarui dengan format baru dan didukung oleh dokumentasi",
+            "C. Ikon pengaturan yang tidak lagi didukung dalam versi terbaru library",
+            "D. Menu navigasi yang dihapus dari dokumentasi resmi library"
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C1",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang sedang membangun aplikasi mobile yang membutuhkan fitur deteksi wajah untuk keamanan akun. Ia mempertimbangkan untuk menggunakan library pre-existing seperti FaceAPI atau TensorFlow.js. Dalam konteks ini, langkah apa yang paling strategis untuk memastikan bahwa integrasi library tersebut tidak hanya memenuhi kebutuhan fungsional, tetapi juga aman, efisien, dan sesuai dengan arsitektur aplikasi?",
+        "options": [
+            "A. Gunakan library secara langsung tanpa membaca dokumentasi karena fitur sudah tersedia dan terbukti.",
+            "B. Jelaskan bahwa library menyediakan fungsi teruji; uraikan bahwa integrasi harus dilakukan dengan memahami dokumentasi, API, dan kebutuhan keamanan aplikasi; ringkas bahwa penggunaan library mengurangi risiko kesalahan dan mempercepat waktu pengembangan.",
+            "C. Tunda penggunaan library karena semua fitur deteksi wajah bisa dibangun dari nol dengan kode dasar, sehingga lebih terkontrol secara teknis.",
+            "D. Pilih library berdasarkan kemampuan berjalan di lingkungan web saja, karena library tersebut hanya mendukung platform tersebut."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang developer sedang membangun aplikasi web dengan antarmuka yang dinamis. Untuk mempercepat pengembangan komponen navigasi, seperti menu dan tombol, ia mempertimbangkan menggunakan library pre-existing seperti Bootstrap. Langkah apa yang paling tepat untuk terapkan agar komponen tersebut dapat digunakan secara efektif dalam aplikasi tanpa mengakibatkan error atau ketidaksesuaian sistem?",
+        "options": [
+            "A. Menulis ulang semua kode navigasi dari nol agar lebih sesuai dengan desain tim.",
+            "B. Mencari library alternatif yang belum pernah digunakan sebelumnya untuk menghindari konflik versi.",
+            "C. Mengunduh dan menginstal Bootstrap, kemudian mengintegrasikan komponen navigasi sesuai dokumentasi resmi.",
+            "D. Mengabaikan library karena dikhawatirkan akan menambah beban sistem dan mempercepat loading page."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Dalam pengembangan aplikasi, seorang pengembang mempertimbangkan untuk menggunakan library pre-existing untuk memproses data sensitif. Manakah pernyataan berikut yang paling tepat dalam mengevaluasi dampak penggunaan library tersebut terhadap keamanan sistem dan efisiensi operasional, dengan memperhitungkan risiko ketergantungan versi?",
+        "options": [
+            "A. Library pre-existing selalu aman karena telah diuji oleh komunitas, sehingga tidak perlu dianalisis lebih lanjut terkait versi.",
+            "B. Penggunaan library dapat meningkatkan efisiensi eksekusi, namun risiko kebocoran data meningkat jika versi library tidak diperiksa secara rutin.",
+            "C. Semua library pre-existing dirancang untuk memproses data sensitif, sehingga tidak perlu diperiksa keamanannya secara manual.",
+            "D. Ketergantungan versi library tidak memengaruhi keamanan sistem, karena library hanya berfungsi sebagai modul pengolahan data."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang sedang membangun aplikasi manajemen tugas yang harus kompatibel dengan berbagai versi sistem operasi. Untuk memastikan aplikasi tetap berjalan dengan baik tanpa ketergantungan pada versi perangkat lunak tertentu, apa yang paling tepat dilakukan dalam proses pengembangan antarmuka?",
+        "options": [
+            "A. Hanya mengubah ikon dan warna elemen antarmuka tanpa mengubah struktur fungsionalnya.",
+            "B. Menyalin kode komponen dari library dan mengeditnya secara langsung tanpa merujuk pada dokumentasi resmi.",
+            "C. Merancang arsitektur antarmuka secara menyeluruh terlebih dahulu, lalu memodifikasi komponen pre-existing sesuai kebutuhan tanpa mengubah inti fungsionalnya.",
+            "D. Mengabaikan penggunaan komponen pre-existing karena dikhawatirkan tidak bisa diintegrasikan dengan sistem operasi yang berbeda."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengembangkan aplikasi web yang dapat menampilkan data dinamis secara real-time, seperti perubahan suhu atau harga saham, dengan tampilan responsif di berbagai perangkat. Tindakan apa yang paling efektif dan sesuai untuk membangun aplikasi tersebut menggunakan library pre-existing seperti jQuery dan Bootstrap?",
+        "options": [
+            "A. Menghapus semua file jQuery dan Bootstrap untuk memulai dari nol dan membuat kode dasar dari awal.",
+            "B. Menyalin seluruh kode dari jQuery dan Bootstrap, mengubahnya secara total tanpa mempertimbangkan struktur integrasi yang ada.",
+            "C. Menggunakan jQuery untuk memproses data dinamis dan Bootstrap untuk membuat tampilan responsif, kemudian memodifikasi dan mengintegrasikannya agar sesuai dengan kebutuhan aplikasi.",
+            "D. Mengabaikan jQuery dan Bootstrap karena tidak mendukung real-time data processing dan membangun sistem dari nol dengan kode bawaan PHP."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Komponen antar muka pengguna (UI) yang digunakan untuk mengubah antara dua kondisi secara langsung adalah",
+        "options": [
+            "A. Input text field",
+            "B. Slider",
+            "C. Toggle button",
+            "D. Dropdown menu"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Dalam sistem aplikasi perencanaan kegiatan, bagaimana penempatan elemen User Interface harus dilakukan agar sesuai dengan alur proses penggunaan sistem?",
+        "options": [
+            "A. Elemen UI harus ditempatkan di bagian atas layar untuk mempercepat akses ke fitur utama.",
+            "B. Penempatan UI hanya perlu memperhatikan desain visual agar terlihat menarik.",
+            "C. Elemen UI harus disusun secara sekuensial sesuai dengan alur proses penggunaan sistem.",
+            "D. Semua elemen UI harus ditempatkan secara otomatis oleh sistem tanpa perlu desain manual."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C2",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang desainer antarmuka sedang mengembangkan aplikasi edukasi untuk anak-anak usia 5-8 tahun. Untuk memastikan informasi penting seperti 'kata kunci pembelajaran' ditampilkan secara menonjol dan mudah dilihat, langkah yang paling tepat yang harus diambil adalah...",
+        "options": [
+            "A. Menempatkan informasi tersebut di bagian bawah halaman dengan font kecil agar tidak mengganggu alur pembacaan",
+            "B. Menggunakan desain grafis yang sangat kompleks dengan banyak warna untuk menarik perhatian",
+            "C. Mengimplementasikan elemen jumbotron dengan warna kontras dan font besar agar informasi terlihat jelas dan mudah dipahami oleh anak-anak",
+            "D. Mengabaikan pengujian terhadap anak-anak dan langsung menampilkan desain akhir tanpa revisi"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang pengembang aplikasi harus merancang antarmuka pengguna (UI) untuk fitur 'pencarian produk' di sebuah aplikasi e-commerce. Untuk memastikan desain yang paling efektif, langkah apa yang paling tepat dilakukan sebelum mengimplementasikan desain tersebut?",
+        "options": [
+            "A. Menggunakan template UI yang sudah digunakan oleh aplikasi lain untuk mempercepat proses pengembangan.",
+            "B. Memilih desain dengan tampilan paling modern dan animasi paling banyak untuk memberikan kesan inovatif.",
+            "C. Menganalisis perilaku pencarian pengguna berdasarkan data log, membandingkan tiga desain alternatif, lalu mengevaluasi masing-masing dalam kemampuannya membantu pengguna menemukan produk dengan cepat dan akurat.",
+            "D. Mengimplementasikan desain pertama yang dirancang secara langsung tanpa uji coba karena kebutuhan akan waktu pengembangan yang ketat."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang tim pengembang sedang merancang aplikasi berbasis web untuk pengguna yang beragam, termasuk pengguna dengan disabilitas visual. Untuk memastikan antarmuka pengguna (UI) yang inklusif dan intuitif, urutan langkah yang paling strategis dan efektif adalah:",
+        "options": [
+            "A. Menyalin tampilan dari aplikasi web lain, menyesuaikan warna untuk kebutuhan pengguna, lalu menguji pada pengguna nyata tanpa dokumentasi.",
+            "B. Merancang alur interaksi pengguna yang inklusif, menggambar prototipe UI dengan variasi aksesibilitas, dan mengimplementasikan kode dengan memperhatikan responsivitas dan keberagaman.",
+            "C. Mengatur tampilan secara manual pada berbagai perangkat, mengubah elemen UI berdasarkan umpan balik tanpa memperhatikan desain awal, dan mengabaikan dokumentasi proses.",
+            "D. Memasang fitur aksesibilitas secara otomatis tanpa desain awal, lalu menguji langsung pada pengguna tanpa perencanaan struktur interaksi."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C5",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Seorang desainer pengalaman pengguna sedang mengembangkan aplikasi web untuk platform pendidikan. Untuk memastikan bahwa tampilan antarmuka terlihat intuitif dan elemen-elemennya saling terhubung secara visual, tindakan apa yang paling strategis dilakukan oleh desainer tersebut dalam tahap awal pengembangan?",
+        "options": [
+            "A. Menggunakan template UI lama yang sudah terbukti efektif untuk menghemat waktu",
+            "B. Menyusun tampilan secara acak tanpa memperhatikan posisi relatif elemen",
+            "C. Mengelompokkan elemen-elemen antarmuka berdasarkan hukum proximity, lalu membuat prototipe interaktif untuk menguji hubungan visualnya",
+            "D. Menyusun tampilan secara langsung di kode tanpa membuat desain visual terlebih dahulu"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.005.02"
+    },
+    {
+        "question": "Folder yang digunakan untuk menyimpan file-file program PHP dalam sistem XAMPP adalah pada folder",
+        "options": [
+            "A. C:\\documents\\xampp",
+            "B. C:\\downloads\\htdocs",
+            "C. C:\\xampp\\htdocs",
+            "D. C:\\php\\htdocs"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa sedang mengembangkan aplikasi sederhana dengan antarmuka grafis menggunakan bahasa pemrograman Kotlin. Agar pesan 'Proses selesai!' muncul secara visual di layar aplikasi, siswa perlu menggunakan perintah eksekusi yang tepat. Tindakan yang paling sesuai untuk menerapkan perintah eksekusi tersebut adalah:",
+        "options": [
+            "A. Menyimpan pesan tersebut dalam variabel dan menghapus semua perintah tampilan grafis tanpa menguji hasilnya.",
+            "B. Menggunakan perintah tampilan grafis seperti 'tampilkan' atau 'show' untuk menampilkan pesan, lalu menguji tampilan tersebut secara langsung di antarmuka aplikasi.",
+            "C. Menyalin struktur kode dari contoh lain tanpa memahami fungsi perintah eksekusi yang digunakan.",
+            "D. Mengganti tampilan grafis dengan perintah teks dan mengabaikan penggunaan antarmuka visual."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C3",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang pengembang sedang menyusun aplikasi web yang dapat menampilkan animasi grafis, memutar audio berdasarkan waktu, dan menampilkan teks bergerak secara dinamis. Untuk memastikan aplikasi tersebut berjalan efisien dan responsif di berbagai perangkat, pengembang harus menganalisis, membandingkan, dan mengevaluasi berbagai perintah eksekusi dalam bahasa pemrograman. Dari pilihan berikut, pernyataan mana yang paling tepat menggambarkan proses evaluasi yang harus dilakukan oleh pengembang terhadap perintah-perintah tersebut?",
+        "options": [
+            "A. Pengembang hanya perlu memilih perintah yang paling umum digunakan dan langsung dijalankan tanpa mempertimbangkan kinerja atau kompatibilitas.",
+            "B. Pengembang harus membandingkan perintah eksekusi berdasarkan kecepatan eksekusi, keandalan dalam menangani beban kerja, dan kemampuan beradaptasi dengan perangkat berbeda, lalu mengevaluasi bagaimana perintah tersebut memengaruhi responsivitas dan kualitas pengalaman pengguna.",
+            "C. Pengembang dapat mengabaikan analisis mendalam karena semua perintah eksekusi dalam bahasa pemrograman memiliki performa yang sama di semua sistem operasi.",
+            "D. Pengembang hanya perlu menguji tampilan akhir pada satu jenis perangkat, seperti laptop, tanpa mempertimbangkan variasi media atau perbedaan spesifikasi perangkat."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan sebuah aplikasi yang dapat merespons input pengguna dengan menampilkan animasi berubah-ubah berdasarkan data teks dan grafik yang dimasukkan. Untuk mencapai tujuan tersebut, langkah yang paling tepat adalah:",
+        "options": [
+            "A. Menghafalkan semua perintah yang digunakan dalam aplikasi animasi yang sudah ada.",
+            "B. Menyalin kode dari aplikasi lain tanpa mengubah struktur logikanya.",
+            "C. Merancang alur program yang menghubungkan input pengguna dengan perintah eksekusi untuk mengolah data teks, menghasilkan grafik dinamis, dan menampilkan animasi berdasarkan kondisi.",
+            "D. Membaca dokumentasi perangkat lunak secara mendalam tanpa merancang struktur program baru."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan sebuah aplikasi interaktif yang dapat menampilkan animasi grafis, menampilkan teks bergerak secara dinamis, dan memutar efek suara berdasarkan input pengguna. Untuk mencapai tujuan tersebut secara efektif, langkah apa yang paling tepat dilakukan oleh siswa dalam merancang dan menjalankan program tersebut?",
+        "options": [
+            "A. Hanya mencetak teks statis di layar dan mengatur animasi grafis secara manual tanpa menghubungkan dengan suara.",
+            "B. Menyalin kode dari aplikasi lain yang sudah ada, lalu menjalankan langsung tanpa menyesuaikan dengan kebutuhan pengguna.",
+            "C. Membangun program yang secara berurutan mengeksekusi perintah untuk menampilkan animasi grafis, memproses teks bergerak, dan memanggil file suara berdasarkan input pengguna.",
+            "D. Menggunakan alat desain grafis untuk membuat elemen visual, lalu mengabaikan perintah eksekusi dalam bahasa pemrograman yang diperlukan untuk mengintegrasikan media tersebut."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.010.01"
+    },
+    {
+        "question": "Yang termasuk sebagai elemen output dalam struktur program terstruktur adalah",
+        "options": [
+            "A. Tombol Hapus",
+            "B. Menu Pilihan",
+            "C. Text Field yang menampilkan nilai",
+            "D. Ikon Batal"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan program yang dapat menghitung total biaya perjalanan berdasarkan jumlah hari, biaya harian, dan biaya tambahan seperti akomodasi dan transportasi. Agar program tersebut dapat diimplementasikan secara efektif, terstruktur, dan dapat diuji secara konsisten, pernyataan mana di bawah ini yang paling tepat untuk merancang alur programnya?",
+        "options": [
+            "A. Jelaskan singkat bagaimana program menghitung total biaya, uraikan langkah-langkah perhitungan secara bertahap (misalnya: biaya harian dikalikan jumlah hari, lalu ditambah biaya tambahan), dan akhiri dengan ringkasan hasil akhir.",
+            "B. Uraikan secara lengkap setiap proses perhitungan dari awal hingga akhir, termasuk semua perubahan data, tanpa menyebutkan tujuan atau konteks penggunaan program.",
+            "C. Ringkas hanya hasil akhir program, seperti total biaya, tanpa menjelaskan bagaimana perhitungan dilakukan atau struktur alur programnya.",
+            "D. Gabungkan semua perhitungan dalam satu blok kode tanpa membagi menjadi langkah-langkah yang terpisah atau terstruktur, agar lebih cepat dijalankan secara langsung."
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C2",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin membuat program yang menghitung total harga belanjaan dengan memberikan diskon berbeda tergantung jumlah belanjaan, seperti diskon 10% untuk pembelian di atas Rp1.000.000 dan diskon 5% untuk pembelian di bawahnya. Untuk mengimplementasikan pemrograman terstruktur dengan benar, siswa harus melakukan:",
+        "options": [
+            "A. A) Menulis perintah secara acak tanpa memperhatikan urutan logis dari perhitungan",
+            "B. B) Menggunakan kalimat biasa seperti 'jika belanjaan besar maka diskon 10%' tanpa menggunakan struktur blok kode",
+            "C. C) Menggunakan struktur blok instruksi, pernyataan kondisi, dan perulangan untuk mengatur alur perhitungan diskon secara terstruktur",
+            "D. D) Menyalin kode program dari situs web tanpa memahami bagaimana perhitungan diskon berlangsung"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang pengembang sedang merancang sistem yang memproses data pengguna secara berurutan hingga kondisi tertentu terpenuhi. Dalam proses perancangan ini, langkah apa yang paling tepat dilakukan sebelum memilih struktur algoritma yang digunakan untuk mengelola proses pengolahan data tersebut?",
+        "options": [
+            "A. Menggunakan perulangan while tanpa mengevaluasi kondisi keluaran untuk mempercepat proses pengolahan.",
+            "B. Memperhatikan hanya hasil akhir dari proses pengolahan tanpa memperhatikan urutan atau kondisi internal.",
+            "C. Menganalisis kebutuhan data, membandingkan kemungkinan struktur kontrol seperti perulangan atau kondisi bersarang, dan mengevaluasi kompleksitas, efisiensi, serta risiko kesalahan dalam setiap pendekatan.",
+            "D. Menjalankan simulasi kode secara langsung tanpa mengevaluasi struktur logika yang digunakan sebelumnya."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C4",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin membuat program yang dapat menentukan nilai tertinggi dari lima nilai ujian siswa yang disimpan dalam array. Untuk mengimplementasikan pemrograman terstruktur secara efektif, langkah yang paling tepat adalah:",
+        "options": [
+            "A. A. Mengambil program dari sumber internet dan mengganti nama variabelnya saja",
+            "B. B. Menambahkan satu fungsi untuk menghitung nilai tertinggi tanpa merancang alur pemrograman yang jelas",
+            "C. C. Rancang alur pemrograman yang sistematis, desain struktur pengendali seperti loop dan kondisi, lalu modifikasi kode sesuai dengan proses perbandingan nilai di array",
+            "D. D. Menyalin struktur program dari contoh lain dan hanya mengubah nilai input tanpa meninjau logika pengendali"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Seorang siswa ingin mengembangkan aplikasi yang dapat menyimpan dan mengelola data nilai siswa dalam bentuk array, di mana setiap nilai disimpan berdasarkan indeks yang unik. Untuk memastikan bahwa aplikasi tersebut dapat dikelola secara efisien dan mudah diperluas, langkah yang paling strategis yang harus dilakukan oleh siswa adalah:",
+        "options": [
+            "A. Menyusun input nilai secara acak dan langsung menulis perintah untuk menampilkan nilai tanpa struktur logika.",
+            "B. Membangun struktur alur program yang terorganisir, menggunakan perintah perulangan untuk memasukkan data dan kondisional untuk memvalidasi nilai, serta membagi fungsi untuk mengelola operasi berbeda seperti input, validasi, dan penampilan.",
+            "C. Menggunakan sistem penyimpanan data tanpa indeks, karena dianggap lebih mudah untuk diproses oleh komputer.",
+            "D. Mengabaikan penggunaan perintah kondisional dan hanya mengandalkan perulangan untuk mengolah data secara berurutan."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.017.02"
+    },
+    {
+        "question": "Dalam sistem pengelolaan sumber daya pemrograman di suatu organisasi, urutan penamaan file dan fungsi harus disusun agar mudah ditemukan oleh pengguna. Elemen mana yang paling tepat diurutkan terlebih dahulu berdasarkan kategori dan kegunaan untuk memudahkan pencarian?",
+        "options": [
+            "A. File konfigurasi, fungsi utama, file bantuan, file log",
+            "B. Fungsi utama, file konfigurasi, file log, fungsi bantu",
+            "C. File log, file bantuan, fungsi utama, file konfigurasi",
+            "D. File bantu, file log, file konfigurasi, fungsi utama"
+        ],
+        "correct_answer": "A",
+        "bloom_level": "C2",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebuah tim pengembangan di perusahaan sedang membangun fitur baru yang akan menghubungkan sistem inventaris dengan sistem penjualan secara real-time. Untuk memastikan integrasi berjalan lancar dan konsisten dengan sistem lain dalam perusahaan, apa yang paling tepat dilakukan oleh tim tersebut terhadap fungsi, file, dan sumber daya pemrograman yang sudah ada?",
+        "options": [
+            "A. Menganalisis struktur sistem inventaris secara teoritis untuk memahami bagaimana data bergerak sebelumnya.",
+            "B. Menggunakan dokumentasi sistem lama yang tersimpan untuk memahami bagaimana fungsi dan file sebelumnya berinteraksi.",
+            "C. Membuat struktur data baru secara independen untuk menghindari ketergantungan pada sistem lama.",
+            "D. Terapkan dan integrasikan fungsi, file, serta sumber daya pemrograman yang sudah ada secara sistematis agar sesuai dengan standar organisasi dan meminimalkan risiko kesalahan sistem."
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C3",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebuah tim pengembang di perusahaan teknologi sedang mempersiapkan pembaruan sistem manajemen kode. Untuk memastikan bahwa sistem baru dapat digunakan secara efisien dan tetap stabil dalam jangka panjang, manajer sistem harus menilai dua versi modul utama berbeda. Dari pilihan berikut, pernyataan mana yang paling tepat menggambarkan proses evaluasi yang harus dilakukan untuk menentukan keberlanjutan dan kinerja modul tersebut?",
+        "options": [
+            "A. Mengelompokkan kedua modul ke dalam folder yang sama berdasarkan nama, tanpa mempertimbangkan kebutuhan pengguna atau performa sistem.",
+            "B. Membandingkan dua versi modul terhadap waktu respon, konsumsi memori, dan keamanan data, lalu memilih versi yang paling stabil dan efisien dalam kondisi beban tinggi.",
+            "C. Menyalin versi modul kedua ke dalam direktori utama tanpa menguji kinerja atau keberlakuan fungsionalnya.",
+            "D. Mengabaikan satu dari dua versi karena tidak memiliki dokumentasi, dan hanya menggunakan versi yang sudah ada tanpa evaluasi kinerja."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai manajer pengembangan sistem informasi, Anda ditugaskan untuk menyusun struktur sistem pemrograman baru yang dapat digunakan oleh tim pengembang dan tim perbaikan bug secara efektif. Agar sistem tersebut dapat diakses, dipantau, dan diperbaiki oleh berbagai pihak, apa yang paling tepat dilakukan dalam merancang sistem tersebut?",
+        "options": [
+            "A. Menggunakan file-file lama dari sistem sebelumnya tanpa perubahan karena dianggap sudah stabil dan terpercaya",
+            "B. Menyalin semua komponen sistem lama ke dalam folder yang tidak teratur agar mudah diakses oleh semua anggota tim",
+            "C. Merancang arsitektur sistem baru dengan mengintegrasikan fungsi yang relevan, menyusun struktur file secara hierarkis, dan mengatur akses sumber daya berdasarkan peran dan kebutuhan",
+            "D. Mengubah fungsi-fungsi secara acak sesuai kebutuhan sementara untuk menghindari kekacauan saat pengembangan"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Sebagai kepala divisi teknologi, Anda ditugaskan untuk membangun sistem pengelolaan file dokumentasi teknis yang dapat digunakan oleh seluruh tim pengembang di berbagai departemen. Langkah yang paling strategis dan kreatif untuk mencapai tujuan tersebut adalah:",
+        "options": [
+            "A. Mengirimkan semua file dokumentasi ke grup email umum tanpa klasifikasi atau struktur yang jelas.",
+            "B. Mengembangkan sistem klasifikasi berbasis jenis dokumen dan departemen, serta membangun alur kerja standar untuk peningkatan dan pembaruan file.",
+            "C. Membuat satu folder pusat yang menyimpan semua dokumen, dan mengharuskan semua staf untuk menyimpan file di sana tanpa pembagian sub-folder.",
+            "D. Menyusun rencana pelatihan untuk mengenalkan format penulisan dokumen, tetapi tidak menyusun struktur atau alur kerja yang sistematis."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C6",
+        "unit": "J.620100.015.01"
+    },
+    {
+        "question": "Prinsip penulisan kode yang disarankan dalam panduan best practice adalah bahwa nilai awal variabel sebaiknya...",
+        "options": [
+            "A. diberikan setelah deklarasi variabel",
+            "B. diberikan di dalam blok kondisi",
+            "C. diberikan saat deklarasi variabel",
+            "D. diberikan di dalam loop pengulangan"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C1",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang manajer tim pengembangan perangkat lunak ingin menyusun panduan teknis yang dapat digunakan oleh seluruh anggota tim untuk menulis kode yang konsisten, mudah dipelihara, dan sesuai dengan standar industri. Untuk mencapai tujuan tersebut, pernyataan mana yang paling tepat dalam membuat panduan yang komprehensif dan dapat diimplementasikan secara praktis oleh semua pengembang?",
+        "options": [
+            "A. Jelaskan bagaimana menghindari penggunaan variabel yang tidak terdefinisi dalam fungsi dengan cara memasukkan validasi input secara otomatis.",
+            "B. Uraikan langkah-langkah penulisan kode yang sesuai dengan standar PEP 8 dan prinsip desain perangkat lunak seperti DRY dan SOLID, termasuk penamaan variabel, struktur blok, dan penulisan komentar dokumentasi.",
+            "C. Ringkas hanya tiga aturan utama tentang penggunaan struktur kondisional dan perulangan dalam kode untuk mempercepat proses pengembangan.",
+            "D. Sertakan kode sumber yang sudah diuji secara lengkap, tanpa memberikan penjelasan mengapa kode tersebut dianggap sesuai dengan prinsip best practice."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Dalam sebuah aplikasi yang mengolah data pengguna, jika terjadi kesalahan saat membaca input dari pengguna, apa yang harus dilakukan secara tepat untuk memastikan aplikasi tetap berjalan dengan stabil dan tidak mengalami crash?",
+        "options": [
+            "A. Mengabaikan kesalahan dan melanjutkan eksekusi",
+            "B. Menampilkan pesan kesalahan langsung kepada pengguna dan keluar dari program",
+            "C. Menggunakan blok penanganan kesalahan (error handling) untuk merespons dan memproses kesalahan secara aman",
+            "D. Menggunakan perulangan untuk menghindari kesalahan"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang sedang membandingkan dua implementasi fungsi dalam bahasa pemrograman yang sama. Fungsi pertama menggunakan nama variabel seperti 'temp', 'data', dan 'result', dengan struktur blok yang tidak teratur dan komentar yang tidak jelas. Fungsi kedua menggunakan nama yang deskriptif seperti 'userInput', 'processedData', dan 'finalOutput', dengan struktur blok yang teratur dan komentar yang mendukung logika. Manakah dari pernyataan berikut yang paling tepat menggambarkan proses evaluasi yang harus dilakukan oleh pengembang untuk menilai kualitas kedua implementasi tersebut terhadap standar PSR, PEP 8, dan Clean Code?",
+        "options": [
+            "A. Pengembang hanya menghitung jumlah baris kode dan menyimpulkan bahwa fungsi kedua lebih baik karena lebih panjang, tanpa mempertimbangkan kejelasan struktur atau keterbacaan.",
+            "B. Pengembang menganalisis kekonsistenan nama variabel, struktur blok, dan kejelasan komentar, lalu membandingkan kedua versi untuk menilai kejelasan logika dan akhirnya mengevaluasi kepatuhan terhadap standar PSR, PEP 8, dan Clean Code.",
+            "C. Pengembang mengabaikan evaluasi manual karena percaya bahwa semua kode akan otomatis terdeteksi oleh tools lint, dan hanya mengandalkan hasil uji otomatis untuk menilai kualitas.",
+            "D. Pengembang hanya membandingkan kecepatan eksekusi fungsi dan menganggap bahwa fungsi yang lebih cepat sudah memenuhi semua standar kualitas tanpa memeriksa gaya penulisan atau struktur."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Seorang pengembang ingin membangun sistem perangkat lunak yang mudah dipelihara dan dapat diubah secara fleksibel seiring waktu. Untuk mencapai tujuan tersebut, tindakan apa yang paling strategis dilakukan pada tahap awal pengembangan sistem?",
+        "options": [
+            "A. Menggunakan nama variabel yang singkat dan umum seperti 'x', 'y', atau 'data' untuk memudahkan pengetikan",
+            "B. Menyalin struktur kode dari aplikasi lain yang sudah ada tanpa meninjau kebutuhan atau konteks penggunaan",
+            "C. Merancang struktur kode awal dengan penamaan yang jelas, terstruktur, dan sesuai dengan tujuan sistem, serta memastikan setiap elemen seperti modul dan subroutine memiliki nama yang deskriptif dan konsisten",
+            "D. Mengubah kode lama secara langsung tanpa dokumentasi, hanya untuk mempercepat waktu pengembangan"
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Sebagai bagian dari pengembangan sistem perangkat lunak yang berkelanjutan, seorang developer harus merancang kode yang tidak hanya berfungsi, tetapi juga dapat dipahami, diubah, dan diuji oleh tim lain di masa depan. Tindakan yang paling tepat untuk menciptakan kode yang memenuhi kriteria tersebut adalah:",
+        "options": [
+            "A. Menggunakan pendekatan pemrograman yang cepat dan tidak terstruktur untuk memenuhi deadline proyek, dengan asumsi bahwa dokumentasi akan ditambahkan nanti.",
+            "B. Mengintegrasikan kode yang tidak sesuai dengan standar bahasa pemrograman agar lebih cepat dijalankan di lingkungan pengembang pribadi.",
+            "C. Merancang kode dengan arsitektur yang jelas, membagi fungsi menjadi unit-unit kecil yang terpisah, mengikuti panduan gaya kode (code style guide), dan menulis komentar yang menjelaskan tujuan dan logika setiap bagian.",
+            "D. Mengabaikan pengujian otomatis karena dianggap sebagai tambahan yang tidak perlu dalam tahap awal pengembangan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.016.01"
+    },
+    {
+        "question": "Komponen pre-existing yang paling tepat digunakan untuk memasukkan teks panjang seperti komentar di sebuah aplikasi media sosial adalah",
+        "options": [
+            "A. A. button",
+            "B. B. radio button",
+            "C. C. dropdown list",
+            "D. D. text field"
+        ],
+        "correct_answer": "D",
+        "bloom_level": "C1",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang sedang mengembangkan aplikasi IoT yang mengumpulkan dan menganalisis data sensor secara real-time. Ia mempertimbangkan untuk menggunakan library pre-existing seperti TensorFlow Lite atau MQTT untuk memproses dan mengirimkan data. Dalam konteks ini, langkah apa yang paling strategis untuk memastikan bahwa library tersebut digunakan secara efektif, sesuai dengan kebutuhan sistem, dan menghindari risiko kesalahan implementasi?",
+        "options": [
+            "A. Jelaskan bahwa library harus diunduh dari sumber terbuka tanpa verifikasi; uraikan bahwa penggunaan library mempercepat pengembangan karena fitur sudah tersedia; ringkas bahwa library hanya cocok untuk sistem sederhana.",
+            "B. Jelaskan bahwa library adalah kumpulan fungsi teruji yang telah melalui pengujian; uraikan bahwa integrasi harus dilakukan dengan memahami dokumentasi, API, dan kebutuhan sistem; ringkas bahwa penggunaan library menghemat waktu dan mengurangi risiko kesalahan.",
+            "C. Jelaskan bahwa library hanya dapat digunakan oleh tim dengan latar belakang teknis tinggi; uraikan bahwa integrasi harus memperhatikan keamanan data dan koneksi; ringkas bahwa library tidak perlu digunakan karena semua data bisa diolah dari nol.",
+            "D. Jelaskan bahwa library harus diperbarui secara berkala untuk memastikan keamanan; uraikan bahwa pemahaman struktur data sangat penting; ringkas bahwa library hanya berguna dalam sistem berbasis cloud."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C2",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang web sedang membuat fitur validasi data input di sebuah aplikasi web. Ia ingin menghemat waktu dan menghindari menulis ulang logika validasi yang sudah ada di banyak proyek lain. Langkah apa yang paling tepat untuk memastikan penggunaan komponen pre-existing seperti library validasi data tanpa melanggar lisensi open source?",
+        "options": [
+            "A. Menulis ulang fungsi validasi secara manual agar lebih cepat dijalankan dan tidak bergantung pada library.",
+            "B. Menggunakan kode dari proyek pribadi yang belum di-licensing, dengan asumsi bahwa tidak ada risiko hukum.",
+            "C. Mencari library validasi yang terbuka sumber seperti Joi atau Valida, menginstalnya, lalu mengintegrasikan fungsi validasi ke dalam aplikasi.",
+            "D. Mengabaikan validasi data karena dianggap terlalu kompleks dan tidak penting untuk fitur awal."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C3",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Dalam pengembangan sistem aplikasi, penggunaan komponen pre-existing seperti library fungsi matematika dapat mengurangi waktu pengembangan, namun juga memperkenalkan risiko keamanan yang tidak terduga. Pernyataan mana di bawah ini paling tepat dalam mengevaluasi dampak penggunaan komponen pre-existing terhadap keamanan sistem secara keseluruhan?",
+        "options": [
+            "A. Library matematika umum memiliki algoritma yang sangat stabil sehingga tidak perlu diperiksa secara berkala.",
+            "B. Penggunaan komponen pre-existing mempercepat pengembangan, tetapi keamanan sistem sangat bergantung pada versi library dan konteks integrasinya.",
+            "C. Semua library pre-existing sudah teruji secara komprehensif, sehingga tidak perlu evaluasi tambahan dalam pengembangan aplikasi.",
+            "D. Karena library pre-existing dibangun oleh perusahaan besar, maka mereka selalu lebih aman daripada kode yang ditulis sendiri."
+        ],
+        "correct_answer": "B",
+        "bloom_level": "C4",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengembangkan aplikasi mobile dengan antarmuka yang intuitif dan responsif, namun harus mempertahankan kecepatan loading dan kinerja sistem. Dalam konteks ini, mana yang paling tepat dilakukan untuk memastikan hasil akhir sesuai dengan kebutuhan pengguna tanpa mengorbankan efisiensi sistem?",
+        "options": [
+            "A. Hanya menyesuaikan ukuran dan warna komponen pre-existing tanpa mengubah struktur atau logika internalnya.",
+            "B. Menyalin seluruh kode komponen dan melakukan perubahan besar secara manual tanpa merujuk pada dokumentasi atau arsitektur.",
+            "C. Merancang struktur antarmuka secara sistematis terlebih dahulu, lalu memodifikasi komponen pre-existing untuk menyesuaikan dengan kebutuhan pengguna secara efektif.",
+            "D. Mengganti seluruh sistem dengan kode dari nol karena dianggap lebih aman dan tidak bergantung pada library pihak ketiga."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C5",
+        "unit": "J.620100.019.02"
+    },
+    {
+        "question": "Seorang pengembang ingin mengembangkan sistem monitoring real-time untuk sensor IoT yang mengumpulkan data secara berkala. Untuk mempercepat proses pengembangan, apa yang paling tepat dilakukan dengan memanfaatkan komponen library yang sudah tersedia?",
+        "options": [
+            "A. Menghapus semua fungsi dari library yang ada agar dapat dibangun dari nol sesuai kebutuhan.",
+            "B. Menyalin seluruh kode library dan mengubahnya secara total tanpa mempertimbangkan arsitektur integrasi.",
+            "C. Mengintegrasikan komponen library untuk pengolahan data, memodifikasi sesuai kebutuhan, dan menambahkan fitur pemantauan real-time.",
+            "D. Mengabaikan library karena dianggap tidak kompatibel dengan sistem IoT yang digunakan."
+        ],
+        "correct_answer": "C",
+        "bloom_level": "C6",
+        "unit": "J.620100.019.02"
+    }
+]
